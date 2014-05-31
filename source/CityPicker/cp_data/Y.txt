@@ -1,0 +1,805 @@
+Y City|Populated Place|AR|05|Scott|127|344405N|0940438W|34.7348248|-94.0771521|||||226|741|Y City|04/30/1980|
+Y Section|Populated Place|TN|47|Washington|179|361818N|0822245W|36.3051063|-82.3790296|||||518|1699|Jonesborough|08/01/1991|
+Y-Not Mobile Home Park|Populated Place|MN|27|Hubbard|057|Unknown|Unknown|0|0|||||455|1493|Unknown|11/16/2006|
+Y-O Ranch|Populated Place|WY|56|Platte|031|420151N|1045624W|42.0308031|-104.939972|||||1489|4885|Wheatland|02/03/2000|03/21/2008
+Y-Worry Estates|Populated Place|UT|49|Salt Lake|035|403350N|1115554W|40.5638371|-111.9316025|||||1356|4449|Midvale|06/01/1989|
+Yaak|Populated Place|MT|30|Lincoln|053|484959N|1154232W|48.8330088|-115.7087944|||||910|2986|Yaak|04/04/1980|01/29/2011
+Yabach|Populated Place|FM|64|Yap|060|092947N|1380427E|9.4963889|138.0741667|||||12|39|Yap Islands (Waqab)|07/02/1984|
+Yabai|Populated Place|GU|66|Guam|010|131706N|1444500E|13.285|144.75|||||27|89|Inarajan|02/06/1981|
+Yabucoa|Populated Place|PR|72|Yabucoa|151|180302N|0655246W|18.0505201|-65.8793288|||||33|108|Yabucoa|02/13/1981|04/21/2008
+Yachats|Populated Place|OR|41|Lincoln|041|441840N|1240617W|44.3112312|-124.1048418|||||12|39|Yachats|11/28/1980|03/21/2008
+Yacherk|Populated Place|AK|02|Dillingham (CA)|070|590241N|1591306W|59.0447222|-159.2183333|||||14|46|Goodnews Bay A-1|03/31/1981|03/18/2010
+Yacht Club Bay|Populated Place|AL|01|Tuscaloosa|125|331725N|0873001W|33.2903945|-87.5002826|||||115|377|Lake Tuscaloosa South|12/01/2003|
+Yacht Club Estates|Populated Place|GA|13|Cherokee|057|340649N|0843919W|34.1137095|-84.6552122|||||290|951|Acworth|04/30/1996|
+Yacht Club Estates|Populated Place|SC|45|Beaufort|013|322422N|0803957W|32.406027|-80.6659399|||||4|13|Beaufort|01/01/1994|
+Yacht Cove|Populated Place|SC|45|Lexington|063|340416N|0811356W|34.0709817|-81.2323199|||||119|390|Irmo|11/01/1994|
+Yacht Haven|Populated Place|VA|51|Fairfax|059|384207N|0770645W|38.70206|-77.1124788|||||3|10|Mount Vernon|09/28/1979|
+Yacht Haven|Populated Place|WA|53|San Juan|055|483506N|1231006W|48.5850988|-123.1682425|||||8|26|Roche Harbor|09/10/1979|
+Yacht Point Cottage Area|Populated Place|OH|39|Ashland|005|404432N|0822200W|40.7422796|-82.3665522|||||315|1033|Perrysville|09/11/2002|
+Yacolt|Populated Place|WA|53|Clark|011|455157N|1222422W|45.8659467|-122.4062074|||||217|712|Yacolt|09/10/1979|03/21/2008
+Yaddo|Populated Place|NY|36|Saratoga|091|430403N|0734529W|43.0675747|-73.7581754|||||96|315|Saratoga Springs|01/23/1980|
+Yaden|Populated Place|KY|21|Whitley|235|364425N|0840608W|36.740362|-84.1021545|||||289|948|Saxton|09/20/1979|
+Yadkin (historical)|Populated Place|AR|05|Randolph|121|362229N|0911440W|36.3747872|-91.2445761|||||139|456|Ravenden Springs|12/01/1991|
+Yadkin Junction|Populated Place|NC|37|Rowan|159|354014N|0802733W|35.6704171|-80.4592256|||||226|741|Salisbury|06/17/1980|
+Yadkin Trail|Populated Place|NC|37|Moore|125|351220N|0792302W|35.2054355|-79.3839191|||||123|404|Southern Pines|07/01/1989|
+Yadkin Valley|Populated Place|NC|37|Caldwell|027|360120N|0812924W|36.0223527|-81.4900963|||||355|1165|Grandin|06/17/1980|
+Yadkins Acres|Populated Place|NC|37|Cumberland|051|350503N|0785724W|35.0840519|-78.9566944|||||71|233|Fayetteville|11/01/1989|
+Yadkinville|Populated Place|NC|37|Yadkin|197|360804N|0803934W|36.1345807|-80.6595079|||||293|961|Yadkinville|06/17/1980|03/20/2008
+Yadkin|Populated Place|NC|37|Rowan|159|354316N|0802356W|35.7212499|-80.3989449|||||214|702|Salisbury|06/17/1980|
+Yadkin|Populated Place|VA|51|Chesapeake (city)|550|364549N|0762143W|36.763482|-76.3618871|||||4|13|Norfolk South|09/28/1979|
+Yager Junction|Populated Place|CA|06|Humboldt|023|403253N|1234928W|40.548194|-123.8244884|||||829|2720|Yager Junction|01/19/1981|
+Yagerville|Populated Place|NY|36|Ulster|111|415043N|0742447W|41.8453709|-74.4129313|||||443|1453|Rondout Reservoir|01/23/1980|
+Yager|Populated Place|TN|47|Warren|177|354353N|0854852W|35.731459|-85.814428|||||280|919|McMinnville|05/19/1980|
+Yagger|Populated Place|ME|23|Oxford|017|441239N|0703805W|44.2109027|-70.6347847|||||197|646|Waterford Flat|09/30/1980|
+Yaggy|Populated Place|KS|20|Reno|155|380549N|0980032W|38.0969556|-98.0089429|||||476|1562|Yaggy|10/13/1978|
+Yaguez|Populated Place|PR|72|Mayagüez|097|181136N|0670836W|18.1932884|-67.1432351|||||2|7|Mayaguez|01/01/2000|
+Yah-ta-hey|Populated Place|NM|35|McKinley|031|353741N|1084649W|35.6280758|-108.7803635|||||2002|6568|Twin Lakes|11/13/1980|03/21/2008
+Yahley Mills Estates|Populated Place|VA|51|Henrico|087|372722N|0771709W|37.4559802|-77.2858107|||||46|151|Dutch Gap|08/28/1997|
+Yahola|Populated Place|OK|40|Muskogee|101|354545N|0953625W|35.7626002|-95.6069245|||||168|551|Taft|12/18/1979|
+Yakchilak (historical)|Populated Place|AK|02|Bethel (CA)|050|601800N|1622700W|60.3|-162.45|||||1|3|Baird Inlet B-2|03/23/2001|03/18/2010
+Yakima|Populated Place|WA|53|Yakima|077|463607N|1203021W|46.6020711|-120.5058987|||||326|1070|Yakima West|09/10/1979|03/21/2008
+Yakt (historical)|Populated Place|MT|30|Flathead|029|480137N|1150024W|48.0268925|-115.006535|||||1028|3373|Thompson Lakes|05/19/1998|
+Yakt|Populated Place|MT|30|Lincoln|053|483244N|1155808W|48.5454976|-115.9687902|||||562|1844|Kilbrennan Lake|04/04/1980|
+Yakutat|Populated Place|AK|02|Yakutat|282|593249N|1394338W|59.5469444|-139.7272222|||||21|69|Yakutat C-5|01/01/2000|03/18/2010
+Yalaha|Populated Place|FL|12|Hillsborough|057|275701N|0822941W|27.9503|-82.4948|||||7|23|Tampa|07/18/2008|
+Yalaha|Populated Place|FL|12|Lake|069|284419N|0814831W|28.7386038|-81.8086893|||||24|79|Howey In The Hills|10/19/1979|03/20/2008
+Yalaka (historical)|Populated Place|FL|12|Orange|095|282401N|0810959W|28.4002842|-81.1664546|||||19|62|Narcoossee NW|11/01/1989|
+Yaldora|Populated Place|CA|06|San Diego|073|331358N|1172337W|33.2328128|-117.3936503|||||8|26|Oceanside|12/01/1991|
+Yale (historical)|Populated Place|ID|16|Latah|057|465144N|1164148W|46.8621179|-116.6965478|||||877|2877|Stanford|06/21/1979|
+Yale (historical)|Populated Place|SC|45|Barnwell|011|331653N|0811958W|33.2812624|-81.332884|||||70|230|Blackville|08/01/1993|
+Yale Crossing|Populated Place|UT|49|Iron|021|375154N|1134456W|37.8649679|-113.7488576|||||1578|5177|Yale Crossing|12/31/1979|
+Yale Estates|Populated Place|NH|33|Belknap|001|433148N|0712046W|43.5300779|-71.3461816|||||337|1106|West Alton|05/08/2001|
+Yale Gardens|Populated Place|TX|48|Harris|201|295355N|0952733W|29.8986|-95.4592|||||27|89|Aldine|07/16/2008|
+Yale Gardens|Populated Place|UT|49|Salt Lake|035|404449N|1115005W|40.7468908|-111.8346565|||||1425|4675|Sugar House|06/01/1989|
+Yale Heights|Populated Place|UT|49|Salt Lake|035|404438N|1115006W|40.7438353|-111.8349343|||||1421|4662|Sugar House|06/01/1989|
+Yale Park|Populated Place|UT|49|Salt Lake|035|404440N|1115047W|40.7443908|-111.8463236|||||1401|4596|Sugar House|06/01/1989|
+Yalecrest Heights|Populated Place|UT|49|Salt Lake|035|404447N|1115017W|40.7463353|-111.8379899|||||1418|4652|Sugar House|06/01/1989|
+Yalecrest Park|Populated Place|UT|49|Salt Lake|035|404451N|1115023W|40.7474464|-111.8396567|||||1416|4646|Sugar House|06/01/1989|
+Yalecroft|Populated Place|UT|49|Salt Lake|035|404446N|1115006W|40.7460575|-111.8349343|||||1423|4669|Sugar House|06/01/1989|
+Yalesville|Populated Place|CT|09|New Haven|009|412937N|0724925W|41.4937085|-72.8237109|||||28|92|Wallingford|09/12/1979|
+Yaleville|Populated Place|NY|36|Chenango|017|422136N|0752955W|42.3600777|-75.4985147|||||389|1276|Sidney|01/23/1980|
+Yaleville|Populated Place|NY|36|St. Lawrence|089|444602N|0745933W|44.7672777|-74.9924206|||||97|318|Norfolk|01/23/1980|
+Yale|Populated Place|AR|05|Johnson|071|354016N|0933903W|35.6711924|-93.6507452|||||288|945|Yale|04/30/1980|
+Yale|Populated Place|IA|19|Guthrie|077|414636N|0942129W|41.7766528|-94.3580219|||||342|1122|Yale|04/30/1979|03/20/2008
+Yale|Populated Place|IL|17|Jasper|079|390711N|0880129W|39.1197623|-88.0247569|||||170|558|Yale|01/15/1980|03/20/2008
+Yale|Populated Place|KS|20|Crawford|037|372902N|0943831W|37.4839373|-94.6419037|||||292|958|Pittsburg|10/13/1978|
+Yale|Populated Place|MI|26|Gogebic|053|462800N|0900348W|46.4666142|-90.063228|||||460|1509|Bessemer|04/14/1980|
+Yale|Populated Place|MI|26|St. Clair|147|430748N|0824754W|43.130026|-82.7982634|||||242|794|Yale|04/14/1980|03/20/2008
+Yale|Populated Place|NC|37|Henderson|089|352003N|0823119W|35.3342831|-82.5220653|||||658|2159|Horse Shoe|07/01/1989|
+Yale|Populated Place|NY|36|Seneca|099|424823N|0765512W|42.8064569|-76.9199618|||||165|541|Geneva South|01/23/1980|02/12/2007
+Yale|Populated Place|OH|39|Portage|133|410345N|0810554W|41.0625576|-81.09843|||||341|1119|Deerfield|07/12/1979|
+Yale|Populated Place|OK|40|Payne|119|360651N|0964157W|36.1142305|-96.6991933|||||245|804|Yale|12/18/1979|03/21/2008
+Yale|Populated Place|SD|46|Beadle|005|442602N|0975924W|44.4338671|-97.9900878|||||409|1342|Yale|02/13/1980|03/20/2008
+Yale|Populated Place|VA|51|Sussex|183|365045N|0771715W|36.8457054|-77.2874715|||||33|108|Yale|09/28/1979|
+Yale|Populated Place|WA|53|Cowlitz|015|455943N|1222248W|45.9953885|-122.3800979|||||136|446|Amboy|09/10/1979|
+Yalik (historical)|Populated Place|AK|02|Kenai Peninsula|122|592700N|1503600W|59.45|-150.6|||||143|469|Seldovia B-2|03/23/2001|03/18/2010
+Yalisumni (historical)|Populated Place|CA|06|El Dorado|017|Unknown|Unknown|0|0|||||1260|4134|Unknown|05/14/1997|
+Yalmar|Populated Place|MI|26|Marquette|103|462422N|0871429W|46.4060505|-87.2412538|||||237|778|Skandia|04/14/1980|
+Yamacraw (historical)|Populated Place|MS|28|Pearl River|109|303758N|0894800W|30.6326898|-89.8000704|||||15|49|Henleyfield|12/01/2003|
+Yamacraw|Populated Place|KY|21|McCreary|147|364301N|0843215W|36.7170216|-84.5374393|||||301|988|Barthell|09/20/1979|
+Yamacraw|Populated Place|NC|37|Pender|141|342942N|0780638W|34.4948891|-78.1105502|||||13|43|Currie|06/17/1980|
+Yamako (historical)|Populated Place|CA|06|Nevada|057|Unknown|Unknown|0|0|||||783|2569|Unknown|04/29/1996|
+Yamassee (historical)|Populated Place|FL|12|Jackson|063|304001N|0845700W|30.6668595|-84.9499212|||||49|161|Sneads|11/01/1989|
+Yamato|Populated Place|FL|12|Palm Beach|099|262435N|0800524W|26.4097977|-80.0900429|||||5|16|Delray Beach|10/19/1979|
+Yama|Populated Place|MO|29|Pemiscot|155|361536N|0895635W|36.2600656|-89.9431458|||||78|256|Bragg City|10/24/1980|
+Yambelle|Populated Place|PR|72|San Juan|127|182258N|0660609W|18.382727|-66.1023885|||||50|164|San Juan|01/01/2000|
+Yamhill|Populated Place|OR|41|Yamhill|071|452029N|1231114W|45.3415037|-123.1873291|||||60|197|Carlton|11/28/1980|03/21/2008
+Yampai|Populated Place|AZ|04|Yavapai|025|352922N|1131202W|35.489439|-113.2004805|||||1709|5607|Yampai|02/08/1980|
+Yampa|Populated Place|CO|08|Routt|107|400909N|1065431W|40.1524837|-106.9086582|||||2402|7880|Yampa|10/13/1978|03/21/2008
+Yampa|Populated Place|IA|19|Wapello|179|410036N|0921326W|41.0100169|-92.2237915|||||230|755|Abingdon|01/01/2000|
+Yampertown|Populated Place|AL|01|Marion|093|340019N|0875123W|34.0053805|-87.8564153|||||172|564|Brilliant|09/04/1980|
+Yancey (historical)|Populated Place|GA|13|Floyd|115|340915N|0851728W|34.154263|-85.2910646|||||216|709|Livingston|06/01/1995|
+Yancey (historical)|Populated Place|TN|47|McMinn|107|351721N|0843515W|35.2892398|-84.5874334|||||253|830|Etowah|04/01/1989|
+Yancey Mills|Populated Place|VA|51|Albemarle|003|380248N|0784331W|38.0468046|-78.7252979|||||222|728|Crozet|09/28/1979|
+Yanceys|Populated Place|WY|56|Park|029|445551N|1102611W|44.9307709|-110.4363115|||||1901|6237|Tower Junction|06/05/1979|
+Yanceyville|Populated Place|NC|37|Caswell|033|362414N|0792010W|36.4040273|-79.3361314|||||185|607|Yanceyville|06/17/1980|03/20/2008
+Yanceyville|Populated Place|VA|51|Louisa|109|375618N|0775856W|37.938197|-77.9822197|||||89|292|Pendleton|09/28/1979|
+Yancey|Populated Place|KY|21|Harlan|095|364607N|0831915W|36.7686984|-83.3207376|||||464|1522|Harlan|09/20/1979|04/22/2008
+Yancey|Populated Place|TX|48|Medina|325|290822N|0990842W|29.1394071|-99.1450355|||||205|673|Yancey|11/30/1979|
+Yancopin|Populated Place|AR|05|Desha|041|335626N|0911307W|33.9406595|-91.2187264|||||50|164|Yancopin|04/30/1980|
+Yancton (historical)|Populated Place|NE|31|Richardson|147|400440N|0952511W|40.0777779|-95.4197028|||||287|942|Rulo|10/10/2000|
+Yancy Mills|Populated Place|MO|29|Phelps|161|374728N|0915003W|37.7911526|-91.8340457|||||257|843|Yancy Mills|10/24/1980|
+Yancy|Populated Place|AL|01|Etowah|055|341019N|0855838W|34.1720392|-85.9771941|||||191|627|Keener|12/01/2003|
+Yancy|Populated Place|AR|05|Hempstead|057|335003N|0934836W|33.8342828|-93.8099055|||||132|433|Columbus|04/30/1980|
+Yankee (historical)|Populated Place|CO|08|Clear Creek|019|394935N|1053726W|39.8263763|-105.6238902|||||3338|10951|Central City|10/13/1978|06/28/2006
+Yankee Blade|Populated Place|NV|32|Lander|015|393155N|1170304W|39.5318697|-117.0512008|||||2105|6906|Yankee Blade|12/12/1980|
+Yankee Crossing|Populated Place|OH|39|Mahoning|099|405522N|0805426W|40.9228365|-80.9073087|||||368|1207|Damascus|07/12/1979|
+Yankee Flat (historical)|Populated Place|MT|30|Beaverhead|001|450932N|1125943W|45.1588115|-112.9953128|||||1763|5784|Bannack|07/14/1998|
+Yankee Hills|Populated Place|OH|39|Trumbull|155|411403N|0803257W|41.2342229|-80.5492389|||||312|1024|Sharon West|07/12/1979|
+Yankee Hill|Populated Place|CA|06|Butte|007|394213N|1213120W|39.7034956|-121.5221924|||||604|1982|Cherokee|01/19/1981|01/29/2011
+Yankee Hill|Populated Place|CA|06|Tuolumne|109|380223N|1202241W|38.0396452|-120.377972|||||681|2234|Columbia|01/19/1981|
+Yankee Hill|Populated Place|NE|31|Lancaster|109|404550N|0964351W|40.7638906|-96.7308512|||||362|1188|Lincoln|03/27/2001|01/18/2011
+Yankee Jims|Populated Place|CA|06|Placer|061|390146N|1205142W|39.0293428|-120.8616029|||||787|2582|Foresthill|01/19/1981|
+Yankee Lake|Populated Place|NY|36|Sullivan|105|413500N|0743240W|41.5834264|-74.5443263|||||459|1506|Yankee Lake|01/23/1980|
+Yankee Lake|Populated Place|OH|39|Trumbull|155|411600N|0803403W|41.2667226|-80.5675731|||||307|1007|Orangeville|07/12/1979|03/20/2008
+Yankee Orchards|Populated Place|MA|25|Berkshire|003|422704N|0731153W|42.451196|-73.1981592|||||313|1027|Pittsfield East|02/24/1974|
+Yankee Ridge|Populated Place|MO|29|Harrison|081|Unknown|Unknown|0|0|||||305|1001|Unknown|10/01/1990|
+Yankee Run|Populated Place|KS|20|Ellsworth|053|383905N|0980101W|38.6513969|-98.0169947|||||464|1522|Carneiro|10/13/1978|
+Yankee Settlement (historical)|Populated Place|OH|39|Erie|043|Unknown|Unknown|0|0|||||174|571|Unknown|04/01/1992|
+Yankee Town|Populated Place|IN|18|Union|161|394144N|0845908W|39.6956034|-84.9855175|||||248|814|Liberty|02/14/1979|
+Yankee Town|Populated Place|MO|29|Marion|127|Unknown|Unknown|0|0|||||193|633|Unknown|09/01/1990|
+Yankeeburg|Populated Place|OH|39|Washington|167|392249N|0812035W|39.3803525|-81.3431728|||||221|725|Belmont|07/12/1979|
+Yankeetown (historical)|Populated Place|OH|39|Tuscarawas|157|402130N|0812637W|40.3584006|-81.4437257|||||253|830|Gnadenhutten|02/01/1992|
+Yankeetown|Populated Place|FL|12|Levy|075|290148N|0824257W|29.0299729|-82.7159396|||||3|10|Yankeetown|10/19/1979|03/20/2008
+Yankeetown|Populated Place|IN|18|Warrick|173|375503N|0871752W|37.9175456|-87.2977822|||||137|449|Yankeetown|02/14/1979|
+Yankeetown|Populated Place|MN|27|Big Stone|011|452928N|0964424W|45.4910732|-96.7400689|||||306|1004|Big Stone Lake West|01/11/1980|
+Yankeetown|Populated Place|OH|39|Brown|015|385622N|0840113W|38.9395115|-84.0202096|||||279|915|Bethel|07/12/1979|
+Yankeetown|Populated Place|OH|39|Darke|037|395547N|0844320W|39.9297714|-84.7221796|||||361|1184|New Madison|07/12/1979|
+Yankeetown|Populated Place|OH|39|Fayette|047|393941N|0831606W|39.6614503|-83.2682479|||||259|850|Mount Sterling|07/12/1979|
+Yankeetown|Populated Place|OH|39|Ross|141|391433N|0830325W|39.2425654|-83.0568479|||||279|915|Summithill|08/01/1990|
+Yankeetown|Populated Place|TN|47|White|185|355918N|0852523W|35.9883981|-85.4230299|||||297|974|Sparta|05/19/1980|
+Yankeetown|Populated Place|VA|51|Rockingham|165|384105N|0785652W|38.6848385|-78.9478063|||||396|1299|Fulks Run|09/28/1979|
+Yankee|Populated Place|NM|35|Colfax|007|365642N|1041941W|36.9450241|-104.3280387|||||2149|7050|Yankee|11/13/1980|
+Yankton|Populated Place|OR|41|Columbia|009|455200N|1225312W|45.8667806|-122.8867723|||||94|308|Chapman|11/28/1980|
+Yankton|Populated Place|SD|46|Yankton|135|425216N|0972350W|42.8711088|-97.3972813|||||368|1207|Gavins Point Dam|02/13/1980|03/20/2008
+Yantic|Populated Place|CT|09|New London|011|413335N|0720725W|41.5598205|-72.1236889|||||40|131|Norwich|09/12/1979|
+Yantisville|Populated Place|IL|17|Shelby|173|393211N|0885300W|39.5364274|-88.8834092|||||216|709|Obed|01/15/1980|
+Yantis|Populated Place|TX|48|Wood|499|325549N|0953430W|32.9303986|-95.5749558|||||148|486|Yantis|11/30/1979|03/21/2008
+Yantley|Populated Place|AL|01|Choctaw|023|321446N|0882246W|32.2459764|-88.3794756|||||85|279|Yantley|09/04/1980|
+Yantus (historical)|Populated Place|WV|54|Logan|045|375753N|0820330W|37.9648219|-82.0584635|||||197|646|Chapmanville|05/20/1997|
+Yanush|Populated Place|OK|40|Latimer|077|344235N|0951850W|34.7098227|-95.3138592|||||189|620|Yanush|12/18/1979|
+Yaphank|Populated Place|NY|36|Suffolk|103|405012N|0725501W|40.8367653|-72.9170487|||||12|39|Bellport|01/23/1980|03/17/2008
+Yaquina|Populated Place|OR|41|Lincoln|041|443607N|1240031W|44.6020624|-124.0087275|||||32|105|Newport South|11/28/1980|
+Yarbo Place|Populated Place|AR|05|Cross|037|352126N|0903110W|35.3573075|-90.5195491|||||58|190|Parkin|04/30/1980|
+Yarborough Crossroads|Populated Place|SC|45|Darlington|031|341440N|0800116W|34.2443199|-80.0211759|||||55|180|Lamar|07/13/1980|
+Yarborough Landing|Populated Place|AR|05|Little River|081|334314N|0940106W|33.7206755|-94.0182462|||||93|305|Ashdown East|12/01/1991|01/12/2011
+Yarborough|Populated Place|TX|48|Kenedy|261|271223N|0972236W|27.2064354|-97.3766527|||||1|3|Yarborough Pass|11/01/1992|
+Yarboro|Populated Place|TX|48|Grimes|185|302013N|0955720W|30.3368746|-95.9555097|||||126|413|Stoneham|11/30/1979|
+Yarbo|Populated Place|AL|01|Washington|129|313238N|0881640W|31.5437741|-88.2777907|||||55|180|Millry South|09/04/1980|
+Yarbrough Homes|Populated Place|NY|36|Albany|001|423935N|0734456W|42.6597222|-73.7488889|||||29|95|Troy South|05/08/2008|
+Yarbrough Place|Populated Place|NM|35|Hidalgo|023|314056N|1084304W|31.6823203|-108.7178269|||||1616|5302|Gillespie Mountain|11/13/1980|
+Yarbroughs Mill|Populated Place|GA|13|Gordon|129|342538N|0844627W|34.4273123|-84.7741038|||||207|679|Sonoraville|09/25/1979|
+Yarbrough|Populated Place|AL|01|Lee|081|324257N|0851157W|32.7159658|-85.1991075|||||216|709|Beulah|09/04/1980|
+Yarbrough|Populated Place|MS|28|Quitman|119|341115N|0901725W|34.1876117|-90.2903706|||||48|157|Lambert|12/01/2003|
+Yarbro|Populated Place|AR|05|Mississippi|093|355845N|0895437W|35.9792388|-89.9103642|||||77|253|Blytheville|04/30/1980|
+Yardelle|Populated Place|AR|05|Newton|101|360401N|0930015W|36.0670191|-93.0040618|||||277|909|Hasty|04/30/1980|
+Yardley Square|Populated Place|VA|51|Roanoke (city)|770|371852N|0795703W|37.3145802|-79.9508724|||||334|1096|Roanoke|12/03/1996|
+Yardley Village|Populated Place|NJ|34|Morris|027|404611N|0742447W|40.7698226|-74.4129302|||||71|233|Morristown|07/01/1981|
+Yardley|Populated Place|PA|42|Bucks|017|401444N|0745046W|40.245664|-74.8459972|||||22|72|Trenton West|08/02/1979|03/17/2008
+Yardley|Populated Place|WA|53|Spokane|063|474002N|1172001W|47.6671152|-117.3335443|||||592|1942|Spokane NE|09/10/1979|
+Yards|Populated Place|WV|54|Mercer|055|371732N|0811836W|37.2923387|-81.3101007|||||726|2382|Bramwell|03/01/1991|09/20/2011
+Yardville Heights|Populated Place|NJ|34|Mercer|021|401100N|0744109W|40.1834432|-74.6857144|||||19|62|Trenton East|07/01/1981|
+Yardville|Populated Place|NJ|34|Mercer|021|401052N|0743952W|40.1812212|-74.6643248|||||18|59|Trenton East|09/08/1979|01/29/2011
+Yard|Populated Place|TX|48|Anderson|001|315142N|0955816W|31.8615543|-95.9710757|||||85|279|Yard|02/20/2004|
+Yard|Populated Place|TX|48|Anderson|001|315155N|0955801W|31.865276|-95.966821|||||88|289|Yard|11/30/1979|12/30/2009
+Yargerville|Populated Place|MI|26|Monroe|115|415018N|0833155W|41.8383799|-83.5318793|||||193|633|Lambertville East|04/14/1980|
+Yarico|Populated Place|OH|39|Lawrence|087|383942N|0822430W|38.6617473|-82.4082096|||||279|915|Waterloo|07/12/1979|
+Yarmouth (historical)|Populated Place|CA|06|San Joaquin|077|374112N|1212054W|37.6865963|-121.3482756|||||24|79|Vernalis|02/01/1995|
+Yarmouth Junction|Populated Place|ME|23|Cumberland|005|434849N|0701137W|43.8136905|-70.1936609|||||26|85|Yarmouth|09/30/1980|
+Yarmouth Port|Populated Place|MA|25|Barnstable|001|414207N|0701458W|41.7020544|-70.249465|||||16|52|Dennis|02/24/1974|02/27/2008
+Yarmouth Station|Populated Place|MA|25|Barnstable|001|414153N|0701528W|41.6981656|-70.2577985|||||14|46|Hyannis|02/24/1974|
+Yarmouth|Populated Place|IA|19|Des Moines|057|410135N|0911925W|41.0264211|-91.3234864|||||246|807|Morning Sun|04/30/1979|
+Yarmouth|Populated Place|MA|25|Barnstable|001|414220N|0701343W|41.7056656|-70.2286314|||||10|33|Dennis|02/24/1974|
+Yarmouth|Populated Place|ME|23|Cumberland|005|434802N|0701112W|43.8006354|-70.1867161|||||24|79|Yarmouth|09/30/1980|02/27/2008
+Yarnaby|Populated Place|OK|40|Bryan|013|334727N|0961525W|33.7909343|-96.2569286|||||175|574|Kemp|12/18/1979|
+Yarnallton|Populated Place|KY|21|Fayette|067|380622N|0843508W|38.106187|-84.5854977|||||268|879|Lexington West|09/20/1979|
+Yarnall|Populated Place|TX|48|Carson|065|351238N|1013219W|35.2106068|-101.5385079|||||1074|3524|Washburn|11/30/1979|
+Yarnell|Populated Place|AZ|04|Yavapai|025|341318N|1124451W|34.2216927|-112.7474007|||||1456|4777|Yarnell|02/08/1980|03/21/2008
+Yarnell|Populated Place|PA|42|Centre|027|405952N|0774839W|40.9978372|-77.8108369|||||335|1099|Bellefonte|08/02/1979|
+Yarnell|Populated Place|WI|55|Sawyer|113|454337N|0912510W|45.7269013|-91.4193291|||||440|1444|Edgewater|08/29/1980|
+Yarrelton|Populated Place|TX|48|Milam|331|305703N|0970448W|30.9507414|-97.0799909|||||132|433|Yarrelton|11/30/1979|
+Yarrow Point|Populated Place|WA|53|King|033|473846N|1221302W|47.64621|-122.2173461|||||37|121|Kirkland|09/10/1979|03/21/2008
+Yarrowsburg|Populated Place|MD|24|Washington|043|392228N|0774101W|39.3745451|-77.6836026|||||184|604|Harpers Ferry|09/12/1979|01/29/2011
+Yarrow|Populated Place|MO|29|Adair|001|400538N|0924050W|40.0939194|-92.6804727|||||258|846|Gifford|10/24/1980|
+Yates (historical)|Populated Place|TN|47|Wayne|181|350945N|0874028W|35.1625808|-87.6744684|||||300|984|Collinwood|08/01/1991|
+Yates (historical)|Populated Place|WV|54|Taylor|091|391743N|0800127W|39.2953712|-80.0242454|||||334|1096|Grafton|05/01/1996|
+Yates Center|Populated Place|KS|20|Woodson|207|375252N|0954400W|37.8811472|-95.7333175|||||345|1132|Yates Center|10/13/1978|03/20/2008
+Yates Center|Populated Place|NY|36|Orleans|073|432016N|0782320W|43.3378351|-78.3889139|||||99|325|Lyndonville|01/23/1980|
+Yates City|Populated Place|IL|17|Knox|095|404643N|0900053W|40.7786485|-90.0148371|||||204|669|Yates City|01/15/1980|03/20/2008
+Yates Corners|Populated Place|OH|39|Geauga|055|412747N|0811719W|41.463108|-81.2887172|||||388|1273|South Russell|07/12/1979|
+Yates Crossing|Populated Place|WV|54|Cabell|011|382629N|0821124W|38.4414756|-82.1898662|||||178|584|Milton|06/27/1980|
+Yates Crossroads|Populated Place|GA|13|Heard|149|332204N|0851356W|33.3678932|-85.2321683|||||355|1165|Frolona|09/25/1979|
+Yates Estates|Populated Place|FL|12|Hillsborough|057|275421N|0821105W|27.9059|-82.1848|||||13|43|Dover|07/18/2008|
+Yates Hill|Populated Place|NC|37|Richmond|153|345606N|0794751W|34.9348758|-79.7975572|||||76|249|Rockingham|06/17/1980|
+Yates Mobile Home Park|Populated Place|VA|51|Hampton (city)|650|370508N|0762404W|37.085651|-76.40113|||||3|10|Newport News North|05/06/2009|
+Yates Village|Populated Place|VA|51|Fairfax|059|384706N|0771056W|38.7851134|-77.1822035|||||77|253|Annandale|09/13/1996|
+Yatesboro|Populated Place|PA|42|Armstrong|005|404800N|0792003W|40.8000646|-79.3342072|||||345|1132|Rural Valley|08/02/1979|
+Yateston|Populated Place|TN|47|White|185|355314N|0853536W|35.8872877|-85.5933122|||||303|994|Cassville|05/19/1980|
+Yatesville (historical)|Populated Place|VA|51|Lunenburg|111|365139N|0782155W|36.8607009|-78.3652748|||||99|325|Wightman|06/01/1994|
+Yatesville|Populated Place|AL|01|Talladega|121|333615N|0860711W|33.6042702|-86.119695|||||159|522|Eastaboga|12/01/2003|
+Yatesville|Populated Place|GA|13|Upson|293|325449N|0840834W|32.9137438|-84.1426923|||||233|764|Yatesville|09/25/1979|03/20/2008
+Yatesville|Populated Place|IL|17|Morgan|137|395045N|0900337W|39.8458817|-90.0603923|||||189|620|Prentice|01/15/1980|
+Yatesville|Populated Place|KY|21|Lawrence|127|380852N|0824110W|38.1478643|-82.6859923|||||177|581|Fallsburg|09/20/1979|
+Yatesville|Populated Place|NY|36|Yates|123|424019N|0770815W|42.672013|-77.137473|||||269|883|Potter|01/23/1980|
+Yatesville|Populated Place|OH|39|Fayette|047|394040N|0832658W|39.6778385|-83.4493628|||||310|1017|Midway|07/12/1979|
+Yatesville|Populated Place|PA|42|Luzerne|079|411812N|0754712W|41.3034138|-75.7865824|||||230|755|Pittston|08/02/1979|03/17/2008
+Yatesville|Populated Place|PA|42|Schuylkill|107|404930N|0761017W|40.8250879|-76.171327|||||418|1371|Shenandoah|08/02/1979|
+Yates|Populated Place|GA|13|Coweta|077|332748N|0845342W|33.463447|-84.8949385|||||238|781|Whitesburg|09/25/1979|
+Yates|Populated Place|MI|26|Oakland|125|424025N|0830545W|42.6736436|-83.0957643|||||204|669|Utica|04/14/1980|
+Yates|Populated Place|MO|29|Randolph|175|391837N|0923558W|39.310312|-92.5993486|||||257|843|Higbee|10/24/1980|
+Yates|Populated Place|MT|30|Wibaux|109|465704N|1040750W|46.9511245|-104.1304889|||||845|2772|Wibaux|04/04/1980|
+Yates|Populated Place|NC|37|Ashe|009|361723N|0812732W|36.2898504|-81.4589906|||||887|2910|Glendale Springs|06/17/1980|
+Yates|Populated Place|NM|35|Harding|021|360749N|1035405W|36.1303102|-103.9013572|||||1710|5610|Yates|11/13/1980|
+Yates|Populated Place|TX|48|Kimble|267|303517N|0993536W|30.5879627|-99.5933952|||||482|1581|Yates|11/30/1979|
+Yattan|Populated Place|LA|22|West Baton Rouge|121|303605N|0911916W|30.601299|-91.3212212|||||8|26|Walls|06/04/1980|
+Yatton (historical)|Populated Place|IA|19|Washington|183|412749N|0913502W|41.4636302|-91.5837758|||||198|650|Riverside|01/01/2000|
+Yauco|Populated Place|PR|72|Yauco|153|180206N|0665100W|18.034964|-66.8498983|||||40|131|Yauco|02/13/1981|04/21/2008
+Yauhannah|Populated Place|SC|45|Georgetown|043|333756N|0791118W|33.6321131|-79.1883783|||||7|23|Yauhannah|07/13/1980|
+Yauko (historical)|Populated Place|CA|06|Butte|007|Unknown|Unknown|0|0|||||419|1375|Unknown|03/05/1997|
+Yaupon Beach|Populated Place|NC|37|Brunswick|019|335418N|0780442W|33.9048962|-78.0783252|||||6|20|Southport|07/01/1989|02/25/2009
+Yaupon Circle|Populated Place|SC|45|Horry|051|334054N|0785336W|33.6815602|-78.8933614|||||4|13|Myrtle Beach|06/01/1994|
+Yaurel|Populated Place|PR|72|Arroyo|015|180137N|0660326W|18.026909|-66.0571092|||||221|725|Patillas|05/15/2000|04/21/2008
+Yavapai Hills|Populated Place|AZ|04|Yavapai|025|343342N|1122301W|34.5616911|-112.3835003|||||1632|5354|Prescott|06/27/1984|
+Yava|Populated Place|AZ|04|Yavapai|025|342819N|1125326W|34.4719677|-112.890462|||||1071|3514|Hillside|02/08/1980|
+Yawkey|Populated Place|WV|54|Lincoln|043|381330N|0815753W|38.2250948|-81.964853|||||227|745|Griffithsville|06/27/1980|
+Yawn (historical)|Populated Place|LA|22|Livingston|063|303703N|0903537W|30.6174103|-90.5937044|||||23|75|Albany|01/01/1994|
+Yazoo City|Populated Place|MS|28|Yazoo|163|325118N|0902420W|32.8551326|-90.4056469|||||34|112|Yazoo City|09/24/1980|03/20/2008
+Yazoo Junction|Populated Place|MS|28|Yazoo|163|325317N|0902322W|32.8881874|-90.3895352|||||31|102|Carter|09/24/1980|
+Yazzi|Populated Place|AZ|04|Apache|001|363445N|1091327W|36.5791674|-109.2242683|||||1902|6240|Cove|06/27/1984|
+Ybel|Populated Place|FL|12|Lee|071|262528N|0820415W|26.4245262|-82.0709262|||||1|3|Sanibel|10/19/1979|
+Ybor City|Populated Place|FL|12|Hillsborough|057|275754N|0822606W|27.9650212|-82.4350941|||||11|36|Tampa|10/19/1979|
+Ybor Heights|Populated Place|FL|12|Hillsborough|057|275810N|0822627W|27.9695|-82.4409|||||14|46|Tampa|07/18/2008|
+Ydaloom (historical)|Populated Place|CA|06|Shasta|089|404644N|1221315W|40.7787623|-122.2208371|||||325|1066|Minnesota Mountain|04/26/1996|
+Ye Little Wood|Populated Place|FL|12|Hillsborough|057|280253N|0821751W|28.048|-82.2975|||||24|79|Thonotosassa|07/18/2008|
+Ye Olde Farm|Populated Place|UT|49|Weber|057|411651N|1115848W|41.2807767|-111.9799419|||||1315|4314|North Ogden|02/25/1989|
+Yeaddiss|Populated Place|KY|21|Leslie|131|370407N|0831304W|37.0687041|-83.2176742|||||343|1125|Leatherwood|09/20/1979|
+Yeadon Trailer Park|Populated Place|KS|20|Finney|055|380000N|1005404W|38.0001103|-100.9009867|||||877|2877|Lowe|10/28/2011|
+Yeadon|Populated Place|PA|42|Delaware|045|395620N|0751520W|39.9390017|-75.2554605|||||34|112|Lansdowne|08/02/1979|03/17/2008
+Yeagers Curve|Populated Place|IN|18|Benton|007|404155N|0872621W|40.6986487|-87.4391902|||||229|751|Earl Park|02/14/1979|
+Yeagertown|Populated Place|PA|42|Mifflin|087|403835N|0773450W|40.6431265|-77.5805496|||||176|577|Burnham|08/02/1979|03/17/2008
+Yeager|Populated Place|IL|17|Kankakee|091|411228N|0874208W|41.2078111|-87.7022608|||||207|679|Momence|01/15/1980|
+Yeager|Populated Place|KY|21|Pike|195|372330N|0823118W|37.39177|-82.5215416|||||230|755|Pikeville|09/20/1979|
+Yeager|Populated Place|MD|24|Frederick|021|392350N|0771816W|39.3973249|-77.3044282|||||160|525|Walkersville|12/04/1996|
+Yeager|Populated Place|OK|40|Hughes|063|350927N|0962022W|35.1575849|-96.3394532|||||239|784|Yeager|12/18/1979|03/21/2008
+Yeagleys Corners|Populated Place|OH|39|Stark|151|405002N|0810605W|40.8339476|-81.1014867|||||392|1286|Homeworth|12/01/1991|
+Yeakle Mill|Populated Place|PA|42|Franklin|055|394402N|0780204W|39.7339822|-78.0344463|||||141|463|Cherry Run|08/02/1979|
+Yeakley (historical)|Populated Place|MO|29|Greene|077|371225N|0932911W|37.2069948|-93.4863059|||||341|1119|Brookline|04/01/1991|
+Yeakley|Populated Place|MO|29|Greene|077|371218N|0933034W|37.2050507|-93.5093624|||||350|1148|Halltown NE|09/01/1991|
+Yeaman|Populated Place|KY|21|Grayson|085|373104N|0863439W|37.5178305|-86.5774838|||||201|659|Falls of Rough|09/20/1979|
+Yearwood Addition|Populated Place|TN|47|Rutherford|149|355055N|0862049W|35.8486769|-86.3469366|||||188|617|Dillton|03/01/1990|
+Yeary Mill|Populated Place|TN|47|Hancock|067|363447N|0832639W|36.5798076|-83.4440732|||||431|1414|Coleman Gap|05/19/1980|
+Yeatesville|Populated Place|NC|37|Beaufort|013|353143N|0764425W|35.528498|-76.7402134|||||3|10|Pantego|06/17/1980|
+Yeatman|Populated Place|MO|29|St. Louis|189|383236N|0903643W|38.5433868|-90.61207|||||131|430|Manchester|10/24/1980|
+Yeddo|Populated Place|IN|18|Fountain|045|400041N|0871536W|40.0114294|-87.2600106|||||210|689|Veedersburg|02/14/1979|
+Yeehaw Junction|Populated Place|FL|12|Osceola|097|274201N|0805415W|27.7003087|-80.9042284|||||19|62|Fort Drum NW|10/19/1979|03/20/2008
+Yeehaw|Populated Place|FL|12|Indian River|061|274101N|0805159W|27.6836426|-80.8664499|||||16|52|Fort Drum NE|07/01/1990|
+Yegen|Populated Place|MT|30|Yellowstone|111|454325N|1083722W|45.723562|-108.622639|||||982|3222|Yegen|04/04/1980|
+Yeguada|Populated Place|PR|72|Camuy|027|182845N|0665257W|18.4791109|-66.8824002|||||25|82|Quebradillas|02/13/1981|
+Yekula|Populated Place|FM|64|Kosrae|005|052159N|1630014E|5.3663889|163.0038889|||||4|13|Kosrae OE E|07/02/1984|
+Yela|Populated Place|FM|64|Kosrae|005|051946N|1625640E|5.3294444|162.9444444|||||0|0|Kosrae|07/02/1984|
+Yelch|Populated Place|PW|70|||072126N|1343235E|7.3572222|134.5430556|||||30|98|Oreor|01/01/2000|
+Yelland (historical)|Populated Place|NV|32|White Pine|033|392030N|1142904W|39.3416081|-114.4844516|||||1713|5620|Yelland Dry Lake|03/01/1991|
+Yellepit|Populated Place|WA|53|Benton|005|460339N|1185705W|46.0609672|-118.9513912|||||105|344|Wallula|09/10/1979|
+Yelling Settlement|Populated Place|AL|01|Baldwin|003|303720N|0875011W|30.6221362|-87.8363809|||||43|141|Silverhill|09/04/1980|
+Yellow Banks|Populated Place|AR|05|Poinsett|111|352913N|0902638W|35.4870271|-90.4439917|||||66|217|Joyland|04/30/1980|
+Yellow Banks|Populated Place|IL|17|Henderson|071|404349N|0910453W|40.7303183|-91.0812551|||||160|525|Lomax|01/15/1980|
+Yellow Banks|Populated Place|UT|49|Beaver|001|382530N|1125919W|38.4249663|-112.9885665|||||1524|5000|Ranch Canyon|12/31/1979|
+Yellow Bank|Populated Place|IN|18|Franklin|047|392615N|0850409W|39.4375504|-85.0691276|||||198|650|Brookville|10/01/1982|
+Yellow Bank|Populated Place|MD|24|St. Mary's|037|381538N|0764803W|38.2606848|-76.8008015|||||4|13|Rock Point|05/09/1996|
+Yellow Bayou|Populated Place|AR|05|Chicot|017|332429N|0911514W|33.4081707|-91.2540022|||||38|125|Macon Lake|04/30/1980|
+Yellow Bayou|Populated Place|LA|22|Avoyelles|009|305929N|0915026W|30.991295|-91.8406754|||||15|49|Simmesport|06/04/1980|
+Yellow Bluff Fort|Populated Place|FL|12|Duval|031|302359N|0813321W|30.3996836|-81.5559253|||||4|13|Eastport|10/19/1979|
+Yellow Bluff|Populated Place|AL|01|Wilcox|131|315804N|0872805W|31.9676491|-87.4680519|||||31|102|Coy|09/04/1980|03/20/2008
+Yellow Bluff|Populated Place|FL|12|Lake|069|291634N|0813832W|29.2760868|-81.6422992|||||16|52|Salt Springs|12/01/1991|
+Yellow Branch|Populated Place|VA|51|Campbell|031|371522N|0791103W|37.255978|-79.1841889|||||287|942|City Farm|09/28/1979|
+Yellow Creek (historical)|Populated Place|AL|01|Lamar|075|Unknown|Unknown|0|0|||||104|341|Unknown|02/23/1998|
+Yellow Creek View Subdivision|Populated Place|AL|01|Cherokee|019|341340N|0854302W|34.227872|-85.7171877|||||192|630|Centre|12/01/2003|
+Yellow Creek|Populated Place|IL|17|Stephenson|177|421820N|0895123W|42.3055726|-89.8565099|||||260|853|Pearl City|06/01/1992|
+Yellow Creek|Populated Place|KY|21|Bell|013|363514N|0834651W|36.5873034|-83.7807508|||||411|1348|Fork Ridge|09/20/1979|
+Yellow Creek|Populated Place|NC|37|Graham|075|352450N|0834955W|35.4139764|-83.8318435|||||594|1949|Fontana Dam|06/17/1980|
+Yellow Creek|Populated Place|OH|39|Jefferson|081|403428N|0804003W|40.5745088|-80.6675749|||||207|679|Wellsville|07/12/1979|
+Yellow Creek|Populated Place|PA|42|Bedford|009|400749N|0781953W|40.1303582|-78.3314026|||||288|945|Hopewell|08/02/1979|
+Yellow Creek|Populated Place|TN|47|Dickson|043|360910N|0873018W|36.1528364|-87.505014|||||181|594|Ruskin|03/01/1990|
+Yellow Creek|Populated Place|TN|47|Houston|083|361643N|0873407W|36.2786666|-87.568626|||||149|489|Ellis Mills|05/19/1980|
+Yellow Dog (historical)|Populated Place|ID|16|Latah|057|465845N|1170202W|46.9790598|-117.0337794|||||785|2575|Palouse|02/01/1994|
+Yellow Gap|Populated Place|NC|37|Burke|023|354110N|0813904W|35.6862405|-81.6512066|||||434|1424|Morganton South|06/17/1980|
+Yellow Hammer Mill|Populated Place|AZ|04|Cochise|003|322148N|1091719W|32.3634095|-109.2886722|||||1068|3504|Olga|02/08/1980|
+Yellow Hammer|Populated Place|PA|42|Forest|053|413600N|0791834W|41.6000616|-79.3094897|||||514|1686|Kellettville|08/02/1979|
+Yellow Head|Populated Place|ME|23|Lincoln|015|435127N|0692936W|43.8575832|-69.4933799|||||7|23|New Harbor|06/01/1992|
+Yellow Hill|Populated Place|KY|21|Bell|013|Unknown|Unknown|0|0|||||373|1224|Unknown|04/29/2009|04/29/2009
+Yellow House (historical)|Populated Place|SC|45|Berkeley|015|325334N|0795529W|32.8926743|-79.9248077|||||9|30|North Charleston|05/01/1993|
+Yellow House Landing|Populated Place|SC|45|Berkeley|015|325431N|0795529W|32.9085073|-79.9248073|||||1|3|North Charleston|07/13/1980|
+Yellow House|Populated Place|PA|42|Berks|011|401923N|0754517W|40.3231489|-75.7546365|||||88|289|Birdsboro|08/02/1979|
+Yellow Jacket|Populated Place|CO|08|Montezuma|083|373204N|1084302W|37.534435|-108.7173212|||||2103|6900|Yellow Jacket|10/13/1978|
+Yellow Jacket|Populated Place|FL|12|Dixie|029|292748N|0830004W|29.4632919|-83.0012361|||||1|3|Vista|10/19/1979|
+Yellow Lake|Populated Place|MS|28|Panola|107|342805N|0901133W|34.4681623|-90.192593|||||52|171|Crenshaw South|12/01/2003|
+Yellow Lake|Populated Place|WI|55|Burnett|013|455612N|0922325W|45.936613|-92.3901944|||||294|965|Yellow Lake|09/30/1999|
+Yellow Mills|Populated Place|NY|36|Wayne|117|430338N|0771525W|43.0606188|-77.2569278|||||137|449|Macedon|01/23/1980|
+Yellow Pine Estates|Populated Place|MD|24|Carroll|013|392653N|0765727W|39.4481585|-76.9574798|||||177|581|Finksburg|05/08/1996|
+Yellow Pine Mobile Home Park|Populated Place|WA|53|Stevens|065|483634N|1180420W|48.6095105|-118.0722423|||||490|1608|Kettle Falls|06/07/2010|
+Yellow Pine|Populated Place|AL|01|Washington|129|312421N|0882547W|31.4057249|-88.429741|||||73|239|State Line|09/04/1980|
+Yellow Pine|Populated Place|ID|16|Valley|085|445754N|1152937W|44.9649063|-115.4937246|||||1452|4764|Yellow Pine|06/21/1979|01/29/2011
+Yellow Pine|Populated Place|LA|22|Webster|119|322838N|0931928W|32.4770981|-93.3243362|||||61|200|Heflin|06/04/1980|
+Yellow River (historical)|Populated Place|GA|13|Gwinnett|135|335228N|0840458W|33.874549|-84.0826913|||||258|846|Snellville|12/03/1996|
+Yellow River|Populated Place|IA|19|Allamakee|005|430516N|0911116W|43.0877608|-91.1879079|||||200|656|Prairie du Chien|01/01/2000|
+Yellow Rock|Populated Place|KY|21|Lee|129|373415N|0834818W|37.570919|-83.8049192|||||201|659|Heidelberg|09/20/1979|
+Yellow Springs|Populated Place|MD|24|Frederick|021|392846N|0772736W|39.4795459|-77.4599861|||||182|597|Frederick|09/12/1979|
+Yellow Springs|Populated Place|OH|39|Greene|057|394823N|0835313W|39.8064486|-83.886874|||||293|961|Yellow Springs|07/12/1979|03/20/2008
+Yellow Springs|Populated Place|TN|47|Claiborne|025|363012N|0832340W|36.5034191|-83.3943472|||||397|1302|Coleman Gap|09/01/1989|
+Yellow Springs|Populated Place|TN|47|Decatur|039|354839N|0880723W|35.8108979|-88.123093|||||165|541|Sugar Tree|05/19/1980|
+Yellow Spring|Populated Place|PA|42|Blair|013|403102N|0781224W|40.517293|-78.2066768|||||293|961|Spruce Creek|08/02/1979|
+Yellow Spring|Populated Place|WV|54|Hampshire|027|391056N|0783034W|39.1823261|-78.5094537|||||273|896|Yellow Spring|06/27/1980|
+Yellow Sulphur Springs|Populated Place|VA|51|Montgomery|121|371042N|0802350W|37.1784628|-80.3972718|||||576|1890|Blacksburg|09/28/1979|
+Yellow Sulphur|Populated Place|VA|51|Montgomery|121|371017N|0802348W|37.1715185|-80.3967161|||||562|1844|Blacksburg|09/28/1979|
+Yellow Tavern|Populated Place|VA|51|Henrico|087|373806N|0772732W|37.6348672|-77.4588724|||||57|187|Yellow Tavern|09/28/1979|
+Yellowbanks|Populated Place|IN|18|Kosciusko|085|411918N|0854044W|41.3217131|-85.6788753|||||262|860|North Webster|02/14/1979|
+Yellowbud|Populated Place|OH|39|Ross|141|393015N|0830035W|39.5042283|-83.0096271|||||199|653|Williamsport|07/12/1979|
+Yellowdirt|Populated Place|GA|13|Heard|149|332450N|0850227W|33.4140035|-85.0407752|||||234|768|Lowell|09/25/1979|06/18/2009
+Yellowhorse Ford|Populated Place|SD|46|Dewey|041|451649N|1004750W|45.2802626|-100.7970874|||||506|1660|Glencross SE|02/13/1980|
+Yellowjacket Place|Populated Place|CA|06|Trinity|105|401010N|1231925W|40.1693151|-123.3236338|||||841|2759|Shannon Butte|01/19/1981|
+Yellowjacket|Populated Place|CA|06|Tehama|103|401426N|1214128W|40.2404367|-121.6910921|||||1204|3950|Barkley Mountain|01/19/1981|
+Yellowjacket|Populated Place|ID|16|Lemhi|059|445847N|1143154W|44.9796397|-114.531752|||||1805|5922|Yellowjacket|06/21/1979|
+Yellowleaf Creek Estates|Populated Place|AL|01|Shelby|117|331840N|0863515W|33.3112229|-86.5874835|||||152|499|Westover|12/01/2003|
+Yellowood|Populated Place|PA|42|Bucks|017|400743N|0745151W|40.1287212|-74.8640536|||||10|33|Trenton West|08/02/1979|
+Yellowpine|Populated Place|TX|48|Sabine|403|311534N|0934929W|31.2593539|-93.8246283|||||86|282|Hemphill|11/30/1979|
+Yellowstone Park|Populated Place|NY|36|Westchester|119|410240N|0734806W|41.0444444|-73.8016667|||||65|213|White Plains|08/06/2009|
+Yellowstone|Populated Place|IN|18|Monroe|105|385956N|0862033W|38.9989389|-86.3424898|||||196|643|Norman|02/14/1979|
+Yellowstone|Populated Place|VA|51|Roanoke (city)|770|371403N|0795629W|37.2343045|-79.9414259|||||373|1224|Garden City|12/03/1996|
+Yellowstone|Populated Place|WI|55|Lafayette|065|424754N|0895813W|42.7983343|-89.9704023|||||278|912|Yellowstone Lake|08/29/1980|
+Yellowtown|Populated Place|OH|39|Perry|127|394205N|0820406W|39.7014577|-82.0681978|||||246|807|Deavertown|07/12/1979|
+Yellville|Populated Place|AR|05|Marion|089|361334N|0924106W|36.2261815|-92.6848876|||||191|627|Yellville|04/30/1980|03/20/2008
+Yell|Populated Place|TN|47|Marshall|117|352209N|0864713W|35.3692423|-86.7869444|||||275|902|Cornersville|05/19/1980|
+Yelm|Populated Place|WA|53|Thurston|067|465631N|1223621W|46.9420431|-122.6059582|||||105|344|McKenna|09/10/1979|03/21/2008
+Yelovoi (historical)|Populated Place|AK|02|Kodiak Island|150|575400N|1522400W|57.9|-152.4|||||30|98|Kodiak D-2|03/23/2001|03/18/2010
+Yelping Hill|Populated Place|CT|09|Litchfield|005|415417N|0731755W|41.9048165|-73.2987281|||||425|1394|South Canaan|09/12/1979|
+Yelverton|Populated Place|OH|39|Hardin|065|403255N|0834237W|40.5486632|-83.7102104|||||331|1086|Silver Creek|07/12/1979|
+Yelvington|Populated Place|FL|12|Putnam|107|293753N|0813126W|29.6313591|-81.5239661|||||9|30|Hastings|10/19/1979|
+Yelvington|Populated Place|KY|21|Daviess|059|375120N|0865802W|37.8556068|-86.9672161|||||145|476|Maceo|09/20/1979|
+Yemassee|Populated Place|SC|45|Hampton|049|324125N|0805102W|32.6901781|-80.8506626|||||11|36|Yemassee|07/13/1980|03/20/2008
+Yendor Landing|Populated Place|VA|51|Stafford|179|381943N|0772107W|38.3287|-77.3519|||||31|102|Passapatanzy|06/27/2008|
+Yenne|Populated Place|IN|18|Martin|101|383252N|0864737W|38.5478309|-86.7936074|||||138|453|Rusk|02/14/1979|
+Yenome|Populated Place|SC|45|Barnwell|011|331101N|0812048W|33.183486|-81.3467733|||||70|230|Barnwell|07/13/1980|
+Yent Place|Populated Place|FL|12|Franklin|037|295150N|0844201W|29.8638196|-84.7001824|||||2|7|Carrabelle|10/19/1979|
+Yent|Populated Place|FL|12|Hillsborough|057|280258N|0823012W|28.0495|-82.5033|||||13|43|Citrus Park|07/18/2008|
+Yeoho|Populated Place|MD|24|Baltimore|005|393417N|0764318W|39.5714938|-76.7216404|||||209|686|Hereford|09/12/1979|
+Yeomalt|Populated Place|WA|53|Kitsap|035|473804N|1222938W|47.6345418|-122.494021|||||12|39|Shilshole Bay|09/10/1979|
+Yeomans (historical)|Populated Place|OH|39|Huron|077|Unknown|Unknown|0|0|||||281|922|Unknown|05/01/1992|
+Yeomans|Populated Place|GA|13|Terrell|273|315008N|0842801W|31.8354429|-84.4668604|||||121|397|Dawson|09/25/1979|
+Yeomans|Populated Place|IA|19|Plymouth|149|423505N|0962454W|42.5847159|-96.415029|||||413|1355|Sioux City North|01/01/2000|
+Yeomans|Populated Place|IL|17|Morgan|137|393902N|0900227W|39.6506038|-90.0409448|||||210|689|Alexander|01/15/1980|
+Yeoman|Populated Place|IN|18|Carroll|015|404004N|0864327W|40.6678159|-86.7241762|||||202|663|Yeoman|02/14/1979|03/20/2008
+Yeopim Station|Populated Place|NC|37|Perquimans|143|360835N|0763126W|36.1429367|-76.523831|||||3|10|Center Hill|01/01/2000|
+Yeoward Addition|Populated Place|IL|17|Whiteside|195|414529N|0893938W|41.7580873|-89.6606618|||||196|643|Sterling|01/15/1980|
+Yepan|Populated Place|FM|64|Kosrae|005|050227N|1630152E|5.0408333|163.0311111|||||0|0|Unknown|07/02/1984|
+Yerba|Populated Place|NM|35|Roosevelt|041|340924N|1032247W|34.1567484|-103.3796766|||||1226|4022|Bethel|11/13/1980|
+Yerba|Populated Place|WV|54|McDowell|047|372934N|0813726W|37.4928905|-81.6239969|||||425|1394|Welch|06/27/1980|
+Yerby|Populated Place|OK|40|Le Flore|079|350002N|0944041W|35.0006543|-94.6780046|||||157|515|Poteau West|12/18/1979|
+Yerington|Populated Place|NV|32|Lyon|019|385909N|1190947W|38.9857508|-119.1629309|||||1338|4390|Yerington|12/12/1980|03/21/2008
+Yerkes|Populated Place|KY|21|Perry|193|371638N|0831804W|37.2773162|-83.3010114|||||267|876|Krypton|09/20/1979|
+Yerkes|Populated Place|PA|42|Montgomery|091|401011N|0752749W|40.1698265|-75.4635174|||||36|118|Collegeville|08/02/1979|
+Yerkwood|Populated Place|AL|01|Walker|127|334116N|0870448W|33.6878839|-87.0799986|||||92|302|Dora|09/04/1980|
+Yermo|Populated Place|CA|06|San Bernardino|071|345418N|1164913W|34.9049849|-116.8203127|||||588|1929|Yermo|01/19/1981|
+Yes Bay (historical)|Populated Place|AK|02|Ketchikan Gateway|130|555435N|1314800W|55.9097222|-131.8|||||1|3|Ketchikan D-6|07/20/2000|03/18/2010
+Yesler Terrace|Populated Place|WA|53|King|033|473603N|1221857W|47.6009318|-122.3159591|||||59|194|Seattle South|09/10/1979|
+Yeso (historical)|Populated Place|NM|35|Rio Arriba|039|Unknown|Unknown|0|0|||||2459|8067|Unknown|12/01/1992|
+Yeso|Populated Place|NM|35|De Baca|011|342621N|1043636W|34.4392373|-104.6099829|||||1454|4770|Yeso|11/13/1980|
+Yesse|Populated Place|KY|21|Allen|003|365111N|0861150W|36.8531002|-86.1972085|||||213|699|Scottsville|09/20/1979|
+Yester Oaks|Populated Place|LA|22|St. Tammany|103|301500N|0894745W|30.2499172|-89.7958969|||||1|3|North Shore|10/01/1992|
+Yethonat|Populated Place|WA|53|Yakima|077|462416N|1202347W|46.4045725|-120.3964478|||||247|810|Wapato|09/10/1979|
+Yettem|Populated Place|CA|06|Tulare|107|362911N|1191534W|36.486339|-119.2595581|||||105|344|Monson|01/19/1981|01/29/2011
+Yetter|Populated Place|IA|19|Calhoun|025|421858N|0945046W|42.3160934|-94.8460959|||||375|1230|Yetter|04/30/1979|03/20/2008
+Yettland Park|Populated Place|TN|47|Sevier|155|355235N|0833443W|35.8764784|-83.5785025|||||278|912|Douglas Dam|05/19/1980|
+Yeunaba (historical)|Populated Place|CA|06|Santa Cruz|087|Unknown|Unknown|0|0|||||143|469|Unknown|11/26/1997|
+Yeunata (historical)|Populated Place|CA|06|Santa Cruz|087|Unknown|Unknown|0|0|||||143|469|Unknown|11/26/1997|
+Yewed|Populated Place|OK|40|Alfalfa|003|364056N|0982436W|36.6822534|-98.4100755|||||382|1253|Lambert|12/18/1979|
+Yigo Estates|Populated Place|GU|66|Guam|010|133248N|1445353E|13.5466667|144.8980556|||||158|518|Ritidian Point|01/31/2002|
+Yigo|Populated Place|GU|66|Guam|010|133204N|1445308E|13.5344444|144.8855556|||||123|404|Dededo|02/06/1981|04/21/2008
+Yiikulme (historical)|Populated Place|CA|06|Sutter|101|Unknown|Unknown|0|0|||||12|39|Unknown|12/02/1996|
+Yimuch|Populated Place|FM|64|Yap|060|093048N|1380943E|9.5133333|138.1619444|||||0|0|Yap Islands (Waqab)|07/02/1984|
+Yinuuf|Populated Place|FM|64|Yap|060|092927N|1380608E|9.4908333|138.1022222|||||1|3|Yap Islands (Waqab)|07/02/1984|
+Yin|Populated Place|FM|64|Yap|060|093450N|1380724E|9.5805556|138.1233333|||||0|0|Yap Islands (Waqab)|07/02/1984|
+Yistletaw|Populated Place|AK|02|Yukon-Koyukuk (CA)|290|644921N|1572221W|64.8225|-157.3725|||||59|194|Nulato D-3|03/31/1981|
+Yniestra|Populated Place|FL|12|Escambia|033|303007N|0870937W|30.501863|-87.1602473|||||6|20|Pace|10/19/1979|
+Yno (historical)|Populated Place|OH|39|Scioto|145|Unknown|Unknown|0|0|||||259|850|Unknown|10/01/1992|
+Ynot (historical)|Populated Place|MT|30|Phillips|071|485012N|1074034W|48.8366779|-107.6762032|||||742|2434|Whitewater West|02/18/1997|
+Yoacham (historical)|Populated Place|NV|32|Lincoln|017|373932N|1142938W|37.6588537|-114.4938816|||||1369|4491|Indian Cove|05/01/1990|
+Yoakum Crossroad|Populated Place|TN|47|Claiborne|025|362955N|0834632W|36.4986901|-83.7754715|||||408|1339|Ausmus|05/19/1980|
+Yoakum|Populated Place|TX|48|DeWitt|123|291716N|0970907W|29.2877469|-97.151931|||||98|322|Yoakum|11/30/1979|03/21/2008
+Yocam Village|Populated Place|FL|12|Hillsborough|057|280823N|0822847W|28.1398|-82.4796|||||20|66|Lutz|07/18/2008|
+Yocana|Populated Place|AR|05|Polk|113|343515N|0940316W|34.5876053|-94.054371|||||285|935|Board Camp|05/01/1992|
+Yocemento|Populated Place|KS|20|Ellis|051|385426N|0992526W|38.9072335|-99.4239958|||||625|2051|Yocemento|10/13/1978|
+Yockey|Populated Place|IN|18|Lawrence|093|384717N|0862935W|38.7881073|-86.4930477|||||185|607|Bedford East|02/14/1979|
+Yocona|Populated Place|MS|28|Lafayette|071|341641N|0892453W|34.2781632|-89.4148004|||||98|322|Yocona|09/24/1980|
+Yocum (historical)|Populated Place|OR|41|Lake|037|420120N|1204704W|42.0221055|-120.7844113|||||1637|5371|Strawberry Butte|05/22/1986|03/25/2010
+Yocum Estates|Populated Place|PA|42|Bucks|017|403337N|0750829W|40.5603793|-75.1412847|||||148|486|Riegelsville|08/30/1990|
+Yocumtown|Populated Place|PA|42|York|133|400930N|0764814W|40.1584258|-76.8038596|||||143|469|Steelton|08/02/1979|
+Yocum|Populated Place|AR|05|Carroll|015|362510N|0932448W|36.4195117|-93.4132406|||||344|1129|Blue Eye|04/30/1980|
+Yocum|Populated Place|KY|21|Morgan|175|375900N|0831930W|37.9834185|-83.3249016|||||246|807|West Liberty|09/20/1979|
+Yocum|Populated Place|VA|51|Prince William|153|383847N|0773016W|38.6465081|-77.5044317|||||69|226|Nokesville|08/28/1997|
+Yoder (historical)|Populated Place|OH|39|Logan|091|Unknown|Unknown|0|0|||||367|1204|Unknown|05/01/1992|
+Yoder Addition|Populated Place|IL|17|Douglas|041|394821N|0881635W|39.8058651|-88.2764369|||||198|650|Tuscola|02/19/1999|
+Yoder Heights|Populated Place|PA|42|Berks|011|403300N|0760025W|40.549899|-76.006865|||||165|541|Auburn|09/24/2008|
+Yoder|Populated Place|AR|05|Arkansas|001|342714N|0912917W|34.4539865|-91.4881817|||||64|210|Almyra|04/30/1980|
+Yoder|Populated Place|CO|08|El Paso|041|385022N|1041319W|38.8394378|-104.221905|||||1873|6145|Yoder|10/13/1978|
+Yoder|Populated Place|IN|18|Allen|003|405552N|0851036W|40.9311587|-85.1766374|||||247|810|Ossian|02/14/1979|
+Yoder|Populated Place|KS|20|Reno|155|375625N|0975206W|37.9402895|-97.8683847|||||469|1539|Haven|10/13/1978|01/29/2011
+Yoder|Populated Place|KY|21|Spencer|215|380338N|0852042W|38.0606202|-85.3449538|||||163|535|Taylorsville|09/20/1979|
+Yoder|Populated Place|OH|39|Allen|003|404114N|0840416W|40.6872727|-84.0710573|||||292|958|Lima|07/12/1979|
+Yoder|Populated Place|OR|41|Clackamas|005|450817N|1224054W|45.1381769|-122.6817567|||||73|239|Yoder|11/28/1980|
+Yoder|Populated Place|WY|56|Goshen|015|415501N|1041745W|41.9169123|-104.2957882|||||1294|4245|Yoder|06/05/1979|03/21/2008
+Yodok (historical)|Populated Place|CA|06|Sacramento|067|Unknown|Unknown|0|0|||||19|62|Unknown|03/26/1999|
+Yoestown|Populated Place|AR|05|Crawford|033|352543N|0941042W|35.4286995|-94.1782631|||||130|427|Alma|04/30/1980|
+Yoe|Populated Place|PA|42|York|133|395432N|0763813W|39.9089887|-76.6369116|||||217|712|York|08/02/1979|03/17/2008
+Yogaville|Populated Place|VA|51|Buckingham|029|373904N|0784137W|37.651073|-78.693738|||||167|548|Howardsville|01/06/2010|01/19/2011
+Yogi's Mobile Home Park|Populated Place|OH|39|Fairfield|045|394006N|0823348W|39.6683333|-82.5633333|||||241|791|Lancaster|07/02/2008|
+Yogo Crossing|Populated Place|MT|30|Judith Basin|045|465120N|1101900W|46.8555133|-110.3165906|||||1558|5111|Indian Hill|04/04/1980|
+Yoho (historical)|Populated Place|OH|39|Gallia|053|Unknown|Unknown|0|0|||||208|682|Unknown|04/01/1992|
+Yohoghany|Populated Place|PA|42|Westmoreland|129|401717N|0794548W|40.2881255|-79.7633782|||||284|932|McKeesport|11/01/1989|
+Yokeko Point|Populated Place|WA|53|Skagit|057|482449N|1223705W|48.4137138|-122.6179479|||||24|79|Anacortes South|09/10/1979|
+Yokena|Populated Place|MS|28|Warren|149|321031N|0905631W|32.1751517|-90.9420498|||||32|105|Yokena|09/24/1980|
+Yokley|Populated Place|TN|47|Giles|055|352457N|0870631W|35.4159097|-87.1086196|||||254|833|Lynnville|05/19/1980|
+Yokohl|Populated Place|CA|06|Tulare|107|361932N|1190456W|36.3255055|-119.0823272|||||141|463|Rocky Hill|01/19/1981|
+Yokolimdu (historical)|Populated Place|CA|06|Sacramento|067|Unknown|Unknown|0|0|||||19|62|Unknown|03/26/1999|
+Yokulme (historical)|Populated Place|CA|06|Sutter|101|Unknown|Unknown|0|0|||||12|39|Unknown|12/02/1996|
+Yokum-Hall Colonia|Populated Place|TX|48|Hidalgo|215|261707N|0980717W|26.2853491|-98.1213972|||||28|92|La Blanca|10/20/2003|
+Yokum|Populated Place|TX|48|Gonzales|177|290940N|0973348W|29.1610814|-97.5633271|||||121|397|Sample|11/30/1979|
+Yokum|Populated Place|WV|54|Upshur|097|385830N|0800345W|38.9751018|-80.0625786|||||563|1847|Ellamore|06/27/1980|
+Yolande|Populated Place|AL|01|Tuscaloosa|125|331824N|0871129W|33.3067811|-87.1913862|||||150|492|Abernant|09/04/1980|
+Yolano|Populated Place|CA|06|Solano|095|382437N|1214220W|38.4101873|-121.7055141|||||9|30|Saxon|01/19/1981|
+Yola|Populated Place|MN|27|Hubbard|057|471356N|0950044W|47.2321781|-95.0122363|||||433|1421|Schoolcraft Lake|01/11/1980|
+Yolo|Populated Place|CA|06|Yolo|113|384355N|1214828W|38.7318481|-121.8077431|||||25|82|Woodland|01/19/1981|01/29/2011
+Yolo|Populated Place|MO|29|Henry|083|382558N|0933220W|38.432798|-93.5388207|||||245|804|Calhoun East|09/01/1991|
+Yolyn|Populated Place|WV|54|Logan|045|374945N|0815140W|37.8292723|-81.861231|||||306|1004|Amherstdale|06/27/1980|
+Yoman|Populated Place|WA|53|Pierce|053|471111N|1224222W|47.1864854|-122.706242|||||12|39|McNeil Island|12/31/1992|
+Yonah|Populated Place|GA|13|White|311|343828N|0834513W|34.6412066|-83.7535135|||||469|1539|Cowrock|09/25/1979|01/12/2011
+Yona|Populated Place|GU|66|Guam|010|132435N|1444624E|13.4097222|144.7733333|||||89|292|Talofofo|02/06/1981|04/21/2008
+Yoncalla|Populated Place|OR|41|Douglas|019|433554N|1231700W|43.5984531|-123.2834167|||||112|367|Yoncalla|11/28/1980|03/21/2008
+Yonder Wood Mobile Home Park|Populated Place|AL|01|Mobile|097|304708N|0881539W|30.785418|-88.260838|||||67|220|Semmes|05/14/2010|
+Yondota|Populated Place|OH|39|Lucas|095|413818N|0831844W|41.6383812|-83.3121502|||||176|577|Reno Beach|07/12/1979|
+Yonges Island|Populated Place|SC|45|Charleston|019|324137N|0801350W|32.6935125|-80.2306536|||||4|13|Wadmalaw Island|07/13/1980|
+Yonkers|Populated Place|GA|13|Dodge|091|322159N|0831300W|32.3662785|-83.2165432|||||87|285|Yonkers|09/25/1979|
+Yonkers|Populated Place|MD|24|Allegany|001|394142N|0783856W|39.6950875|-78.6489057|||||384|1260|Evitts Creek|09/12/1979|
+Yonkers|Populated Place|NY|36|Westchester|119|405552N|0735355W|40.9312099|-73.8987469|||||25|82|Yonkers|01/23/1980|07/16/2008
+Yonkers|Populated Place|OK|40|Wagoner|145|360310N|0951539W|36.0528763|-95.2607953|||||182|597|Rocky Point|12/18/1979|
+Yonkerville|Populated Place|MO|29|Barry|009|365458N|0940034W|36.916174|-94.0093762|||||395|1296|Pierce City|10/24/1980|
+Yonna|Populated Place|OR|41|Klamath|035|421605N|1212803W|42.2679247|-121.467499|||||1263|4144|Yonna|11/28/1980|
+Yontocket|Populated Place|CA|06|Del Norte|015|415427N|1241156W|41.9076127|-124.1989736|||||8|26|Smith River|01/19/1981|
+Yorba Linda|Populated Place|CA|06|Orange|059|335319N|1174847W|33.8886259|-117.8131125|||||116|381|Yorba Linda|01/19/1981|03/21/2008
+Yorba|Populated Place|CA|06|Orange|059|335155N|1174832W|33.8652931|-117.8089454|||||82|269|Orange|01/19/1981|
+Yordy|Populated Place|PA|42|Northumberland|097|404830N|0763812W|40.8084187|-76.6366273|||||239|784|Trevorton|08/30/1990|
+Yorick|Populated Place|NC|37|Bladen|017|344011N|0783830W|34.6696145|-78.6416805|||||16|52|Dublin|01/01/1990|
+York (historical)|Populated Place|OH|39|Trumbull|155|412702N|0803806W|41.4506105|-80.6350766|||||296|971|Gustavus|09/01/1991|
+York Beach|Populated Place|DE|10|Sussex|005|383034N|0750311W|38.5095563|-75.0529585|||||3|10|Bethany Beach|08/02/1979|
+York Beach|Populated Place|ME|23|York|031|431017N|0703632W|43.171477|-70.6089411|||||7|23|York Beach|09/30/1980|
+York Center (historical)|Populated Place|NY|36|Livingston|051|425216N|0775220W|42.8711111|-77.8722222|||||223|732|Geneseo|02/15/2007|
+York Center (historical)|Populated Place|OH|39|Fulton|051|Unknown|Unknown|0|0|||||237|778|Unknown|04/01/1992|
+York Center|Populated Place|IA|19|Pottawattamie|155|412234N|0953321W|41.3761046|-95.5558378|||||403|1322|Neola|04/30/1979|
+York Center|Populated Place|IL|17|DuPage|043|415125N|0875916W|41.8569744|-87.9878421|||||220|722|Hinsdale|01/15/1980|03/20/2008
+York Center|Populated Place|OH|39|Union|159|402428N|0832712W|40.4078349|-83.4532575|||||315|1033|York Center|07/12/1979|
+York Center|Populated Place|WI|55|Dane|025|431421N|0890413W|43.2391596|-89.0703882|||||285|935|Marshall|08/29/1980|
+York Cliffs|Populated Place|ME|23|York|031|431128N|0703610W|43.1911988|-70.6028302|||||3|10|York Beach|09/30/1980|
+York Corner|Populated Place|ME|23|York|031|430903N|0703958W|43.1509213|-70.666164|||||18|59|York Harbor|09/30/1980|
+York Furnace|Populated Place|PA|42|York|133|395220N|0762253W|39.8723236|-76.3813501|||||53|174|Airville|08/02/1979|
+York Harbor|Populated Place|ME|23|York|031|430812N|0703844W|43.1367551|-70.6456078|||||14|46|York Harbor|09/30/1980|02/27/2008
+York Haven Anchorage|Populated Place|VA|51|York|199|370840N|0762300W|37.1443109|-76.3832789|||||0|0|Poquoson West|09/28/1979|
+York Haven|Populated Place|PA|42|York|133|400639N|0764257W|40.1109277|-76.7158012|||||117|384|York Haven|08/02/1979|03/17/2008
+York Heights|Populated Place|ME|23|York|031|430855N|0703831W|43.1486993|-70.6419968|||||22|72|York Harbor|09/30/1980|
+York Hills|Populated Place|SC|45|Cherokee|021|350225N|0813914W|35.0404059|-81.6539867|||||231|758|Gaffney|01/01/1993|
+York Landing|Populated Place|ME|23|Cumberland|005|434343N|0701232W|43.7286921|-70.2089372|||||0|0|Portland East|09/30/1980|
+York manor|Populated Place|VA|51|Fairfax|059|384710N|0770944W|38.7862246|-77.1622029|||||76|249|Annandale|09/13/1996|
+York Mountain|Populated Place|AL|01|Walker|127|334830N|0865745W|33.8084367|-86.9624985|||||231|758|Creel|12/01/2003|
+York North Ridge (historical)|Populated Place|OH|39|Sandusky|143|Unknown|Unknown|0|0|||||188|617|Unknown|10/01/1992|
+York Ridge|Populated Place|MD|24|Baltimore|005|392440N|0763824W|39.4112175|-76.6399698|||||128|420|Cockeysville|06/01/1994|
+York River Farms|Populated Place|VA|51|Gloucester|073|371524N|0762710W|37.256532|-76.4527263|||||2|7|Achilles|02/05/1998|
+York River Pines|Populated Place|VA|51|Gloucester|073|371523N|0763014W|37.2563889|-76.5038889|||||10|33|Clay Bank|07/17/2006|
+York Run Junction|Populated Place|PA|42|Fayette|051|394901N|0794810W|39.817021|-79.8028281|||||304|997|Smithfield|08/02/1979|
+York Run|Populated Place|PA|42|Fayette|051|394957N|0794646W|39.8325765|-79.779493|||||328|1076|Smithfield|08/02/1979|
+York South Ridge (historical)|Populated Place|OH|39|Sandusky|143|Unknown|Unknown|0|0|||||188|617|Unknown|10/01/1992|
+York Springs|Populated Place|PA|42|Adams|001|400032N|0770656W|40.0089827|-77.1155359|||||187|614|Dillsburg|08/02/1979|03/17/2008
+York Terrace|Populated Place|SC|45|Chester|023|344319N|0811225W|34.7218056|-81.2070334|||||170|558|Chester|02/01/1993|
+York Terrace|Populated Place|VA|51|York|199|371547N|0763941W|37.2629239|-76.6613445|||||24|79|Williamsburg|09/28/1979|
+York Towne|Populated Place|DE|10|New Castle|003|394550N|0754359W|39.7640002|-75.7329905|||||114|374|Kennett Square|11/01/1989|
+York View|Populated Place|VA|51|Gloucester|073|372044N|0763554W|37.3455556|-76.5983333|||||3|10|Clay Bank|07/17/2006|
+York Village|Populated Place|ME|23|York|031|430837N|0703903W|43.1436993|-70.6508858|||||24|79|York Harbor|09/30/1980|
+Yorkana|Populated Place|PA|42|York|133|395835N|0763503W|39.9764874|-76.5841323|||||192|630|Red Lion|08/02/1979|03/17/2008
+Yorkdale|Populated Place|LA|22|East Baton Rouge|033|303329N|0910717W|30.5579658|-91.121495|||||21|69|Comite|05/01/1994|
+Yorkdale|Populated Place|SC|45|York|091|345424N|0805544W|34.906535|-80.9289647|||||200|656|Rock Hill East|05/01/1993|
+Yorke (historical)|Populated Place|MD|24|Talbot|041|385314N|0760429W|38.8873363|-76.0746653|||||14|46|Wye Mills|05/01/1994|
+Yorketown|Populated Place|NJ|34|Monmouth|025|401828N|0742016W|40.3078873|-74.337648|||||29|95|Freehold|05/15/2000|03/17/2008
+Yorkfield|Populated Place|IL|17|DuPage|043|415148N|0875654W|41.8633636|-87.9483964|||||200|656|Hinsdale|05/01/1989|
+Yorkland|Populated Place|MD|24|Carroll|013|393208N|0765602W|39.535658|-76.9338688|||||239|784|Westminster|05/08/1996|
+Yorkleigh|Populated Place|MD|24|Baltimore|005|392312N|0763622W|39.3867734|-76.6060792|||||141|463|Towson|09/12/1979|
+Yorklyn Ridge|Populated Place|DE|10|New Castle|003|394802N|0754029W|39.8006668|-75.6746546|||||83|272|Kennett Square|11/01/1989|
+Yorklyn|Populated Place|DE|10|New Castle|003|394829N|0754032W|39.8081666|-75.6754883|||||53|174|Kennett Square|08/02/1979|
+Yorklyn|Populated Place|PA|42|York|133|395932N|0763847W|39.9923201|-76.6463548|||||132|433|York|08/30/1990|01/29/2011
+Yorkmont|Populated Place|NC|37|Mecklenburg|119|351038N|0805333W|35.1770877|-80.8925727|||||218|715|Charlotte West|07/01/1988|
+Yorkmount Park|Populated Place|NC|37|Mecklenburg|119|351015N|0805354W|35.170699|-80.8984062|||||205|673|Charlotte West|11/01/1989|
+Yorkridge Center|Populated Place|TX|48|Harris|201|295128N|0953621W|29.8577|-95.6058|||||34|112|Hedwig Village|07/16/2008|
+Yorks Corner|Populated Place|ME|23|Waldo|027|442957N|0690022W|44.4992414|-69.0061459|||||67|220|Belfast|09/30/1980|
+Yorks Mill|Populated Place|AL|01|DeKalb|049|344441N|0854025W|34.7448032|-85.6735812|||||402|1319|Ider|09/04/1980|
+Yorkshire Acres|Populated Place|VA|51|Prince William|153|384701N|0772626W|38.7837256|-77.4405437|||||61|200|Manassas|09/28/1979|
+Yorkshire Commons|Populated Place|PA|42|Montgomery|091|401715N|0751736W|40.2876|-75.2932|||||106|348|Telford|08/23/2007|
+Yorkshire Downs|Populated Place|NC|37|Wake|183|355104N|0784018W|35.8509837|-78.6716704|||||110|361|Raleigh West|03/01/1989|
+Yorkshire Knolls|Populated Place|MD|24|Prince George's|033|385328N|0765309W|38.8912233|-76.885806|||||46|151|Washington East|09/12/1979|
+Yorkshire Manor Mobile Home Park|Populated Place|MI|26|Monroe|115|420310N|0832334W|42.0527778|-83.3927778|||||187|614|Carleton|07/15/2008|
+Yorkshire Meadows Condominium|Populated Place|UT|49|Weber|057|410937N|1115614W|41.1602217|-111.937163|||||1467|4813|Ogden|02/25/1989|
+Yorkshire Meadow|Populated Place|UT|49|Weber|057|410930N|1115603W|41.1582771|-111.9341074|||||1467|4813|Ogden|02/25/1989|
+Yorkshire Park|Populated Place|VA|51|Prince William|153|384735N|0772754W|38.79317|-77.4649888|||||51|167|Manassas|09/28/1979|
+Yorkshire Place|Populated Place|UT|49|Davis|011|410655N|1120204W|41.1152216|-112.0343872|||||1359|4459|Clearfield|02/25/1989|
+Yorkshire Village|Populated Place|VA|51|Prince William|153|384725N|0772719W|38.7903922|-77.4552664|||||70|230|Manassas|08/28/1997|
+Yorkshires of Blue Bell|Populated Place|PA|42|Montgomery|091|401117N|0751744W|40.188|-75.2955|||||103|338|Lansdale|08/23/2007|
+Yorkshire|Populated Place|AL|01|Limestone|083|344722N|0865525W|34.7895333|-86.9236166|||||222|728|Athens|12/01/2003|
+Yorkshire|Populated Place|DE|10|New Castle|003|393910N|0754429W|39.6528894|-75.7413231|||||24|79|Newark East|11/01/1989|
+Yorkshire|Populated Place|FL|12|Hillsborough|057|274132N|0822214W|27.6921|-82.3706|||||12|39|Wimauma|07/18/2008|
+Yorkshire|Populated Place|IA|19|Harrison|085|413114N|0953448W|41.5205468|-95.5800051|||||356|1168|Persia|04/30/1979|
+Yorkshire|Populated Place|NY|36|Cattaraugus|009|423148N|0782822W|42.5300624|-78.4727976|||||437|1434|Arcade|01/23/1980|07/07/2009
+Yorkshire|Populated Place|OH|39|Darke|037|401931N|0842944W|40.3253252|-84.4955081|||||299|981|Osgood|07/12/1979|03/20/2008
+Yorkshire|Populated Place|PA|42|York|133|395758N|0763939W|39.9662096|-76.6607998|||||183|600|York|08/02/1979|
+Yorkshire|Populated Place|SC|45|Richland|079|335857N|0805630W|33.9823775|-80.9417568|||||67|220|Fort Jackson South|02/01/1995|
+Yorkshire|Populated Place|TX|48|Harris|201|294613N|0953509W|29.7704|-95.5859|||||23|75|Hedwig Village|07/16/2008|
+Yorkshire|Populated Place|VA|51|Prince William|153|384735N|0772652W|38.7931699|-77.4477662|||||65|213|Manassas|09/28/1979|03/17/2008
+Yorktown Colony|Populated Place|TX|48|Harris|201|295228N|0953758W|29.8745|-95.6327|||||36|118|Addicks|07/16/2008|
+Yorktown Heights|Populated Place|NY|36|Westchester|119|411615N|0734639W|41.2709274|-73.7776336|||||150|492|Mohegan Lake|01/23/1980|07/17/2009
+Yorktown Homes|Populated Place|PA|42|York|133|395834N|0764454W|39.9762091|-76.7483003|||||118|387|York|08/30/1990|
+Yorktown Woods|Populated Place|TN|47|Hamilton|065|350218N|0850620W|35.0384078|-85.1055071|||||286|938|Ooltewah|02/01/1990|
+Yorktown|Populated Place|AR|05|Lincoln|079|340115N|0914900W|34.0209335|-91.8167994|||||56|184|Tarry|04/30/1980|
+Yorktown|Populated Place|GA|13|Gwinnett|135|335656N|0840120W|33.9489923|-84.0221311|||||320|1050|Luxomni|04/30/1996|
+Yorktown|Populated Place|IA|19|Page|145|404400N|0950925W|40.7333264|-95.1569266|||||332|1089|Coin|04/30/1979|03/20/2008
+Yorktown|Populated Place|IL|17|Bureau|011|413411N|0895100W|41.569755|-89.8501073|||||195|640|Yorktown|01/15/1980|
+Yorktown|Populated Place|IN|18|Delaware|035|401025N|0852939W|40.1736547|-85.4941396|||||279|915|Muncie West|02/14/1979|03/20/2008
+Yorktown|Populated Place|KY|21|Clark|049|380218N|0841701W|38.0382772|-84.2835248|||||315|1033|Clintonville|11/04/2008|
+Yorktown|Populated Place|KY|21|Pike|195|372634N|0823130W|37.4428795|-82.5248745|||||210|689|Pikeville|09/20/1979|
+Yorktown|Populated Place|MD|24|Anne Arundel|003|390135N|0762522W|39.0265001|-76.4227371|||||5|16|Gibson Island|12/04/1996|
+Yorktown|Populated Place|MD|24|Anne Arundel|003|390642N|0763751W|39.1117759|-76.6307996|||||31|102|Odenton|12/04/1996|
+Yorktown|Populated Place|MD|24|Baltimore|005|392301N|0763624W|39.3837178|-76.6066347|||||142|466|Towson|09/12/1979|
+Yorktown|Populated Place|MO|29|Atchison|005|Unknown|Unknown|0|0|||||313|1027|Unknown|11/01/1990|
+Yorktown|Populated Place|NC|37|Forsyth|067|360327N|0800409W|36.0576369|-80.0692087|||||288|945|Kernersville|10/01/1989|
+Yorktown|Populated Place|NJ|34|Salem|033|393645N|0751818W|39.612614|-75.3049115|||||33|108|Alloway|09/08/1979|
+Yorktown|Populated Place|NY|36|Westchester|119|411744N|0734829W|41.2956496|-73.80819|||||154|505|Mohegan Lake|01/23/1980|08/03/2009
+Yorktown|Populated Place|OH|39|Tuscarawas|157|402648N|0813055W|40.4467326|-81.5153957|||||272|892|Stone Creek|07/12/1979|
+Yorktown|Populated Place|PA|42|Philadelphia|101|395824N|0750911W|39.9734459|-75.152955|||||17|56|Philadelphia|06/01/1990|
+Yorktown|Populated Place|TN|47|Rutherford|149|355538N|0862852W|35.9272864|-86.4811037|||||168|551|Walterhill|03/01/1990|
+Yorktown|Populated Place|TN|47|Williamson|187|355503N|0865119W|35.9175638|-86.8552786|||||197|646|Franklin|02/01/1990|
+Yorktown|Populated Place|TX|48|DeWitt|123|285852N|0973010W|28.9810888|-97.5027719|||||84|276|Yorktown West|11/30/1979|03/21/2008
+Yorktown|Populated Place|VA|51|York|199|371420N|0763035W|37.2387556|-76.5096731|||||2|7|Yorktown|09/28/1979|03/17/2008
+Yorkville|Populated Place|CA|06|Mendocino|045|385353N|1231252W|38.8979586|-123.2144507|||||281|922|Yorkville|01/19/1981|
+Yorkville|Populated Place|CO|08|Fremont|043|381732N|1051725W|38.2922222|-105.2902716|||||2382|7815|Curley Peak|10/13/1978|
+Yorkville|Populated Place|GA|13|Paulding|223|335527N|0845944W|33.9242691|-84.9955006|||||415|1362|Yorkville|09/25/1979|
+Yorkville|Populated Place|IL|17|Kendall|093|413828N|0882650W|41.6411409|-88.4472948|||||187|614|Yorkville|01/15/1980|03/20/2008
+Yorkville|Populated Place|IN|18|Dearborn|029|391216N|0845803W|39.2044987|-84.9674554|||||284|932|Guilford|02/14/1979|
+Yorkville|Populated Place|MI|26|Kalamazoo|077|422231N|0852406W|42.3753172|-85.40167|||||277|909|Delton|04/14/1980|
+Yorkville|Populated Place|NY|36|New York|061|404644N|0735715W|40.7788889|-73.9541667|||||24|79|Central Park|02/03/2006|
+Yorkville|Populated Place|NY|36|Oneida|065|430646N|0751616W|43.1128475|-75.2709991|||||132|433|Utica West|01/23/1980|03/17/2008
+Yorkville|Populated Place|OH|39|Belmont|013|400916N|0804237W|40.1545159|-80.7103583|||||201|659|Tiltonsville|07/12/1979|03/20/2008
+Yorkville|Populated Place|TN|47|Gibson|053|360558N|0890708W|36.0995134|-89.1189568|||||116|381|Yorkville|05/19/1980|05/12/2008
+Yorkville|Populated Place|VA|51|York|199|370904N|0762541W|37.1509779|-76.4280031|||||2|7|Poquoson West|12/01/1991|
+Yorkville|Populated Place|WI|55|Racine|101|424431N|0880136W|42.7419627|-88.0267506|||||227|745|Union Grove|08/29/1980|
+Yorkwood|Populated Place|AR|05|Pulaski|119|343909N|0922123W|34.6525928|-92.3562643|||||88|289|Little Rock|12/01/1992|
+Yorkwood|Populated Place|NC|37|Gaston|071|351239N|0811223W|35.2109708|-81.2064667|||||232|761|Gastonia South|07/01/1988|
+Yorkwood|Populated Place|NC|37|Mecklenburg|119|350859N|0805517W|35.1495881|-80.9214625|||||187|614|Charlotte West|11/01/1989|
+Yorkwood|Populated Place|SC|45|Pickens|077|344815N|0823247W|34.8042834|-82.5465187|||||290|951|Easley|05/01/1994|
+York|Populated Place|AK|02|Nome (CA)|180|652937N|1674103W|65.4936111|-167.6841667|||||25|82|Teller B-6|03/31/1981|
+York|Populated Place|AL|01|Sumter|119|322910N|0881747W|32.4862491|-88.2964183|||||52|171|York|09/04/1980|03/20/2008
+York|Populated Place|AZ|04|Greenlee|011|325337N|1091210W|32.8936777|-109.2028447|||||1073|3520|York|02/08/1980|01/29/2011
+York|Populated Place|FL|12|Marion|083|290901N|0821800W|29.1502535|-82.3000971|||||24|79|Cotton Plant|10/19/1979|
+York|Populated Place|GA|13|Rabun|241|345607N|0832321W|34.9353693|-83.3890464|||||652|2139|Dillard|09/25/1979|
+York|Populated Place|IA|19|Delaware|055|423804N|0912636W|42.6344305|-91.4431979|||||338|1109|Edgewood|01/01/2000|
+York|Populated Place|ID|16|Idaho|049|455433N|1152846W|45.9090744|-115.4795743|||||1460|4790|Lick Point|12/01/1991|
+York|Populated Place|IL|17|Clark|023|391017N|0873821W|39.1714288|-87.6391922|||||137|449|West Union|01/15/1980|
+York|Populated Place|IN|18|Steuben|151|414118N|0844921W|41.6883832|-84.8224581|||||324|1063|Clear Lake|02/14/1979|
+York|Populated Place|KY|21|Greenup|089|383356N|0830247W|38.5656337|-83.0462856|||||219|718|Brushart|09/20/1979|
+York|Populated Place|MI|26|Shiawassee|155|420606N|0834406W|42.1017088|-83.7349395|||||212|696|Milan|01/01/2000|
+York|Populated Place|MN|27|Fillmore|045|433159N|0921609W|43.533021|-92.2690567|||||397|1302|Cherry Grove|01/11/1980|
+York|Populated Place|MN|27|Lake|075|470737N|0914213W|47.126874|-91.7035085|||||421|1381|Highland|01/11/1980|
+York|Populated Place|MO|29|Atchison|005|402428N|0951556W|40.4077733|-95.2655335|||||324|1063|Tarkio East|01/01/1990|
+York|Populated Place|MT|30|Lewis and Clark|049|464318N|1114507W|46.7216047|-111.7519263|||||1213|3980|Hauser Lake|04/04/1980|
+York|Populated Place|ND|38|Benson|005|481846N|0993424W|48.3127771|-99.5734685|||||491|1611|York|02/13/1980|03/20/2008
+York|Populated Place|NE|31|York|185|405205N|0973531W|40.8680673|-97.5919955|||||489|1604|York South|03/09/1979|03/20/2008
+York|Populated Place|NY|36|Livingston|051|425216N|0775307W|42.8711731|-77.8852838|||||239|784|Leicester|01/23/1980|01/12/2011
+York|Populated Place|NY|36|Wayne|117|431200N|0765636W|43.2000654|-76.9432987|||||113|371|Rose|01/23/1980|07/20/2007
+York|Populated Place|OH|39|Jefferson|081|401529N|0805152W|40.2581245|-80.864533|||||352|1155|Smithfield|07/12/1979|
+York|Populated Place|OH|39|Sandusky|143|412133N|0825332W|41.3592194|-82.892134|||||196|643|Clyde|12/01/1991|
+York|Populated Place|PA|42|York|133|395745N|0764340W|39.9625984|-76.727745|||||118|387|York|08/02/1979|03/17/2008
+York|Populated Place|SC|45|York|091|345939N|0811431W|34.9943021|-81.2420175|||||231|758|Tirzah|07/13/1980|03/20/2008
+York|Populated Place|WA|53|King|033|474232N|1220913W|47.7089878|-122.1537351|||||11|36|Kirkland|09/10/1979|
+York|Populated Place|WI|55|Jackson|053|442700N|0910843W|44.4499614|-91.1451559|||||273|896|Pigeon Falls|08/29/1980|
+York|Populated Place|WV|54|Mason|053|385421N|0820732W|38.905913|-82.1254221|||||179|587|Addison|06/27/1980|
+Yosemite Forks|Populated Place|CA|06|Madera|039|372202N|1193755W|37.3671649|-119.6318155|||||886|2907|Ahwahnee|01/19/1981|
+Yosemite Junction|Populated Place|CA|06|Tuolumne|109|375327N|1202918W|37.8907599|-120.488253|||||362|1188|Sonora|01/19/1981|
+Yosemite Lakes Park|Populated Place|CA|06|Madera|039|371055N|1194606W|37.1818919|-119.768208|||||375|1230|Knowles|03/17/1999|
+Yosemite Lakes|Populated Place|CA|06|Madera|039|371128N|1194622W|37.1910585|-119.772653|||||385|1263|Knowles|05/15/2000|03/21/2008
+Yosemite Village|Populated Place|CA|06|Mariposa|043|374443N|1193554W|37.7452032|-119.598221|||||1218|3996|Half Dome|01/19/1981|03/21/2008
+Yosemite West|Populated Place|CA|06|Mariposa|043|373851N|1194307W|37.6474304|-119.7185006|||||1788|5866|El Capitan|08/01/1989|
+Yosemite|Populated Place|KY|21|Casey|045|372048N|0844929W|37.346742|-84.8246715|||||256|840|Yosemite|09/20/1979|
+Yost Road Colonia|Populated Place|TX|48|Cameron|061|260644N|0973745W|26.1122986|-97.6291562|||||11|36|La Paloma|10/20/2003|
+Yostland Heights|Populated Place|VA|51|Roanoke|161|371411N|0795939W|37.2365261|-79.9942043|||||356|1168|Garden City|12/03/1996|
+Yosts|Populated Place|NY|36|Montgomery|057|425442N|0742729W|42.9117402|-74.4581926|||||88|289|Randall|01/23/1980|
+Yostville|Populated Place|PA|42|Lackawanna|069|411748N|0753317W|41.2967495|-75.5546315|||||518|1699|Moscow|08/02/1979|
+Yost|Populated Place|OH|39|Perry|127|395431N|0821958W|39.9086774|-82.3326501|||||262|860|Glenford|07/12/1979|
+Yost|Populated Place|OK|40|Payne|119|361203N|0970041W|36.2008838|-97.011425|||||302|991|Stillwater North|12/18/1979|
+Yost|Populated Place|UT|49|Box Elder|003|415739N|1133232W|41.9607505|-113.5422268|||||1821|5974|Yost|12/31/1979|02/28/2006
+Yost|Populated Place|VA|51|Bath|017|380308N|0793225W|38.0523495|-79.5403215|||||530|1739|Green Valley|09/28/1979|
+You Bet|Populated Place|CA|06|Nevada|057|391233N|1205400W|39.2090633|-120.899942|||||887|2910|Chicago Park|01/19/1981|
+Youba|Populated Place|OH|39|Athens|009|391254N|0814441W|39.2150762|-81.7448539|||||269|883|Lubeck|10/01/1990|
+Youens|Populated Place|TX|48|Montgomery|339|301856N|0952229W|30.3154883|-95.3746607|||||58|190|Cut And Shoot|11/30/1979|
+Yougeen|Populated Place|TX|48|Bee|025|281925N|0974217W|28.3236131|-97.7047192|||||47|154|Skidmore|11/30/1979|
+Youmans Corner|Populated Place|NY|36|Otsego|077|422412N|0751518W|42.4034127|-75.2548936|||||381|1250|Gilbertsville|01/23/1980|
+Youmans|Populated Place|FL|12|Hillsborough|057|280131N|0820405W|28.025299|-82.0681404|||||44|144|Plant City East|10/19/1979|
+Youman|Populated Place|GA|13|Pierce|229|311536N|0821515W|31.2599417|-82.2542884|||||42|138|Blackshear West|08/01/1994|
+Young (historical)|Populated Place|TN|47|White|185|355205N|0852826W|35.8681214|-85.4738644|||||256|840|Bald Knob|12/01/1989|
+Young Acres|Populated Place|FL|12|Hillsborough|057|280328N|0820948W|28.0577|-82.1634|||||30|98|Plant City West|07/18/2008|
+Young Acres|Populated Place|GA|13|Troup|285|330124N|0850603W|33.0234576|-85.1007732|||||222|728|La Grange|11/13/1995|
+Young America Homes|Populated Place|AZ|04|Maricopa|013|332834N|1120911W|33.4761538|-112.1529291|||||332|1089|Fowler|06/27/1984|
+Young America West|Populated Place|AZ|04|Maricopa|013|332934N|1121539W|33.4928194|-112.2607105|||||318|1043|Tolleson|06/27/1984|
+Young America|Populated Place|AL|01|Houston|069|311531N|0852235W|31.2585081|-85.3763222|||||86|282|Midland City|12/01/2003|
+Young America|Populated Place|IN|18|Cass|017|403407N|0862048W|40.5686489|-86.3466636|||||234|768|Young America|02/14/1979|
+Young America|Populated Place|MN|27|Carver|019|444658N|0935449W|44.7827399|-93.913579|||||314|1030|Norwood|01/11/1980|11/15/2006
+Young America|Populated Place|WI|55|Washington|131|432706N|0881109W|43.4516657|-88.185928|||||279|915|West Bend|08/29/1980|
+Young Bend|Populated Place|TN|47|DeKalb|041|355515N|0854338W|35.9208978|-85.7272049|||||307|1007|Sligo Bridge|05/19/1980|
+Young Corner|Populated Place|VA|51|Caroline|033|380805N|0772146W|38.1348543|-77.362759|||||69|226|Rappahannock Academy|09/28/1979|
+Young Forte Village|Populated Place|AL|01|Montgomery|101|322017N|0862031W|32.337917|-86.3419142|||||53|174|Montgomery South|12/01/2003|
+Young Gravelly|Populated Place|AR|05|Yell|149|345455N|0933931W|34.9153719|-93.6585289|||||147|482|Gravelly|04/30/1980|
+Young Harris|Populated Place|GA|13|Towns|281|345559N|0835050W|34.9331453|-83.8471223|||||587|1926|Hiawassee|09/25/1979|03/20/2008
+Young Haven Circle|Populated Place|UT|49|Salt Lake|035|404204N|1114921W|40.7010581|-111.8224336|||||1406|4613|Sugar House|06/01/1989|
+Young Hickory|Populated Place|NY|36|Steuben|101|420310N|0773631W|42.0528476|-77.6086001|||||550|1804|Troupsburg|01/23/1980|
+Young Hickory|Populated Place|OH|39|Muskingum|119|394646N|0814457W|39.7795164|-81.7492977|||||347|1138|Cumberland|07/12/1979|
+Young Landing|Populated Place|LA|22|Tensas|107|314609N|0913333W|31.7690528|-91.5592878|||||14|46|Foules|06/04/1980|
+Young Mans Fancy|Populated Place|MD|24|Carroll|013|394239N|0764745W|39.7109362|-76.7958086|||||238|781|Lineboro|05/08/1996|
+Young Mobile Home Park|Populated Place|KS|20|Sedgwick|173|373530N|0971920W|37.591732|-97.322352|||||385|1263|Derby|12/08/2008|
+Young Mobile Home Park|Populated Place|MS|28|Perry|111|311759N|0890258W|31.2997163|-89.0493727|||||73|239|Ovett SE|05/19/2010|
+Young Park|Populated Place|GA|13|Douglas|097|334606N|0844423W|33.7684406|-84.7396579|||||310|1017|Austell|04/30/1996|
+Young Place|Populated Place|AL|01|Montgomery|101|322109N|0861348W|32.3523613|-86.2299666|||||78|256|Barachias|12/01/2003|
+Young Place|Populated Place|NM|35|San Juan|045|365940N|1073105W|36.9944492|-107.5181068|||||1931|6335|Burnt Mesa|11/13/1980|01/12/2011
+Young Place|Populated Place|NM|35|Santa Fe|049|351610N|1054543W|35.2694887|-105.7619614|||||2162|7093|Wildhorse Mesa|11/13/1980|
+Young Subdivision|Populated Place|AR|05|Lonoke|085|350115N|0915208W|35.0209207|-91.8687518|||||66|217|McRae|12/01/1991|
+Young Subdivision|Populated Place|TN|47|Rutherford|149|355920N|0862805W|35.9889522|-86.4680483|||||157|515|Walterhill|03/01/1990|
+Young's Colonial Acres|Populated Place|OH|39|Sandusky|143|412148N|0830803W|41.3633333|-83.1341667|||||190|623|Fremont West|04/20/2011|
+Youngberg|Populated Place|AZ|04|Pinal|021|332732N|1112914W|33.4589367|-111.4873546|||||617|2024|Goldfield|02/08/1980|11/16/2005
+Youngblood (historical)|Populated Place|TN|47|DeKalb|041|355723N|0855446W|35.9564518|-85.9127647|||||207|679|Gassaway|01/01/1990|
+Youngblood Acres|Populated Place|VA|51|Prince George|149|370831N|0771946W|37.1418165|-77.3294221|||||40|131|Prince George|05/19/1997|
+Youngblood Corners (historical)|Populated Place|GA|13|Wilkinson|319|325309N|0831125W|32.8857025|-83.1901541|||||151|495|Napier Pond|05/01/1993|
+Youngblood Place|Populated Place|TX|48|Brewster|043|301922N|1031000W|30.3226676|-103.1665583|||||1347|4419|Leonard Mountain|11/30/1979|
+Youngblood|Populated Place|AL|01|Pike|109|315043N|0860410W|31.8451547|-86.0693993|||||111|364|Youngblood|09/04/1980|
+Youngcane (historical)|Populated Place|GA|13|Union|291|344957N|0840444W|34.8325866|-84.0788021|||||591|1939|Mulky Gap|06/01/1995|
+Youngdale|Populated Place|PA|42|Clinton|035|410900N|0772153W|41.1500705|-77.3646988|||||183|600|Jersey Shore|08/02/1979|
+Younger Bend (historical)|Populated Place|OK|40|Muskogee|101|Unknown|Unknown|0|0|||||162|531|Unknown|01/28/1999|
+Younger Creek|Populated Place|KY|21|Hardin|093|374524N|0854325W|37.7567298|-85.723571|||||141|463|Lebanon Junction|09/20/1979|
+Youngers Store|Populated Place|VA|51|Halifax|083|365008N|0785804W|36.8356939|-78.9677902|||||152|499|Halifax|01/01/1995|
+Youngers|Populated Place|MO|29|Callaway|027|390304N|0920729W|39.0511524|-92.1246244|||||267|876|Hatton|10/24/1980|
+Youngs (historical)|Populated Place|VA|51|Tazewell|185|370654N|0813624W|37.1151148|-81.606778|||||740|2428|Tazewell South|01/01/1995|
+Youngs Bottom|Populated Place|WV|54|Kanawha|039|382744N|0812535W|38.4623198|-81.4265095|||||195|640|Blue Creek|06/27/1980|
+Youngs Corners|Populated Place|OH|39|Medina|103|410810N|0814406W|41.1361654|-81.7351296|||||348|1142|West Richfield|07/12/1979|
+Youngs Corner|Populated Place|IN|18|Franklin|047|392115N|0850327W|39.3542182|-85.0574596|||||297|974|Spades|02/14/1979|
+Youngs Corner|Populated Place|ME|23|Androscoggin|001|440738N|0701616W|44.1272944|-70.2711662|||||91|299|Lake Auburn West|09/30/1980|
+Youngs Creek|Populated Place|IN|18|Orange|117|382836N|0862944W|38.4767229|-86.4955425|||||183|600|Valeene|02/14/1979|
+Youngs Creek|Populated Place|KY|21|Whitley|235|365155N|0841428W|36.8653614|-84.2410465|||||354|1161|Wofford|09/20/1979|
+Youngs Crossing|Populated Place|NY|36|Herkimer|043|425416N|0750443W|42.9045157|-75.0784918|||||441|1447|Millers Mills|01/23/1980|
+Youngs Crossing|Populated Place|TN|47|Madison|113|354422N|0885051W|35.7395137|-88.8475594|||||107|351|Jackson North|05/19/1980|
+Youngs Hill (historical)|Populated Place|CA|06|Yuba|115|392837N|1210404W|39.4768358|-121.0677334|||||825|2707|Camptonville|12/02/1996|
+Youngs Mills (historical)|Populated Place|OH|39|Knox|083|Unknown|Unknown|0|0|||||353|1158|Unknown|05/01/1992|
+Youngs Mills (historical)|Populated Place|OH|39|Monroe|111|Unknown|Unknown|0|0|||||324|1063|Unknown|06/01/1992|
+Youngs Mobile Home Park|Populated Place|WA|53|Snohomish|061|474643N|1221823W|47.7785445|-122.3063157|||||103|338|Edmonds East|06/07/2010|
+Youngs Mountain|Populated Place|NC|37|Rutherford|161|352753N|0821104W|35.4648426|-82.1845553|||||418|1371|Lake Lure|01/01/2000|
+Youngs Trailer Court|Populated Place|NE|31|Red Willow|145|401404N|1002503W|40.2344497|-100.4173683|||||726|2382|Indianola|05/13/1999|
+Youngs Trailer Park|Populated Place|MI|26|Osceola|133|435210N|0853003W|43.8694444|-85.5008333|||||312|1024|Reed City South|01/13/2009|
+Youngsborough (historical)|Populated Place|DC|11|District of Columbia|001|385445N|0770033W|38.9126115|-77.0091428|||||28|92|Washington West|04/01/1991|
+Youngsburg|Populated Place|PA|42|Chester|029|395700N|0754910W|39.9501067|-75.8193897|||||153|502|Coatesville|08/02/1979|
+Youngsdale|Populated Place|IL|17|Kane|089|415926N|0882026W|41.9905826|-88.3406341|||||245|804|Geneva|01/15/1980|
+Youngsport|Populated Place|TX|48|Bell|027|305727N|0974309W|30.9574028|-97.7191821|||||206|676|Youngsport|11/30/1979|
+Youngstead|Populated Place|VA|51|Stafford|179|382523N|0772418W|38.423|-77.4051|||||60|197|Stafford|06/27/2008|
+Youngstown (historical)|Populated Place|AR|05|Lincoln|079|340840N|0914223W|34.1445433|-91.7065179|||||57|187|Cornerstone|12/01/1991|
+Youngstown Estates|Populated Place|NY|36|Niagara|063|431412N|0790250W|43.2367214|-79.0472685|||||92|302|Lewiston|01/23/1980|
+Youngstown|Populated Place|AR|05|Drew|043|332524N|0914737W|33.4234474|-91.7937405|||||61|200|Ladelle|04/30/1980|
+Youngstown|Populated Place|CA|06|San Joaquin|077|381026N|1211435W|38.1738066|-121.2430024|||||20|66|Lockeford|01/19/1981|
+Youngstown|Populated Place|FL|12|Bay|005|302152N|0852618W|30.3643628|-85.4382568|||||26|85|Youngstown|10/19/1979|
+Youngstown|Populated Place|GA|13|Union|291|345247N|0835844W|34.8798094|-83.9787978|||||571|1873|Blairsville|09/25/1979|
+Youngstown|Populated Place|IL|17|Warren|187|403938N|0903702W|40.6605954|-90.6173543|||||231|758|Greenbush|01/15/1980|
+Youngstown|Populated Place|IN|18|Vigo|167|392144N|0872256W|39.3622607|-87.3822416|||||180|591|Pimento|02/14/1979|
+Youngstown|Populated Place|MO|29|Adair|001|401029N|0924056W|40.1747518|-92.6821406|||||232|761|Novinger|10/24/1980|
+Youngstown|Populated Place|NJ|34|Morris|027|405031N|0743412W|40.8420439|-74.5698803|||||297|974|Mendham|07/01/1981|
+Youngstown|Populated Place|NY|36|Niagara|063|431450N|0790300W|43.2472768|-79.0500466|||||90|295|Lewiston|01/23/1980|03/17/2008
+Youngstown|Populated Place|OH|39|Mahoning|099|410559N|0803858W|41.0997803|-80.6495194|||||261|856|Youngstown|07/12/1979|03/20/2008
+Youngstown|Populated Place|PA|42|Fayette|051|395551N|0793928W|39.9309089|-79.6578191|||||342|1122|Uniontown|08/02/1979|
+Youngstown|Populated Place|PA|42|Lancaster|071|395930N|0762535W|39.9917652|-76.4263518|||||115|377|Safe Harbor|12/01/1989|
+Youngstown|Populated Place|PA|42|Luzerne|079|410022N|0755424W|41.0061953|-75.906588|||||527|1729|Freeland|08/02/1979|
+Youngstown|Populated Place|PA|42|Westmoreland|129|401647N|0792156W|40.2797927|-79.3655913|||||327|1073|Derry|08/02/1979|03/17/2008
+Youngstown|Populated Place|WA|53|King|033|473359N|1222210W|47.5664873|-122.3695715|||||24|79|Seattle South|08/01/1990|
+Youngstown|Populated Place|WV|54|Fayette|019|380531N|0810838W|38.0920538|-81.1439933|||||416|1365|Beckwith|06/27/1980|
+Youngsville|Populated Place|LA|22|Lafayette|055|300559N|0915924W|30.0996471|-91.9901206|||||9|30|Youngsville|06/04/1980|03/20/2008
+Youngsville|Populated Place|NC|37|Franklin|069|360130N|0782828W|36.0248732|-78.4744439|||||142|466|Franklinton|06/17/1980|03/20/2008
+Youngsville|Populated Place|NM|35|Rio Arriba|039|361115N|1063323W|36.1875177|-106.5564244|||||2092|6863|Youngsville|11/13/1980|01/29/2011
+Youngsville|Populated Place|NY|36|Sullivan|105|414830N|0745311W|41.8084219|-74.8862745|||||365|1197|Jeffersonville|01/23/1980|
+Youngsville|Populated Place|OH|39|Adams|001|385522N|0833403W|38.9228477|-83.5674177|||||268|879|Seaman|07/12/1979|
+Youngsville|Populated Place|PA|42|Northampton|095|404652N|0752837W|40.7812062|-75.47685|||||240|787|Kunkletown|08/02/1979|
+Youngsville|Populated Place|PA|42|Warren|123|415108N|0791907W|41.8522809|-79.3186597|||||366|1201|Youngsville|08/02/1979|03/17/2008
+Youngs|Populated Place|GA|13|Polk|233|335652N|0851324W|33.9478796|-85.223284|||||256|840|Felton|03/01/1994|
+Youngs|Populated Place|LA|22|Vermilion|113|295804N|0920658W|29.9677059|-92.1162361|||||4|13|Abbeville East|06/04/1980|
+Youngs|Populated Place|MS|28|Grenada|043|335111N|0893204W|33.8531709|-89.5345239|||||76|249|Gore Springs|09/24/1980|
+Youngs|Populated Place|NY|36|Delaware|025|421800N|0751906W|42.3000814|-75.3182307|||||370|1214|Unadilla|01/23/1980|
+Youngs|Populated Place|NY|36|Onondaga|067|431223N|0761000W|43.2064571|-76.1665918|||||113|371|Brewerton|01/23/1980|
+Youngs|Populated Place|OH|39|Scioto|145|385355N|0831222W|38.8986836|-83.2060162|||||180|591|Rarden|07/12/1979|
+Youngs|Populated Place|SC|45|Laurens|059|344014N|0820450W|34.6706791|-82.080659|||||222|728|Woodruff|07/13/1980|
+Youngton|Populated Place|MS|28|Warren|149|322652N|0903713W|32.4476427|-90.6203768|||||77|253|Queens Hill Lake|09/24/1980|
+Youngtown|Populated Place|AL|01|Lawrence|079|342500N|0872327W|34.4167633|-87.3908547|||||205|673|Landersville|09/04/1980|
+Youngtown|Populated Place|AZ|04|Maricopa|013|333538N|1121811W|33.5939281|-112.3029362|||||347|1138|El Mirage|02/08/1980|03/21/2008
+Youngtown|Populated Place|KY|21|Butler|031|371053N|0864307W|37.1814347|-86.7186019|||||137|449|Morgantown|09/20/1979|07/24/2009
+Youngtown|Populated Place|ME|23|Waldo|027|441607N|0690551W|44.2686888|-69.0975376|||||84|276|Lincolnville|09/30/1980|
+Youngtown|Populated Place|MO|29|Cedar|039|Unknown|Unknown|0|0|||||278|912|Unknown|08/01/1990|
+Youngtown|Populated Place|ND|38|Morton|059|465633N|1012429W|46.9424981|-101.407922|||||621|2037|New Salem NW|02/13/1980|
+Youngville|Populated Place|TN|47|Robertson|147|363507N|0864933W|36.5853217|-86.8258307|||||211|692|Youngville|05/19/1980|
+Youngwood|Populated Place|GA|13|Glynn|127|311013N|0812308W|31.1702313|-81.3856524|||||2|7|Brunswick East|11/13/1995|
+Youngwood|Populated Place|PA|42|Westmoreland|129|401425N|0793436W|40.240348|-79.5767066|||||291|955|Mount Pleasant|08/02/1979|03/17/2008
+Young|Populated Place|AR|05|Nevada|099|333428N|0931052W|33.5745608|-93.1810008|||||98|322|Waterloo|04/30/1980|
+Young|Populated Place|AZ|04|Gila|007|340605N|1105749W|34.1014318|-110.9637358|||||1581|5187|Young|02/08/1980|03/21/2008
+Young|Populated Place|IN|18|Morgan|109|393637N|0862015W|39.6103243|-86.3374922|||||235|771|Mooresville East|02/14/1979|
+Young|Populated Place|MS|28|Pearl River|109|305953N|0892209W|30.9979615|-89.369229|||||80|262|Carnes|09/24/1980|
+Young|Populated Place|OR|41|Marion|047|444928N|1225155W|44.824566|-122.8653685|||||115|377|Stayton|11/28/1980|
+Young|Populated Place|TX|48|Freestone|161|315032N|0960448W|31.8421096|-96.0799681|||||110|361|Young|11/30/1979|
+Young|Populated Place|WV|54|Jackson|035|383820N|0814036W|38.6389784|-81.6767949|||||212|696|Kenna|06/27/1980|
+Younkin|Populated Place|FL|12|Hillsborough|057|280700N|0822843W|28.1168|-82.4786|||||18|59|Sulphur Springs|07/18/2008|
+Youno (historical)|Populated Place|IN|18|Brown|013|390426N|0861900W|39.0739384|-86.3166566|||||178|584|Elkinsville|10/01/1982|07/29/2010
+Yount Town|Populated Place|TN|47|Hancock|067|362634N|0831416W|36.4428672|-83.237674|||||449|1473|Lee Valley|05/19/1980|
+Yountsville|Populated Place|IN|18|Montgomery|107|400129N|0865848W|40.0247655|-86.9800081|||||222|728|Crawfordsville|02/14/1979|
+Yountville|Populated Place|CA|06|Napa|055|382406N|1222139W|38.4015781|-122.3608105|||||30|98|Yountville|01/19/1981|03/21/2008
+Yount|Populated Place|MO|29|Perry|157|373619N|0900220W|37.6053335|-90.0389999|||||190|623|Patton|10/24/1980|
+Yount|Populated Place|PA|42|Bedford|009|400343N|0782821W|40.0620249|-78.4725169|||||323|1060|Everett West|08/02/1979|
+Youth|Populated Place|GA|13|Walton|297|334707N|0835122W|33.7853888|-83.8560147|||||281|922|Between|09/25/1979|
+Yow Mill|Populated Place|NC|37|Randolph|151|353308N|0794321W|35.5523598|-79.7225322|||||148|486|Erect|06/17/1980|
+Yowell|Populated Place|TX|48|Delta|119|332043N|0955137W|33.3453876|-95.8602423|||||162|531|Klondike|11/30/1979|
+Ypan|Populated Place|GU|66|Guam|010|132047N|1444600E|13.3463889|144.7666667|||||42|138|Talofofo|02/06/1981|
+Ypaopao Estates|Populated Place|GU|66|Guam|010|133118N|1445135E|13.5216667|144.8597222|||||132|433|Dededo|01/31/2002|
+Ypsilanti Mobile Home Village|Populated Place|MI|26|Washtenaw|161|421439N|0833540W|42.2441667|-83.5944444|||||227|745|Ypsilanti East|05/31/2011|
+Ypsilanti|Populated Place|GA|13|Talbot|263|324433N|0842448W|32.7426366|-84.4132524|||||192|630|Baldwinville|09/25/1979|
+Ypsilanti|Populated Place|MI|26|Washtenaw|161|421428N|0833647W|42.2411499|-83.6129939|||||221|725|Ypsilanti East|04/14/1980|03/20/2008
+Ypsilanti|Populated Place|ND|38|Stutsman|093|464655N|0983347W|46.7819296|-98.5631498|||||424|1391|Ypsilanti|02/13/1980|01/29/2011
+Ypuc (historical)|Populated Place|CA|06|Ventura|111|Unknown|Unknown|0|0|||||496|1627|Unknown|03/25/1999|
+Yreka|Populated Place|CA|06|Siskiyou|093|414408N|1223804W|41.7354187|-122.6344708|||||788|2585|Yreka|01/19/1981|03/21/2008
+Yreka|Populated Place|MT|30|Missoula|063|465141N|1131951W|46.8613216|-113.3309077|||||1396|4580|Elevation Mountain|04/04/1980|
+Yrisarri|Populated Place|NM|35|Bernalillo|001|345759N|1061729W|34.9664384|-106.2914142|||||2201|7221|Escabosa|11/13/1980|
+Yscloskey|Populated Place|LA|22|St. Bernard|087|295031N|0894118W|29.8418726|-89.6883926|||||1|3|Yscloskey|06/04/1980|04/08/2011
+Ysidora (historical)|Populated Place|CA|06|San Diego|073|331535N|1172149W|33.2597564|-117.3636495|||||10|33|Morro Hill|12/02/1996|
+Ysleta|Populated Place|TX|48|El Paso|141|314154N|1061930W|31.6984446|-106.3249824|||||1119|3671|Ysleta|11/30/1979|
+Yts'piyits'p Flat|Populated Place|WA|53|Spokane|063|Unknown|Unknown|0|0|||||579|1900|Unknown|06/12/2006|
+Yturria|Populated Place|TX|48|Willacy|489|263406N|0974615W|26.5683986|-97.7708283|||||12|39|Yturria|11/30/1979|
+Yuba (historical)|Populated Place|CA|06|Yuba|115|390709N|1213414W|39.1190592|-121.5705201|||||19|62|Olivehurst|12/02/1996|
+Yuba City|Populated Place|CA|06|Sutter|101|390826N|1213701W|39.1404477|-121.6169108|||||18|59|Yuba City|01/19/1981|03/21/2008
+Yuba Mobile Home Park|Populated Place|CA|06|Yuba|115|390431N|1213244W|39.0752778|-121.5455556|||||19|62|Olivehurst|10/30/2008|
+Yuba Pass|Populated Place|CA|06|Nevada|057|391923N|1203601W|39.3229571|-120.6002101|||||1718|5636|Cisco Grove|01/19/1981|
+Yuba|Populated Place|KY|21|Union|225|373434N|0875019W|37.5761556|-87.8386301|||||144|472|Bordley|09/20/1979|
+Yuba|Populated Place|MI|26|Grand Traverse|055|444924N|0852733W|44.8233353|-85.4592382|||||185|607|Williamsburg|04/14/1980|
+Yuba|Populated Place|OK|40|Bryan|013|334834N|0961216W|33.8095448|-96.2044273|||||151|495|Yuba|12/18/1979|
+Yuba|Populated Place|WI|55|Richland|103|433220N|0902547W|43.5388647|-90.4298511|||||263|863|Yuba|08/29/1980|03/20/2008
+Yucaipa|Populated Place|CA|06|San Bernardino|071|340201N|1170235W|34.033625|-117.0430865|||||798|2618|Yucaipa|01/19/1981|03/21/2008
+Yucatan Landing|Populated Place|LA|22|Tensas|107|320448N|0910914W|32.0798767|-91.1539992|||||19|62|Newellton|06/04/1980|
+Yucatan|Populated Place|MN|27|Houston|055|434050N|0914120W|43.6805219|-91.6887574|||||228|748|Yucatan|01/11/1980|
+Yucatan|Populated Place|MO|29|Callaway|027|385116N|0914502W|38.8544855|-91.7504508|||||249|817|Reform|10/24/1980|
+Yucca (historical)|Populated Place|AL|01|Jackson|071|344616N|0854943W|34.7711932|-85.8285862|||||193|633|Stevenson|12/01/2003|
+Yucca Acres Colonia|Populated Place|TX|48|Jim Wells|249|275506N|0975405W|27.9183527|-97.9013884|||||44|144|Orange Grove|10/20/2003|
+Yucca Grove|Populated Place|CA|06|San Bernardino|071|352409N|1154732W|35.4024812|-115.7922272|||||1259|4131|Solomons Knob|01/19/1981|
+Yucca Inn|Populated Place|CA|06|San Bernardino|071|342435N|1173522W|34.4097208|-117.5894979|||||1355|4445|Phelan|01/19/1981|
+Yucca Valley|Populated Place|CA|06|San Bernardino|071|340651N|1162556W|34.1141743|-116.432235|||||1027|3369|Yucca Valley South|01/19/1981|03/21/2008
+Yucca Village|Populated Place|NC|37|Carteret|031|344605N|0763327W|34.7679397|-76.5574254|||||2|7|Williston|03/01/1989|
+Yucca|Populated Place|AL|01|Jackson|071|344757N|0854824W|34.7992487|-85.8066412|||||188|617|Stevenson|09/04/1980|
+Yucca|Populated Place|AZ|04|Mohave|015|345220N|1140858W|34.8722287|-114.1493965|||||556|1824|Yucca|02/08/1980|01/29/2011
+Yuchi (historical)|Populated Place|AL|01|Russell|113|321731N|0845630W|32.2918159|-84.9415955|||||66|217|Fort Benning|12/01/2003|07/24/2006
+Yucote Acres|Populated Place|TX|48|Collin|085|330559N|0962844W|33.0998401|-96.4788757|||||158|518|Lavon|11/30/1979|
+Yukon Saddle|Populated Place|MT|30|Missoula|063|464235N|1134850W|46.7096476|-113.8139891|||||1581|5187|Elk Mountain|01/01/2000|
+Yukon Station Mobile Home Park|Populated Place|FL|12|Duval|031|301400N|0814202W|30.233362|-81.700463|||||5|16|Orange Park|07/21/2008|
+Yukon|Populated Place|AR|05|Desha|041|334749N|0912844W|33.7970498|-91.4790119|||||47|154|Winchester|04/30/1980|
+Yukon|Populated Place|FL|12|Duval|031|301405N|0814153W|30.2346844|-81.6981513|||||4|13|Orange Park|10/19/1979|
+Yukon|Populated Place|GA|13|Gilmer|123|343738N|0842805W|34.6273093|-84.4679823|||||477|1565|Ellijay|09/25/1979|
+Yukon|Populated Place|MO|29|Texas|215|371623N|0915054W|37.2731038|-91.8482064|||||403|1322|Raymondville|10/24/1980|
+Yukon|Populated Place|OK|40|Canadian|017|353024N|0974545W|35.5067215|-97.7625442|||||393|1289|Richland|12/18/1979|03/21/2008
+Yukon|Populated Place|PA|42|Westmoreland|129|401245N|0794058W|40.2125709|-79.6828198|||||284|932|Smithton|08/02/1979|01/29/2011
+Yukon|Populated Place|TN|47|Lincoln|103|350429N|0863957W|35.0748061|-86.6658307|||||296|971|Taft|05/19/1980|
+Yukon|Populated Place|WV|54|McDowell|047|371909N|0814146W|37.31928|-81.6962205|||||403|1322|War|06/27/1980|
+Yulan|Populated Place|NY|36|Sullivan|105|413121N|0745559W|41.5225898|-74.9329444|||||326|1070|Eldred|01/23/1980|
+Yulee Heights|Populated Place|FL|12|Nassau|089|303627N|0813551W|30.6074592|-81.5975969|||||10|33|Hedges|10/19/1979|
+Yulee|Populated Place|FL|12|Nassau|089|303755N|0813623W|30.6319034|-81.6064866|||||11|36|Saint Marys|10/19/1979|03/20/2008
+Yulupa (historical)|Populated Place|CA|06|Sonoma|097|382030N|1223020W|38.3415799|-122.5055371|||||50|164|Glen Ellen|11/22/1996|
+Yum Yum|Populated Place|TN|47|Fayette|047|352043N|0892150W|35.3453616|-89.3639604|||||130|427|Laconia|05/19/1980|
+Yuma (historical)|Populated Place|AR|05|Prairie|117|345009N|0912952W|34.8359263|-91.4979083|||||59|194|De Valls Bluff|06/01/1993|
+Yuma Indian Homesteads|Populated Place|AZ|04|Yuma|027|323759N|1144252W|32.6331059|-114.7143995|||||31|102|Yuma West|02/08/1980|04/11/2008
+Yuma View|Populated Place|UT|49|Salt Lake|035|404240N|1115001W|40.7110579|-111.8335451|||||1381|4531|Sugar House|06/01/1989|
+Yuman (historical)|Populated Place|CA|06|Butte|007|393045N|1213329W|39.5123863|-121.5580257|||||52|171|Oroville|03/05/1997|
+Yuma|Populated Place|AZ|04|Yuma|027|324331N|1143728W|32.7253249|-114.624397|||||43|141|Yuma East|02/08/1980|03/21/2008
+Yuma|Populated Place|CO|08|Yuma|125|400720N|1024331W|40.1222084|-102.7252096|||||1261|4137|Yuma South|10/13/1978|03/21/2008
+Yuma|Populated Place|KS|20|Cloud|029|393528N|0974459W|39.5911149|-97.7497638|||||419|1375|Concordia|10/13/1978|
+Yuma|Populated Place|KY|21|Taylor|217|371649N|0851430W|37.2803438|-85.2416269|||||220|722|Mannsville|09/20/1979|
+Yuma|Populated Place|MI|26|Wexford|165|442048N|0854517W|44.3466711|-85.7547897|||||299|981|Yuma|04/14/1980|
+Yuma|Populated Place|TN|47|Carroll|017|355051N|0882012W|35.8475645|-88.3367128|||||147|482|Yuma|05/19/1980|
+Yuma|Populated Place|VA|51|Scott|169|363654N|0823645W|36.6150994|-82.6123774|||||394|1293|Kingsport|09/28/1979|
+Yung Hee Village|Populated Place|HI|15|Maui|009|205141N|1562720W|20.8613889|-156.4555556|||||26|85|Paia|02/06/1981|
+Yupon|Populated Place|AL|01|Baldwin|003|302432N|0874901W|30.4088088|-87.8169347|||||9|30|Magnolia Springs|09/04/1980|01/28/2011
+Yupu (historical)|Populated Place|CA|06|Sutter|101|390800N|1213704W|39.1332255|-121.617744|||||18|59|Yuba City|12/02/1996|
+Yuquiyú|Populated Place|PR|72|Luquillo|089|182046N|0654343W|18.3460631|-65.7284957|||||25|82|Fajardo|02/13/1981|
+Yusumne (historical)|Populated Place|CA|06|Amador|005|Unknown|Unknown|0|0|||||571|1873|Unknown|05/14/1997|
+Yutan|Populated Place|NE|31|Saunders|155|411442N|0962350W|41.2450007|-96.3972475|||||356|1168|Mead|03/09/1979|03/20/2008
+Yuton|Populated Place|IL|17|McLean|113|403200N|0890337W|40.5333697|-89.060356|||||240|787|Normal West|01/15/1980|
+Yutoyara (historical)|Populated Place|CA|06|Siskiyou|093|Unknown|Unknown|0|0|||||893|2930|Unknown|11/22/1996|
+Yutum (historical)|Populated Place|CA|06|Santa Barbara|083|Unknown|Unknown|0|0|||||427|1401|Unknown|03/25/1999|
+Yvonne Colonia|Populated Place|TX|48|Hidalgo|215|261241N|0981205W|26.2114624|-98.2014002|||||35|115|Pharr|10/20/2003|03/21/2008
+Yxaulo (historical)|Populated Place|CA|06|Santa Barbara|083|Unknown|Unknown|0|0|||||427|1401|Unknown|03/25/1999|
+Yznaga Number 1 Colonia|Populated Place|TX|48|Cameron|061|261837N|0974945W|26.3103497|-97.8291633|||||9|30|Santa Rosa|10/20/2003|
+Yznaga Number 2 Colonia|Populated Place|TX|48|Cameron|061|261942N|0974808W|26.328405|-97.8022178|||||13|43|Santa Rosa|10/20/2003|
+Yznaga|Populated Place|TX|48|Cameron|061|261859N|0974849W|26.3164608|-97.8136071|||||13|43|Santa Rosa|01/18/2000|03/21/2008

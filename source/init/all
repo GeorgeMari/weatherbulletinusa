@@ -1,0 +1,202 @@
+/*
+|| 27-NOV-2011 - George Mari
+|| Copyright George Mari - all rights reserved.
+*/
+enyo.kind({
+	name: "InitializeView",
+	kind: enyo.VFlexBox,
+	events: {
+		onBack: ""
+	},
+	components: [
+      {name: "InitPane", kind: "Pane", flex: 1, transitionKind: "enyo.transitions.Fade", components: [
+         {kind: "VFlexBox", components: [
+   			{kind: "PageHeader", components: [
+      			{kind: "VFlexBox", flex: 1, align: "center", components: [
+      				{content: "Initialize Database - Progress"}
+			      ]}
+   			]},
+            {name: "InitProgress", kind: "ProgressBar"},
+            {name: "ProgressDetail", kind: "Control", flex: 1, pack: "start", align: "center",  content: "Loading NWS zones..."},
+            {name: "InitExplanation", kind: "Control", flex: 1, pack: "start", align: "center",  
+					content: "Before you can use Weather Bulletin, we must setup a local database of cities that will be used specify your location.  Press the button below to begin database initialization."
+				},
+				{kind: "VFlexBox", flex: 1, align: "center", components: [
+            	{name: "StartInitButton", kind: "Button", flex: 0, pack: "start", align: "center",  caption: "Begin setup", onclick: "startLoad"}
+					]},
+            {kind: "Toolbar", components: [
+               {kind: "GrabButton", onclick: "clickDone"},
+               {caption: "Done", onclick: "clickDone"}
+            ]}
+         ]}
+      ]},
+      {name: "initDBLoadFile",
+      kind: "WebService",
+      onSuccess: "initDBLoadSuccess",
+      onFailure: "initDBLoadFailure"
+      },
+
+     {name: "initDBLoadZoneFile",
+      kind: "WebService",
+      onSuccess: "initDBLoadZoneSuccess",
+      onFailure: "initDBLoadFailure"
+      }
+
+   ],
+	create: function() {
+		enyo.log("InitializeDB create function started.");
+		this.inherited(arguments);
+		enyo.log("InitializeDB create function completed.");
+
+		this.cityFileList = [
+			"../data/AK.txt",
+			"../data/AL.txt",
+			"../data/AR.txt",
+			"../data/AS.txt",
+			"../data/AZ.txt"
+			];
+		this.cityFileListCachedLength = this.cityFileList.length;
+
+		// initialize file array index
+		this.cityFileIndex = -1;
+
+		// open the database
+		this.wbDB = openDatabase("ext:WeatherBulletinDB", "1", "", "25000000");
+		enyo.log("wbDB: " + enyo.json.stringify(this.wbDB));
+
+		// initialize database tables
+		this.createTables();
+
+	},
+	
+	clickDone: function() {
+      // this.cleanUp();
+      // Return
+		this.doBack();
+	},
+
+   initDBLoadSuccess: function(inSender, inResponse) {
+      enyo.log("initDBLoadFile succes.  Results: " + enyo.json.stringify(inResponse));
+      // this.$.ProgressDetail.setContent(enyo.json.stringify(inResponse));
+
+		// Parse data
+		var cityLines = inResponse.split("\n");
+		var i;
+		var cityLinesCachedLength = cityLines.length;
+
+		this.wbDB.transaction(
+			function(transaction) {
+		for (i=0; i < cityLinesCachedLength; i = i + 1)	{
+			// enyo.log("cityLine " + i + ": " + cityLines[i]);
+			var oneLine = cityLines[i].split("|");
+
+			// Load data in SQLite DB
+			// enyo.log("City: " + oneLine[1] + ", " + oneLine[3] + ", " + oneLine[4] + oneLine[6] + 
+			//	", " + oneLine[5] + ", " + oneLine[9] + ", " + oneLine[10]);
+			transaction.executeSql('INSERT INTO cityLocation (city_name, state, county_fips, county_name, latitude, longitude) ' +
+				'VALUES(?, ?, ?, ?, ?, ? );', 
+				[oneLine[1], oneLine[3], oneLine[4]+oneLine[6], oneLine[5], oneLine[9], oneLine[10]
+				]);
+			}
+		});
+
+
+		// Update the progress bar
+		var progPos = ((this.cityFileIndex + 1) / this.cityFileListCachedLength) * 100; 
+		this.$.InitProgress.setPosition(progPos);
+
+		// Process the next file
+		setTimeout(this.startLoad.bind(this), 0);
+	},
+   
+   initDBLoadFailure: function(inSender, inResponse) {
+      enyo.log("initDBLoadFile failed." + enyo.json.stringify(inResponse));
+   },
+
+	initDBLoadZoneSuccess: function(inSender, inResponse) {
+
+      enyo.log("initDBLoadZoneFile succes.  Results: " + enyo.json.stringify(inResponse));
+      // this.$.ProgressDetail.setContent(enyo.json.stringify(inResponse));
+			// Parse data
+		var zoneLines = inResponse.split("\n");
+		var i;
+		var zoneLinesCachedLength = zoneLines.length;
+
+		this.wbDB.transaction(
+			function(transaction) {
+		for (i=0; i < zoneLinesCachedLength; i = i + 1)	{
+			// enyo.log("zoneLine " + i + ": " + zoneLines[i]);
+			var oneLine = zoneLines[i].split("|");
+
+			// Load zone data in SQLite DB
+			// enyo.log("Zone: " + oneLine[1] + ", " + oneLine[3] + ", " + oneLine[4] + oneLine[6] + 
+			//	", " + oneLine[5] + ", " + oneLine[9] + ", " + oneLine[10]);
+			transaction.executeSql('INSERT INTO zoneLocation (state, zone_no, county_fips, county_name, latitude, longitude) ' +
+				'VALUES(?, ?, ?, ?, ?, ? );', 
+				[oneLine[1], oneLine[3], oneLine[4]+oneLine[6], oneLine[5], oneLine[9], oneLine[10]
+				]);
+			}
+		});
+},
+
+	startLoad: function(inSender) {
+	
+		enyo.log("Called startLoad: index/length " + this.cityFileIndex + "/" + this.cityFileList.length);
+		// Increment the cityFile array index
+		this.cityFileIndex = this.cityFileIndex + 1;
+
+		// Check to see if we are at the end of our cityFile array
+		if (this.cityFileIndex < this.cityFileListCachedLength) 
+			{
+			this.$.initDBLoadFile.setUrl(this.cityFileList[this.cityFileIndex]);
+			this.$.initDBLoadFile.call();	
+			// Wait until data is loaded in SQLite DB before continuing to next file
+			}
+		else
+			// We process all of our city files, now move on to other files.
+			{
+			this.$.initDBLoadZoneFile.setUrl('../data/zones.txt');
+			this.$.initDBLoadZoneFile.call();
+			}
+	},
+
+	handleError: function(transaction, error) {
+		enyo.log("SQL error: " + "[" + error.code + "] " + error.message);
+	},
+
+	handleCountResult: function(transaction, results) {
+		var row = results.rows.item(0);	// Guaranteed only 1 row for this query.
+		enyo.log("Count result: " + row['clcount']);
+
+	},
+	
+	createTables: function() {
+		var that = this;
+		/*
+		this.wbDB.transaction(
+			function(transaction) {
+			transaction.executeSql('SELECT COUNT(*) AS clcount FROM cityLocation;', [],
+				that.handleCountResult, that.handleError);
+			}
+		);
+		*/
+		this.wbDB.transaction(
+			function (transaction) {
+			transaction.executeSql('DROP TABLE IF EXISTS countyZone;');
+			transaction.executeSql('DROP TABLE IF EXISTS cityLocation;');
+			}
+		);
+		enyo.log("Tables dropped.");
+
+		this.wbDB.transaction(
+			function (transaction) {
+			transaction.executeSql('CREATE TABLE countyZone(state TEXT, zone_no TEXT, county_fips TEXT, county_name TEXT, ' +
+										  'latitude NUMERIC, longitude NUMERIC);');
+			transaction.executeSql('CREATE TABLE cityLocation(city_name TEXT, state TEXT, county_fips TEXT, ' +
+										  'county_name TEXT, latitude NUMERIC, longitude NUMERIC);');
+			}
+		);
+		enyo.log("Tables created.");
+	}
+
+});

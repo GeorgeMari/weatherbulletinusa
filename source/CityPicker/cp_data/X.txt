@@ -1,0 +1,21 @@
+X Crossing|Populated Place|MT|30|Phillips|071|474212N|1074657W|47.7033316|-107.782611|||||690|2264|Indian Lake|04/04/1980|
+X Ray (historical)|Populated Place|NM|35|Torrance|057|Unknown|Unknown|0|0|||||1853|6079|Unknown|09/01/1993|
+X-Prairie|Populated Place|MS|28|Noxubee|103|330849N|0882753W|33.1470695|-88.4647623|||||79|259|Cliftonville|09/24/1980|
+Xabaagua (historical)|Populated Place|CA|06|Ventura|111|Unknown|Unknown|0|0|||||496|1627|Unknown|03/25/1999|
+Xalanaj (historical)|Populated Place|CA|06|Santa Barbara|083|Unknown|Unknown|0|0|||||427|1401|Unknown|03/25/1999|
+Xalou (historical)|Populated Place|CA|06|Santa Barbara|083|Unknown|Unknown|0|0|||||427|1401|Unknown|03/25/1999|
+Xana (historical)|Populated Place|CA|06|San Diego|073|Unknown|Unknown|0|0|||||545|1788|Unknown|03/26/1999|
+Xanacga (historical)|Populated Place|CA|06|San Diego|073|Unknown|Unknown|0|0|||||545|1788|Unknown|03/26/1999|
+Xanadu|Populated Place|UT|49|Salt Lake|035|404002N|1115443W|40.6671693|-111.9118805|||||1300|4265|Salt Lake City South|05/01/1989|
+Xavier|Populated Place|KS|20|Leavenworth|103|391638N|0945433W|39.2772231|-94.9091303|||||272|892|Leavenworth|10/13/1978|
+Xenia|Populated Place|CO|08|Washington|121|400940N|1032042W|40.1610924|-103.3449416|||||1382|4534|Fremont Butte|10/13/1978|
+Xenia|Populated Place|IA|19|Dallas|049|415125N|0935336W|41.8569301|-93.8932836|||||313|1027|Woodward|01/01/2000|
+Xenia|Populated Place|IA|19|Hardin|083|421840N|0930451W|42.3110947|-93.0807578|||||295|968|Eldora|01/01/2000|
+Xenia|Populated Place|IL|17|Clay|025|383809N|0883805W|38.6358808|-88.6347744|||||165|541|Xenia|01/15/1980|03/20/2008
+Xenia|Populated Place|KS|20|Bourbon|011|375943N|0945911W|37.9953117|-94.9863594|||||317|1040|Xenia|10/13/1978|
+Xenia|Populated Place|MO|29|Nodaway|147|Unknown|Unknown|0|0|||||356|1168|Unknown|11/01/1990|
+Xenia|Populated Place|OH|39|Greene|057|394105N|0835547W|39.6847822|-83.9296526|||||285|935|Xenia|07/12/1979|03/20/2008
+Xenophon|Populated Place|TN|47|Hancock|067|362927N|0831935W|36.4909203|-83.3262892|||||385|1263|Swan Island|07/01/1989|
+Xocotoc (historical)|Populated Place|CA|06|Ventura|111|Unknown|Unknown|0|0|||||496|1627|Unknown|03/25/1999|
+Xugua (historical)|Populated Place|CA|06|Santa Barbara|083|Unknown|Unknown|0|0|||||427|1401|Unknown|03/25/1999|
+XX Farms Colonia|Populated Place|TX|48|Cameron|061|262011N|0972936W|26.3364602|-97.4933169|||||0|0|La Leona|10/20/2003|

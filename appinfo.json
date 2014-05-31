@@ -1,0 +1,11 @@
+{
+	"id": "com.georgemari.weatherbulletin",
+	"version": "0.0.2",
+	"vendor": "George Mari",
+	"type": "web",
+	"main": "wb_root.html",
+	"title": "Weather Bulletin",
+	"icon": "icon.png",
+	"uiRevision": 2,
+	"noWindow": true
+}
