@@ -31,7 +31,7 @@ enyo.kind({
 		this.inherited(arguments);
 		this.locSearchResults = [];
 		// open the database
-		this.wbDB = openDatabase("ext:WeatherBulletinDB", "1", "", "25000000");
+		this.wbDB = openDatabase("ext:WeatherBulletinUSADB", "1", "", "25000000");
 		enyo.log("wbDB: " + enyo.json.stringify(this.wbDB));
 		enyo.log("SearchWindow create function completed.");
 	},
@@ -45,7 +45,7 @@ enyo.kind({
 	
    cleanUp: function() {
       // Clean-up
-	   this.$.searchCityName.setValue("");
+		this.$.searchCityName.setValue("");
       this.locSearchResults.splice(0);
       this.$.locSearchResultsVR.refresh();
    },

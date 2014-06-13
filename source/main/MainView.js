@@ -15,23 +15,10 @@ enyo.kind({
 								{kind: "Item", name: "alertItem", components: [
 									{name: "alertEvent"},
 									{name: "alertTitle", className: "enyo-item-secondary"},
-									{name: "alertSummary", className: "enyo-item-ternary"}
+									{name: "alertSummary", className: "enyo-item-ternary"},
+									{name: "alertURL", className: "enyo-item-ternary"}
 								]}
 							]}
-						]},
-						// This drawer will show the current conditions on the leftmost side,
-						// while the hour-by-hour forecast stretches out to the right,
-						// switching to a long-range day-by-day forecast.
-						{kind: "DividerDrawer", caption: "CURRENT CONDITIONS & FORECAST", components: [
-							{kind: "wbScroller", name: "ccf_scroller", flex: 1, height: "70px"} 
-						]},
-						{kind: "DividerDrawer", caption: "RADAR", components: [
-							{name: "Radar", flex: 1, content: "Radar"}
-						]},
-						// History drawer will allow the user to scroll back and forth
-						// in a timeline, displaying past observations by the day, and/or hour.
-						{kind: "DividerDrawer", caption: "HISTORY", components: [
-							{name: "History", flex: 1, content: "History"}
 						]}
 					]}
 			]}
@@ -50,113 +37,12 @@ enyo.kind({
 		var currentTime = new Date();
 		var current_timestamp = currentTime.getTime();
 		this.getAlertData(this.UgcZone, this.UgcCounty, current_timestamp);
-
-		enyo.log("ccf_scroller destroying views...");
-		this.$.ccf_scroller.destroyViews();
-		enyo.log("ccf_scroller creating view...");
-		this.$.ccf_scroller.createView({
-			components: [
-				{content: "Scroller item 1"},
-				{kind: enyo.HFlexBox, components: [
-					{kind: "Image", src: "../images/sample-icon.png", height: "48px", onclick: "scrollerClick"}
-				]}
-			]
-		});
-		this.$.ccf_scroller.createView({
-			components: [
-				{content: "Scroller item 2"},
-				{kind: enyo.HFlexBox, components: [
-					{kind: "Image", src: "../images/sample-icon.png", height: "48px"}
-				]}
-			]
-		});
-		this.$.ccf_scroller.createView({
-			components: [
-				{content: "Scroller item 3"},
-				{kind: enyo.HFlexBox, components: [
-					{kind: "Image", src: "../images/sample-icon.png", height: "48px"}
-				]}
-			]
-		});
-		this.$.ccf_scroller.createView({
-			components: [
-				{content: "Scroller item"},
-				{kind: enyo.HFlexBox, components: [
-					{kind: "Image", src: "../images/sample-icon.png", height: "48px"}
-				]}
-			]
-		});
-		this.$.ccf_scroller.createView({
-			components: [
-				{content: "Scroller item"},
-				{kind: enyo.HFlexBox, components: [
-					{kind: "Image", src: "../images/sample-icon.png", height: "48px"}
-				]}
-			]
-		});
-		this.$.ccf_scroller.createView({
-			components: [
-				{content: "Scroller item"},
-				{kind: enyo.HFlexBox, components: [
-					{kind: "Image", src: "../images/sample-icon.png", height: "48px"}
-				]}
-			]
-		});
-		this.$.ccf_scroller.createView({
-			components: [
-				{content: "Scroller item"},
-				{kind: enyo.HFlexBox, components: [
-					{kind: "Image", src: "../images/sample-icon.png", height: "48px"}
-				]}
-			]
-		});
-		this.$.ccf_scroller.createView({
-			components: [
-				{content: "Scroller item"},
-				{kind: enyo.HFlexBox, components: [
-					{kind: "Image", src: "../images/sample-icon.png", height: "48px"}
-				]}
-			]
-		});
-		this.$.ccf_scroller.createView({
-			components: [
-				{content: "Scroller item"},
-				{kind: enyo.HFlexBox, components: [
-					{kind: "Image", src: "../images/sample-icon.png", height: "48px"}
-				]}
-			]
-		});
-		this.$.ccf_scroller.createView({
-			components: [
-				{content: "Scroller item"},
-				{kind: enyo.HFlexBox, components: [
-					{kind: "Image", src: "../images/sample-icon.png", height: "48px"}
-				]}
-			]
-		});
-		this.$.ccf_scroller.createView({
-			components: [
-				{content: "Scroller item"},
-				{kind: enyo.HFlexBox, components: [
-					{kind: "Image", src: "../images/sample-icon.png", height: "48px"}
-				]}
-			]
-		});
-		this.$.ccf_scroller.createView({
-			components: [
-				{content: "Scroller item"},
-				{kind: enyo.HFlexBox, components: [
-					{kind: "Image", src: "../images/sample-icon.png", height: "48px"}
-				]}
-			]
-		});
-	
 		enyo.log("MainView create function executed.  UgcCounty: " + this.UgcCounty + "; UgcZone: " + this.UgcZone);
 	},
 
 	getAlertData: function(inUgcZone, inUgcCounty, inTstamp) {
 		// open application database to retrieve data we want to display
-		this.wbDB = openDatabase("ext:WeatherBulletinDB", "1", "", "25000000");
+		this.wbDB = openDatabase("ext:WeatherBulletinUSADB", "1", "", "25000000");
 		var that = this;
 		enyo.log('getAlertData - reading alerts from database for ' + this.UgcZone + ' or ' + 
 						this.UgcCounty + ' timestamp: ' + inTstamp);
@@ -203,6 +89,7 @@ enyo.kind({
 			this.$.alertEvent.setContent(this.alertData[inIndex].event);
 			this.$.alertTitle.setContent(this.alertData[inIndex].title);
 			this.$.alertSummary.setContent(this.alertData[inIndex].summary);
+			this.$.alertURL.setContent(this.alertData[inIndex].url);
 			return true;
 			}
 	},

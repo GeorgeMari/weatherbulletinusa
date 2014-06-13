@@ -84,7 +84,6 @@ enyo.kind({
 			{content: "Alert"}
        ]},
       {name: "AddLocationRowGroup", kind: "RowGroup", caption: "Add a Location", defaultKind: "HFlexBox", components: [
-         {content: "Add location from a Contact...", tapHighlight: true, onclick: "ContactLocation"},
          {content: "Search for a location...", tapHighlight: true, onclick: "TypeLocation"},
          {content: "Add current location via GPS...", tapHighlight: true, onclick: "GetGPSLocation"}
          ]},
@@ -112,14 +111,7 @@ enyo.kind({
      {name: "TypeView", kind: "CityPickerView", lazy: true, onBack: "searchBackHandler"},
 
      {name: "InitView", kind: "InitializeView", lazy: true, onBack: "searchBackHandler"},
-     /*
-     {name: "ContactPicker",
-        kind: "com.palm.library.contactsui.peoplePicker",
-        onContactClick: "contactClick",
-        onCancelClick: "contactCancelClick"},
-     */   
      {name: "LocationView", kind: "LocationAlertsView", lazy: true, onBack: "backHandler"}
-		//{name: "MainWBView", kind: "MainView", lazy: false, onBack: "backHandler"}
      
     ]},
 		{kind: enyo.ApplicationEvents, 
@@ -135,8 +127,6 @@ enyo.kind({
       this.$.getPreferencesCall.call({"keys": ["NotificationToggle", "NotificationMinutes", "Locations"]});
       // Initialize our list of locations...
       this.alertLocations = [];
-		// When we first start up, we should go to the Main View.
-		// this.$.PrefsPane.selectViewByName("MainWBView");
 	},
 
 	windowParamsChangeHandler: function() {
@@ -166,8 +156,6 @@ enyo.kind({
 		console.log("inSender: " + inSender);
 		console.log("inResponse: " + inResponse);
 
-		// this.results = inResponse.query.results.item;
-		
 		// Use responseText, not responseXML!! try: reponseJSON 
 		var xmlstring = inResponse;//transport.responseText;	
 		this.$.status.setContent(xmlstring);
@@ -323,20 +311,18 @@ enyo.kind({
 			AlarmInString = "00:" + NotificationMinutes + ":00";
 			enyo.log("AlarmInString is: " + AlarmInString);
          this.$.setAlarm.call(
-            {key: "com.georgemari.weatherbulletin.check_alerts",
+            {key: "com.georgemari.weatherbulletinusa.check_alerts",
             "in": AlarmInString, 
             "wakeup": true,
             uri: "palm://com.palm.applicationManager/launch",
-            params: '{"id": "com.georgemari.weatherbulletin", "params": {"action": "check_alerts"}}'
+            params: '{"id": "com.georgemari.weatherbulletinusa", "params": {"action": "check_alerts"}}'
             });
          }
       // If notification toggle has been turned off, clear the existing recurring alarm.
       else
          {
          this.$.clearAlarm.call(
-            {key: "com.georgemari.weatherbulletin.check_alerts"});
-         // this.$.clearAlarm.call(
-         //    {key: "com.georgemari.weatheralerts.check_alerts"});
+            {key: "com.georgemari.weatherbulletinusa.check_alerts"});
          }
 	},
 

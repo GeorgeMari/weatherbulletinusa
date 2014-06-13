@@ -39,7 +39,7 @@ enyo.kind({
 		this.cityLocations = [];
 		this.countyZones = [];
 		// open the database
-		this.wbDB = openDatabase("ext:WeatherBulletinDB", "1", "", "25000000");
+		this.wbDB = openDatabase("ext:WeatherBulletinUSADB", "1", "", "25000000");
 		enyo.log("wbDB: " + enyo.json.stringify(this.wbDB));
 
 		// Load the contents of the countyZone table into an array
@@ -70,7 +70,7 @@ enyo.kind({
 	
    cleanUp: function() {
       // Clean-up
-	   this.$.searchCityName.setValue("");
+		this.$.searchCityName.setValue("");
       this.locSearchResults.splice(0);
       this.$.locSearchResultsVR.refresh();
    },
@@ -185,7 +185,7 @@ enyo.kind({
 			this.$.cpLoadFile.call();
 			}
 		else if (searchText.length >= 3 && this.cityLocations.length > 0)
-	      // Only search and retrieve results
+			// Only search and retrieve results
 			// if our search input string is at least 3 characters long,
 			// and our array of cities has finished loading from the corresponding file.
 			// (The this.cityLocations array will have a length of > 0.)

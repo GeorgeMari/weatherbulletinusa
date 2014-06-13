@@ -170,7 +170,7 @@ enyo.kind({
 			];
 
 		// open the database
-		this.wbDB = openDatabase("ext:WeatherBulletinDB", "1", "", "25000000");
+		this.wbDB = openDatabase("ext:WeatherBulletinUSADB", "1", "", "25000000");
 		enyo.log("wbDB: " + enyo.json.stringify(this.wbDB));
 		// Re-set progress bar position...
 		this.$.InitProgress.setPosition(0);

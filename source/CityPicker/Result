@@ -1,3 +1,0 @@
-Connection: T(SQLITE)  D(/media/internal/.app-storage/file_.media.cryptofs.apps.usr.palm.applications.com.georgemari.weatherbulletin_0/0000000000000040.db)   at 22:57
-1. 'SELECT countyZone.county_fips, countyZone.zone_no, countyZone.zone_name ' + 					'FROM countyZone ' + 				'ORDER BY countyZone.county_fips ASC;'
-Error: incomplete SQL: 'SELECT countyZone.county_fips, countyZone.zone_no, countyZone.zone_name ' + 					'FROM countyZone ' + 				'ORDER BY countyZone.county_fips ASC;'

@@ -2,12 +2,9 @@
 enyo.depends(
 	"ndfd.js",
    "css/app.css",
-   // "$enyo-lib/contactsui/",
-	//"search/TypeSearch.js",
 	"CityPicker/CityPicker.js",
 	"location/LocationAlerts.js",
 	"init/Initialize.js",
 	"main/MainView.js",
-	"main/MainCarousel.js",
-	"main/wb_scroller.js"
+	"main/MainCarousel.js"
 );
