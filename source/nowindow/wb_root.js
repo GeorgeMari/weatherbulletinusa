@@ -468,8 +468,11 @@ enyo.kind({
 		// Query the database for any weather alerts we have not notified the user about.
 		this.wbDB.transaction(
 			function(transaction) {
-				transaction.executeSql('SELECT * FROM CAPAlert ' +
-												'WHERE notification_tstamp IS NULL;',
+				transaction.executeSql('SELECT CAPAlert.*, alertUGC.ugc ' +
+												' FROM CAPAlert, alertUGC ' +
+												'WHERE notification_tstamp IS NULL ' +
+												'  AND CAPAlert.alertID = alertUGC.alertID ' +
+												'ORDER BY CAPAlert.alertID ASC, alertUGC.ugc ASC;',
 					[],
 					that.nMDataHandler.bind(that), that.handleSqlError
 				);
@@ -505,9 +508,31 @@ enyo.kind({
 		// that are also being monitored.  We should implement the option on each 
 		// location to make all alerts silent.
 		// 
+		// Loop through the query results.  There can be multiple rows per alert -
+		// one row for each UGC (geographic) zone the alert applies to.  Only push 
+		// the alert once for each alertId, but include the list of all zones in the
+		// call to wbPushDashboard so that the banner message haa the corresponding
+		// zone data.  This will be used to sync up to the correct item in the carousel
+		// of the MainView when the user taps on the banner message.
+		var current_zone_list = '';
+		var current_alertID = '';
+		var current_alertTitle = '';
+
 		for (i=0; i<results.rows.length; i=i+1) {
 			var row = results.rows.item(i);
-			this.wbPushDashboard(row.title);
+			if (current_alertID !== row.alertID && current_alertID !== '')
+				{
+				this.wbPushDashboard(current_alertTitle, current_zone_list);
+				current_zone_list = '';
+				current_alert_id = '';
+				current_alertTitle = '';
+				}
+			else
+				{
+				current_zonelist = current_zone_list + ', ' + row.ugc;
+				current_alertTitle = row.title;
+				current_alert_id = row.alertID;
+				}
 		}
 	},
 
