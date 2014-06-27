@@ -523,13 +523,20 @@ enyo.kind({
 			if (current_alertID !== row.alertID && current_alertID !== '')
 				{
 				this.wbPushDashboard(current_alertTitle, current_zone_list);
-				current_zone_list = '';
-				current_alert_id = '';
-				current_alertTitle = '';
+				current_zone_list = row.ugc;
+				current_alert_id = row.alertID;
+				current_alertTitle = row.title;
 				}
 			else
 				{
-				current_zonelist = current_zone_list + ', ' + row.ugc;
+				if (current_zone_list === '')
+					{
+					current_zone_list = row.ugc;
+					}
+				else
+					{
+					current_zone_list = current_zone_list + ', ' + row.ugc;
+					}
 				current_alertTitle = row.title;
 				current_alert_id = row.alertID;
 				}
@@ -555,9 +562,9 @@ enyo.kind({
 		// enyo.log("SQL transaction error.");
 	},
 
-	wbPushDashboard: function(inText) {
+	wbPushDashboard: function(inText, zoneList) {
 		// enyo.windows.addBannerMessage("Weather Alert", "{}", null, null, "/media/internal/ringtones/Triangle (short).mp3", null);
-		enyo.windows.addBannerMessage("Weather Bulletin USA", "{}", null, null, "audio/Industrial Alarm-SoundBible.com-1012301296.mp3", null);
+		enyo.windows.addBannerMessage("Weather Bulletin USA", "{zonelist: " + zoneList + "}", null, null, "audio/Industrial Alarm-SoundBible.com-1012301296.mp3", null);
 		this.$.wbDashboard.push({icon:"images/sample-icon.png", title:"Weather Bulletin USA", text:inText});
 	},
 	wbPopDashboard: function() {
