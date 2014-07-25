@@ -146,7 +146,7 @@ enyo.kind({
 			this.stateCounter = -1;
 			// Check to see if we have any new alerts that we need to show a notification for...
 			this.notifyAndMark();
-			this.downloadCurrentConditions();
+			// this.downloadCurrentConditions();
 			}
 	},
 
@@ -437,10 +437,10 @@ enyo.kind({
 		// Eliminate duplicate alerts that have been downloaded and stored.
 		// First, eliminate dupes in the alertUGC table.  Keep the rows with
 		// smallest value of download_tstamp.
-		// SELECT alertID, MIN(download_tstamp), ugc
+		// SELECT alertId, MIN(download_tstamp), ugc
 		//   FROM alertUGC
 		//  GROUP
-		//     BY alertID, ugc
+		//     BY alertId, ugc
 
 		// Next, eliminate dupes in the CAPAlert table.
 
@@ -471,8 +471,8 @@ enyo.kind({
 				transaction.executeSql('SELECT CAPAlert.*, alertUGC.ugc ' +
 												' FROM CAPAlert, alertUGC ' +
 												'WHERE notification_tstamp IS NULL ' +
-												'  AND CAPAlert.alertID = alertUGC.alertID ' +
-												'ORDER BY CAPAlert.alertID ASC, alertUGC.ugc ASC;',
+												'  AND CAPAlert.alertId = alertUGC.alertId ' +
+												'ORDER BY CAPAlert.alertId ASC, alertUGC.ugc ASC;',
 					[],
 					that.nMDataHandler.bind(that), that.handleSqlError
 				);
@@ -515,17 +515,22 @@ enyo.kind({
 		// zone data.  This will be used to sync up to the correct item in the carousel
 		// of the MainView when the user taps on the banner message.
 		var current_zone_list = '';
-		var current_alertID = '';
+		var current_alertId = '';
 		var current_alertTitle = '';
+		var current_urgency = '';
+		var current_severity = '';
+		var current_certainty = '';
 
+		enyo.log("nMDataHandler - entering...");
 		for (i=0; i<results.rows.length; i=i+1) {
+			enyo.log("nMDataHandler - results loop i=" + i);
 			var row = results.rows.item(i);
-			if (current_alertID !== row.alertID && current_alertID !== '')
+			enyo.log("nMDataHandler - current_alertId: " + current_alertId + " row.alertId: " + row.alertId);
+			if (current_alertId !== row.alertId && current_alertId !== '')
 				{
+				enyo.log("nMDataHandler - alert USC: " + current_alertTitle + "/" + current_urgency + "/" + current_severity + "/" + current_certainty);
 				this.wbPushDashboard(current_alertTitle, current_zone_list);
 				current_zone_list = row.ugc;
-				current_alert_id = row.alertID;
-				current_alertTitle = row.title;
 				}
 			else
 				{
@@ -537,9 +542,12 @@ enyo.kind({
 					{
 					current_zone_list = current_zone_list + ', ' + row.ugc;
 					}
-				current_alertTitle = row.title;
-				current_alert_id = row.alertID;
 				}
+			current_alertId = row.alertId;
+			current_alertTitle = row.title;
+			current_urgency = row.urgency;
+			current_severity = row.severity;
+			current_certainty = row.certainty;
 		}
 	},
 
@@ -564,6 +572,7 @@ enyo.kind({
 
 	wbPushDashboard: function(inText, zoneList) {
 		// enyo.windows.addBannerMessage("Weather Alert", "{}", null, null, "/media/internal/ringtones/Triangle (short).mp3", null);
+		enyo.log("wbPushDashboard - zonelist: " + zoneList);
 		enyo.windows.addBannerMessage("Weather Bulletin USA", "{zonelist: " + zoneList + "}", null, null, "audio/Industrial Alarm-SoundBible.com-1012301296.mp3", null);
 		this.$.wbDashboard.push({icon:"images/sample-icon.png", title:"Weather Bulletin USA", text:inText});
 	},
