@@ -511,7 +511,7 @@ enyo.kind({
 		// Loop through the query results.  There can be multiple rows per alert -
 		// one row for each UGC (geographic) zone the alert applies to.  Only push 
 		// the alert once for each alertId, but include the list of all zones in the
-		// call to wbPushDashboard so that the banner message haa the corresponding
+		// call to wbPushDashboard so that the banner message has the corresponding
 		// zone data.  This will be used to sync up to the correct item in the carousel
 		// of the MainView when the user taps on the banner message.
 		var current_zone_list = '';
@@ -581,7 +581,9 @@ enyo.kind({
 	},
 	wbMessageTap: function(inSender, layer) {
 		// this.$.status.setContent("Tapped on message: "+layer.text);
-		enyo.log("wbDashboard - tapped on message: " + layer.text);
+		enyo.log("wbMessageTap - tapped on message: " + layer.text);
+		enyo.log("wbMessageTap: inSender-" + inSender);
+		enyo.log("wbMessageTap: layer-" + layer);
       this.MainWindow = enyo.windows.activate("source/index.html", "MainWindow", {view: "MainView"});
 	},
 	wbIconTap: function(inSender, layer) {

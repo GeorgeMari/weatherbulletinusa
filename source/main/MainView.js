@@ -112,7 +112,7 @@ enyo.kind({
 		enyo.log("enyo.windowParams: " + enyo.json.stringify(enyo.windowParams));
 		if (enyo.windowParams.view === 'MainView') {
 			enyo.log("Switching to MainView...");
-			this.$.PrefsPane.selectViewByName("MainWBView");
+			this.$.MainPane.selectViewByName("MainWBView");
 		}
 	},
 	mVDataHandler: function(transaction, results) {
