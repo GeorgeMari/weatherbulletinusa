@@ -57,7 +57,7 @@ enyo.kind({
 														'alertUGC.ugc ' +
 												 'FROM CAPAlert, alertUGC ' +
 				                        'WHERE CAPAlert.alertId = alertUGC.alertId ' +
-												  'AND alertUGC.ugc = ? OR alertUGC.ugc = ? ' +
+												  'AND (alertUGC.ugc = ? OR alertUGC.ugc = ?) ' +
 												  'AND CAPAlert.effective_tstamp <= ? ' +
 												  'AND CAPAlert.expiration_tstamp >= ? ' + 
 											'ORDER BY CAPAlert.published_tstamp ASC;',
