@@ -84,6 +84,13 @@ enyo.kind({
 			'CREATE TABLE alertUGC(alertId TEXT NOT NULL, ' +
 										'download_tstamp INTEGER NOT NULL, ' +
 										'ugc TEXT NOT NULL);',
+			'CREATE TABLE downloadAttempt(readId INTEGER NOT NULL, ' +
+										'read_tstamp INTEGER NOT NULL, ' +
+										'inet_available_yn TEXT, ' +
+										'ca_dl_tstamp INTEGER, ' +
+										'ca_success_yn TEXT, ' +
+										'obs_dl_tstamp INTEGER, ' +
+										'obs_success_yn TEXT);',
 			'CREATE TABLE observation(stationId TEXT NOT NULL, ' +
 										'obs_tstamp INTEGER NOT NULL, ' +
 										'dl_stamp INTEGER NOT NULL, ' +
@@ -103,6 +110,8 @@ enyo.kind({
 			'CREATE INDEX af_dlt ON alertFIPS(download_tstamp);',
 			'CREATE INDEX au_id ON alertUGC(alertId);',
 			'CREATE INDEX au_dlt ON alertUGC(download_tstamp);',
+			'CREATE INDEX da_rid ON downloadAttempt(readId);',
+			'CREATE INDEX da_rt ON downloadAttempt(read_tstamp);',
 			'CREATE INDEX ob_id ON observation(stationId);'
 			];
 		
@@ -204,6 +213,16 @@ enyo.kind({
 		this.$.ProgressDetail.setContent('');
       // Return
 		this.doBack();
+	},
+
+	LoadSeqTable: function(inSender, inResponse) {
+
+		var that = this;
+
+		this.wbDB.transaction(
+			function(transaction) {
+					transaction.executeSql('INSERT INTO readSeq(read_id_val) VALUES(1);');
+		}, this.handleTransactionError, this.createZoneTable.bind(this));
 	},
 
 	initDBLoadZoneSuccess: function(inSender, inResponse) {
@@ -353,14 +372,31 @@ enyo.kind({
 		this.wbDB.transaction(
 			function(transaction) {
 				transaction.executeSql('DROP TABLE IF EXISTS observation;');
+				transaction.executeSql('DROP TABLE IF EXISTS downloadAttempt;');
 				transaction.executeSql('DROP TABLE IF EXISTS alertUGC;');
 				transaction.executeSql('DROP TABLE IF EXISTS alertFIPS;');
 				transaction.executeSql('DROP TABLE IF EXISTS CAPAlert;');
 				transaction.executeSql('DROP TABLE IF EXISTS cityLocation;');
 				transaction.executeSql('DROP TABLE IF EXISTS weatherStation;');
 				transaction.executeSql('DROP TABLE IF EXISTS countyZone;');
-			}, this.handleTransactionError, this.createZoneTable.bind(this));
+				transaction.executeSql('DROP TABLE IF EXISTS readSeq;');
+			}, this.handleTransactionError, this.createSeqTable.bind(this));
 
+	},
+
+	createSeqTable: function() {
+		this.$.ProgressDetail.setContent('Creating readSeq table...');
+		this.workItemIndex = this.workItemIndex + 1;
+		this.progPos = ((this.workItemIndex) / (this.workItems)) * 100; 
+		this.$.InitProgress.setPosition(this.progPos);
+		var that = this;
+		enyo.log("Creating readSeq table...");
+
+		this.wbDB.transaction(
+			function(transaction) {
+				transaction.executeSql('CREATE TABLE readSeq(read_id_val INTEGER);');
+			}, this.handleTransactionError, this.LoadSeqTable.bind(this));
+	
 	},
 
 	createZoneTable: function() {
