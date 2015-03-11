@@ -6,5 +6,6 @@ enyo.depends(
 	"location/LocationAlerts.js",
 	"init/Initialize.js",
 	"main/MainView.js",
-	"main/MainCarousel.js"
+	"main/MainCarousel.js",
+	"main/wb_scroller.js"
 );
