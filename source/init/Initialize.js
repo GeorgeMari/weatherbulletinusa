@@ -97,7 +97,7 @@ enyo.kind({
 										'icon_url TEXT, ' +
 										'temp_f NUMERIC, temp_c NUMERIC, ' +
 										'weather TEXT, relative_humidity NUMERIC, ' +
-										'wind_mph NUMERIC, wind_dir TEXT, wind_degrees NUMERIC' +
+										'wind_mph NUMERIC, wind_dir TEXT, wind_degrees NUMERIC, ' +
 										'pressure_mb NUMERIC, ' +
 										'pressure_inches NUMERIC, ' +
 										'dewpoint_f NUMERIC, dewpoint_c NUMERIC, ' +
