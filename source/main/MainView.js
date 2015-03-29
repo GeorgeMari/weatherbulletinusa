@@ -13,10 +13,11 @@ enyo.kind({
 						{kind: "DividerDrawer", caption: "ALERTS", components: [
 							{kind: "VirtualRepeater", name: "alertsVR", onSetupRow: "setupAlert", components: [
 								{kind: "Item", name: "alertItem", components: [
-									{name: "alertEvent"},
-									{name: "alertTitle", className: "enyo-item-secondary"},
-									{name: "alertSummary", className: "enyo-item-ternary"},
-									{name: "alertURL", className: "enyo-item-ternary"}
+									// {name: "alertEvent"},
+									// {name: "alertTitle", className: "enyo-item-secondary"},
+									{name: "alertTitle"},
+									{name: "alertSummary", className: "enyo-item-ternary"}
+									// {name: "alertURL", className: "enyo-item-ternary"}
 								]}
 							]}
 						]},
@@ -201,10 +202,10 @@ enyo.kind({
 		enyo.log("Setting up alert item: " + inIndex);
 		enyo.log(enyo.json.stringify(this.alertData));
 		if (inIndex < this.alertData.length) {
-			this.$.alertEvent.setContent(this.alertData[inIndex].event);
+			// this.$.alertEvent.setContent(this.alertData[inIndex].event);
 			this.$.alertTitle.setContent(this.alertData[inIndex].title);
 			this.$.alertSummary.setContent(this.alertData[inIndex].summary);
-			this.$.alertURL.setContent(this.alertData[inIndex].url);
+			// this.$.alertURL.setContent(this.alertData[inIndex].url);
 			return true;
 			}
 	},
