@@ -213,7 +213,8 @@ enyo.kind({
 										  county_fips: temp_c_fips, county_name: oneLine[4],
 										  latitude: oneLine[8], longitude: oneLine[9],
 											UgcCounty: oneLine[2]+'C'+temp_c_fips.slice(-3),
-											UgcZone: oneLine[2]+'Z'+this.countyZones[temp_c_fips].zone_no};
+											UgcZone: oneLine[2]+'Z'+this.countyZones[temp_c_fips].zone_no,
+											audible: "Y"};
 						this.locSearchResults.push(resultObject);
 						}
 					if (i < this.cityLocations.length - 1) {

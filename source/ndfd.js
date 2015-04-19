@@ -66,11 +66,11 @@ enyo.kind({
      {name: "PrefScroller", kind: "FadeScroller", flex: 1, components: [
       {name: "EnableNotificationsGroup", kind: "RowGroup", caption: "Notifications", defaultKind: "HFlexBox", components: [
          {kind: "Item", align: "center", tapHighlight: false, layoutKind: "HFlexLayout", components: [
-            {flex: 1, content: "Enable notifications"},
+            {flex: 1, content: "Enable background operation"},
             {name: "NotificationToggleButton", kind: "ToggleButton", state: true, onChange: "NotificationToggle"}
          ]},
          {align: "center", layoutKind: "HFlexLayout", components: [
-				{content: "Check every", className: "enyo-label"},
+				{content: "Download data every", className: "enyo-label"},
             {name: "NotificationMinutes", kind: "ListSelector", flex: 1, contentPack: "end", onChange: "NotificationToggle",
 					items: [
 						{caption: "2 minutes", value: "02"},
@@ -81,18 +81,32 @@ enyo.kind({
 						{caption: "45 minutes", value: 45}
 					]}
          ]},
-			{content: "Alert"}
+			{align: "center", layoutKind: "HFlexLayout", components: [
+				{flex: 1, content: "Audio Alert"},
+				{name: "NotificationSoundObject", kind: "Sound", src: ""},
+				{name: "AudioPlayButton", kind: "Button", caption: "Play", onclick: "apbClick"},
+            {name: "NotificationSoundList", kind: "ListSelector", flex: 1, contentPack: "end", onChange: "SoundChange",
+					items: [
+						{caption: "Alarm", value: "audio/Alarm Alert Effect-SoundBible.com-462520910.mp3"},
+						{caption: "Industrial Alarm", value: "audio/Industrial Alarm-SoundBible.com-1012301296.mp3"},
+						{caption: "Martian Scanner", value: "audio/Martian Scanner-SoundBible.com-1326707070.mp3"},
+						{caption: "Weather Alert", value: "audio/Weather Alert-SoundBible.com-2072200951.mp3"},
+						{caption: "Mute", value: ""}
+				]}
+			]}
        ]},
       {name: "AddLocationRowGroup", kind: "RowGroup", caption: "Add a Location", defaultKind: "HFlexBox", components: [
-         {content: "Search for a location...", tapHighlight: true, onclick: "TypeLocation"},
-         {content: "Add current location via GPS...", tapHighlight: true, onclick: "GetGPSLocation"}
+         {content: "Search for a location...", tapHighlight: true, onclick: "TypeLocation"}
+         // {content: "Add current location via GPS...", tapHighlight: true, onclick: "GetGPSLocation"}
          ]},
       {name: "CurrentLocationsRowGroup", kind: "RowGroup", caption: "Current Locations", defaultKind: "HFlexBox", components: [
 			{name: "AlertLocationsVR", kind: "VirtualRepeater", onSetupRow: "locSetupRow", className: "locations-rowgroup-item", components: [
             {name: "LocationItem", kind: "SwipeableItem", locationKind: "HFlexLayout", tapHighlight: true, 
-             onclick: "ShowLocationView", onConfirm: "deleteLocation", components: [
-               {name: "caption", flex: 1}
-               ]}
+             onConfirm: "deleteLocation", components: [
+					{kind: "HFlexBox", align: "center", components: [
+               	{name: "caption", flex: 1}
+					]}
+              ]}
             ]}
          ]},
 
@@ -124,7 +138,7 @@ enyo.kind({
 		this.inherited(arguments);
 		enyo.log("Creating preferences window...");
       // Get our stored preferences and set UI controls according to their saved values.
-      this.$.getPreferencesCall.call({"keys": ["NotificationToggle", "NotificationMinutes", "Locations"]});
+      this.$.getPreferencesCall.call({"keys": ["NotificationToggle", "NotificationMinutes", "Locations", "NotificationSoundFile"]});
       // Initialize our list of locations...
       this.alertLocations = [];
 	},
@@ -244,6 +258,14 @@ enyo.kind({
             // enyo.log("Array data is: " + enyo.json.stringify(this.alertLocations[inIndex]));
             rowCaption = this.alertLocations[inIndex].city_name + ", " + this.alertLocations[inIndex].state;
             this.$.caption.setContent(rowCaption);
+				/*
+				if (this.alertLocations[inIndex].audible == "N") {
+					this.$.LocationAudibleAlertTB.setState(false);
+					}
+				else {
+					this.$.LocationAudibleAlertTB.setState(true);
+					}
+				*/
             return true;
             }
 
@@ -326,6 +348,48 @@ enyo.kind({
          }
 	},
 
+	AudibleTB: function(inSender, inState) {
+		var checked_state;
+
+		enyo.log("audibleTB: inSender is - " + inSender);
+		if(this.$.LocationAudibleAlertTB.getState()) {
+			checked_state = "checked";
+			this.alertLocations[0].audible = "Y";
+			}
+		else {
+			checked_state = "unchecked";
+			this.alertLocations[0].audible = "N";
+			}
+
+		enyo.log("audible CB is: " + checked_state + " " + inSender);
+      // Save preferences
+      this.$.setPreferencesCall.call({"Locations": this.alertLocations});
+
+	},
+
+	apbClick: function(inSender, inEvent) {
+		var sound_file;
+
+		sound_file = "../" + this.$.NotificationSoundList.getValue();
+		if (sound_file !== null && sound_file !== "") {
+			enyo.log("apbClick: sound_file is " + sound_file);
+			this.$.NotificationSoundObject.setSrc(sound_file);
+			this.$.NotificationSoundObject.play();
+			}
+	},
+
+	SoundChange: function(inSender, inState) {
+		var sound_file;
+
+		sound_file = this.$.NotificationSoundList.getValue();
+		if (sound_file !== null && sound_file !== "") {
+			enyo.log("SoundChange: sound_file is " + sound_file);
+			// Save the results to our preferences...
+         this.$.setPreferencesCall.call({"NotificationSoundFile": sound_file});
+			}
+
+	},
+
    setAlarmSuccess: function(inSender, inResponse) {
       enyo.log("Set alarm succes.  Results: " + enyo.json.stringify(inResponse));
    },
@@ -354,7 +418,7 @@ enyo.kind({
       enyo.log("Preferences gotten successfully. Results = " + enyo.json.stringify(inResponse));
       this.$.NotificationToggleButton.setState(inResponse.NotificationToggle);
       this.$.NotificationMinutes.setValue(inResponse.NotificationMinutes);
-
+		this.$.NotificationSoundList.setValue(inResponse.NotificationSoundFile);
       // extract the array of locations here...
       var locationsFromPrefs = inResponse.Locations;
       if (locationsFromPrefs === undefined || locationsFromPrefs === null)

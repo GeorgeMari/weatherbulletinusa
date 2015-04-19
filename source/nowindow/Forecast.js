@@ -1,22 +1,22 @@
 /*
-|| 28-MAR-2015 - George Mari|
-|| Re-factor all functions related to processing current conditions into this separate file.
+|| 30-MAR-2015 - George Mari|
+|| Re-factor all functions related to processing forecast information into this separate file.
 */
 
 enyo.kind({
-   name: "wbu_cc_dl",
+   name: "wbu_forecast_dl",
    kind: "Component",
    components: [
-		{name: "dlNWS_cc",
+		{name: "dl_ndfd",
 			kind: "WebService",
-			onSuccess: "NWS_cc_Success",
-			onFailure: "NWS_cc_Failure"}
+			onSuccess: "ndfd_Success",
+			onFailure: "ndfd_Failure"}
  ],
   
 	create: function() {
 		this.inherited(arguments);
    
-		enyo.log("wbu_cc_dl: executing create.");
+		enyo.log("wbu_forecast_dl: executing create.");
 	
 		this.uniqueStations = [];
 		this.stationCounter = -1;
@@ -25,7 +25,7 @@ enyo.kind({
 
    },
 
-	downloadCurrentConditions: function(p_alertLocations) {
+	downloadForecast: function(p_alertLocations) {
 		// Each city we have saved in our preferences 
 		// will have the id of the weather station we will
 		// download current observations for.  

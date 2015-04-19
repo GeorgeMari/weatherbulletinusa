@@ -14,14 +14,16 @@ enyo.kind({
 			{kind: "EditMenu"},
          {caption: "Initialize", onclick:"ShowInitView"},
          {caption: "Preferences", onclick: "ShowPrefsView"},
-         {kind: "HelpMenu"},
-         {caption: "About"}
+         {caption: "Help", onclick: "ShowHelpView"},
+         {caption: "About", onclick: "ShowAboutView"}
          ]
 		},
 		{name: "MainPane", kind: "Pane", flex: 1, components: [
 			{name: "PrefsView", kind: "ndfd", lazy: true, onBack: "backHandler"},
 			{name: "InitView", kind: "InitializeView", lazy: true, onBack: "backHandler"},
-			{kind: "VFlexBox", components: [
+			{name: "AboutView", kind: "abtView", lazy: true, onBack: "backHandler"},
+			{name: "HelpView", kind: "hlpView", lazy: true, onBack: "backHandler"},
+				{kind: "VFlexBox", components: [
 				{name: "MainCarousel", kind: "Carousel", flex: 1, 
 					onGetLeft: "getLeft",
 					onGetRight: "getRight",
@@ -107,6 +109,14 @@ enyo.kind({
    ShowInitView: function(inSender) {
 		enyo.log("Selecting Init view from main view...");
 		this.$.MainPane.selectViewByName("InitView");
+	},
+   ShowHelpView: function(inSender) {
+		enyo.log("Selecting Help view from main view...");
+		this.$.MainPane.selectViewByName("HelpView");
+	},
+   ShowAboutView: function(inSender) {
+		enyo.log("Selecting About view from main view...");
+		this.$.MainPane.selectViewByName("AboutView");
 	},
 	backHandler: function(inSender, e) {
 		enyo.log("MainPane backHandler.  Value from " + inSender + " view is: " + e);

@@ -14,18 +14,32 @@ enyo.kind({
 							{kind: "VirtualRepeater", name: "alertsVR", onSetupRow: "setupAlert", components: [
 								{kind: "Item", name: "alertItem", components: [
 									// {name: "alertEvent"},
-									// {name: "alertTitle", className: "enyo-item-secondary"},
+									{align: "center", layoutKind: "HFlexLayout", components: [
+										{content: "URGENCY:", className: "enyo-item-ternary", style: "margin-right: 2px"},
+										{name: "alertUrgency", className: "enyo-item-ternary", style: "margin-right: 8px"},
+										{content: "SEVERITY:", className: "enyo-item-ternary", style: "margin-right: 2px"},
+										{name: "alertSeverity", className: "enyo-item-ternary", style: "margin-right: 8px"},
+										{content: "CERTAINTY:", className: "enyo-item-ternary", style: "margin-right: 2px"},
+										{name: "alertCertainty", className: "enyo-item-ternary", style: "margin-right: 8px"}
+										]},
 									{name: "alertTitle"},
 									{name: "alertSummary", className: "enyo-item-ternary"}
+									/*
+									{align: "center", layoutKind: "HFlexLayout", components: [
+										{content: "Alert Id:", style: "margin-right: 8px"},
+										{name: "alertId"}
+										]}
+									*/
 									// {name: "alertURL", className: "enyo-item-ternary"}
-								]}
+									]}
 							]}
 						]},
 						// This drawer will show the current conditions on the leftmost side,
 						// while the hour-by-hour forecast stretches out to the right,
 						// switching to a long-range day-by-day forecast.
 						{kind: "DividerDrawer", caption: "CURRENT CONDITIONS & FORECAST", components: [
-							{kind: "wbScroller", name: "ccf_scroller", flex: 1, height: "70px"} 
+							{name: "ccf", flex: 1, content: "Current Conditions & Forecast"}
+							// {kind: "wbScroller", name: "ccf_scroller", flex: 1, height: "70px"} 
 						]},
 						{kind: "DividerDrawer", caption: "RADAR", components: [
 							{name: "Radar", flex: 1, content: "Radar"}
@@ -53,6 +67,7 @@ enyo.kind({
 		var current_timestamp = currentTime.getTime();
 		this.getAlertData(this.UgcZone, this.UgcCounty, current_timestamp);
 
+		/*
 		enyo.log("ccf_scroller destroying views...");
 		this.$.ccf_scroller.destroyViews();
 		enyo.log("ccf_scroller creating view...");
@@ -152,7 +167,7 @@ enyo.kind({
 				]}
 			]
 		});
-	
+		*/
 		enyo.log("MainView create function executed.  UgcCounty: " + this.UgcCounty + "; UgcZone: " + this.UgcZone);
 	},
 
@@ -203,8 +218,12 @@ enyo.kind({
 		enyo.log(enyo.json.stringify(this.alertData));
 		if (inIndex < this.alertData.length) {
 			// this.$.alertEvent.setContent(this.alertData[inIndex].event);
+			this.$.alertUrgency.setContent(this.alertData[inIndex].urgency);
+			this.$.alertSeverity.setContent(this.alertData[inIndex].severity);
+			this.$.alertCertainty.setContent(this.alertData[inIndex].certainty);
 			this.$.alertTitle.setContent(this.alertData[inIndex].title);
 			this.$.alertSummary.setContent(this.alertData[inIndex].summary);
+			// this.$.alertId.setContent(this.alertData[inIndex].alertId);
 			// this.$.alertURL.setContent(this.alertData[inIndex].url);
 			return true;
 			}

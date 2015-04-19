@@ -1,6 +1,8 @@
 /* Copyright 2009-2011 Hewlett-Packard Development Company, L.P. All rights reserved. */
 enyo.depends(
 	"ndfd.js",
+	"About.js",
+	"Help.js",
    "css/app.css",
 	"CityPicker/CityPicker.js",
 	"location/LocationAlerts.js",

@@ -1,6 +1,6 @@
 {
 	"id": "com.georgemari.weatherbulletinusa",
-	"version": "0.0.2",
+	"version": "0.2.0",
 	"vendor": "George Mari",
 	"type": "web",
 	"main": "wb_root.html",

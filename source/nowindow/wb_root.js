@@ -29,9 +29,6 @@ enyo.kind({
       onFailure: "wbSetAlarmFailure",
       subscribe: true},
 
-      {name: "wbDashboard", kind:"Dashboard", onMessageTap: "wbMessageTap", onIconTap: "wbIconTap", 
-				onUserClose: "wbDashboardClose", onLayerSwipe: "wbLayerSwiped"},
-
 		{name: "dlNWSAlerts", 
 			kind: "wbu_alerts_dl"},
 
@@ -79,6 +76,7 @@ enyo.kind({
 		this.stationCounter = -1;
 		this.uniqueStationsCachedLength = 0;
 		this.CC = [];
+		this.NotificationSoundFile = "";
 
 		if (enyo.windowParams.action === 'check_alerts') {
 			enyo.log("wbLaunch: create called to check_alerts.");
@@ -94,16 +92,6 @@ enyo.kind({
 
 	checkAlerts: function() {
 		enyo.log("checkAlerts starting...");
-		// Re-set the alarm to check again, in the future.
-		// Need to change from hard-coded value to one retrieved
-		// from preferences.
-      this.$.wbSetAlarm.call(
-         {key: "com.georgemari.weatherbulletinusa.check_alerts",
-         "in": "00:00:30",
-         "wakeup": true,
-         uri: "palm://com.palm.applicationManager/launch",
-         params: '{"id": "com.georgemari.weatherbulletinusa", "params": {"action": "check_alerts"}}'
-         });
 		// Download alerts.  Sequence of events through various callbacks will be:
 		// 1. Re-load app preferences to determine which states need downloading.
 		// 2. Download alerts for locations we are monitoring based on preferences 
@@ -113,7 +101,7 @@ enyo.kind({
 		// 5. If we have new alerts, push a webOS alert to the dashboard.
 		// 6. Mark the alert in the database as having been shown to the user.
 		enyo.log("uniqueStates before getPrefsCall: " + enyo.json.stringify(this.uniqueStates));
-		this.$.getPreferencesCall.call({"keys": ["Locations"]});
+		this.$.getPreferencesCall.call({"keys": ["NotificationToggle", "NotificationMinutes", "Locations", "NotificationSoundFile"]});
 
 		// Call a function that looks in our database to see if we have any new alerts
 		// that we need to alert the user to.  Display alert info on dashboard, if so,
@@ -132,18 +120,33 @@ enyo.kind({
    
 	getPrefsSuccess: function(inSender, inResponse) {
       enyo.log("wbLaunch: preferences gotten successfully. Results = " + enyo.json.stringify(inResponse));
+		// Re-set the alarm to check again, in the future.
+      this.$.wbSetAlarm.call(
+         {key: "com.georgemari.weatherbulletinusa.check_alerts",
+         "in": "00:" + inResponse.NotificationMinutes + ":00",
+         "wakeup": true,
+         uri: "palm://com.palm.applicationManager/launch",
+         params: '{"id": "com.georgemari.weatherbulletinusa", "params": {"action": "check_alerts"}}'
+         });
+		enyo.log("wbLaunch: alarm re-set for " + inResponse.NotificationMinutes);
 		// NWS organizes the web service for weather alerts by state.
       // extract the array of locations here...
       var locationsFromPrefs = inResponse.Locations;
-      if (locationsFromPrefs === undefined || locationsFromPrefs === null)
-         {
+      if (locationsFromPrefs === undefined || locationsFromPrefs === null) {
          this.alertLocations = [];
 			enyo.log("wbLaunch error: preference locations were empty. Cannot continue.");
          }
-      else
-         {
+      else {
          this.alertLocations = locationsFromPrefs;
          }
+
+		this.NotificationSoundFile = inResponse.NotificationSoundFile;
+	
+		/*
+		if (this.NotificationSoundFile === "" || this.NotificationSoundFile === undefined || this.NotificationSoundFile === null) {
+			this.NotificationSoundFile = inResponse.NotificationSoundFile;
+			}
+		*/
 		// Create an array of unique states.  
 		// The uniqueStates array should already exist at this point,
 		// so we need to clean it out from last time through.
@@ -171,8 +174,8 @@ enyo.kind({
 
 	dl_and_process_everything: function() {
 
-		this.$.dlNWSAlerts.downLoadAlerts(this.alertLocations, this.uniqueStates);
-		this.$.dlNWSCC.downloadCurrentConditions(this.alertLocations);
+		this.$.dlNWSAlerts.downLoadAlerts(this.alertLocations, this.uniqueStates, this.NotificationSoundFile);
+		// this.$.dlNWSCC.downloadCurrentConditions(this.alertLocations);
 		// download and process forecast data
 		// download and process radar images
 
