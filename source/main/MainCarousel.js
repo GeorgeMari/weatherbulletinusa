@@ -12,7 +12,7 @@ enyo.kind({
 		},
 		{kind: "AppMenu", components: [
 			{kind: "EditMenu"},
-         {caption: "Initialize", onclick:"ShowInitView"},
+         // {caption: "Initialize", onclick:"ShowInitView"},
          {caption: "Preferences", onclick: "ShowPrefsView"},
          {caption: "Help", onclick: "ShowHelpView"},
          {caption: "About", onclick: "ShowAboutView"}

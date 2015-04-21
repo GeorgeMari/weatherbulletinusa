@@ -17,7 +17,7 @@ enyo.kind({
 				]},
 				{kind: "VFlexBox", flex: 1, pack: "center", align: "center", components: [
 					{name: "HelpText", kind: "Control", className: "enyo-item-secondary", 
-					content: "Why are you looking for help here?  This is alpha software."}
+					content: "Why are you looking for help here?  This is alpha software. ;-)"}
 				]},
             {kind: "Toolbar", components: [
                {name: "ToolbarGrabBtn", kind: "GrabButton", onclick: "clickDone"},

@@ -55,7 +55,7 @@ enyo.kind({
       },
 		{kind: "AppMenu", components: [
 			{kind: "EditMenu"},
-			{caption: "Initialize", onclick:"ShowInitView"},
+			// {caption: "Initialize", onclick:"ShowInitView"},
 			{caption: "Preferences", onclick: "clickDone"},
 			{kind: "HelpMenu"},
 			{caption: "About"}
