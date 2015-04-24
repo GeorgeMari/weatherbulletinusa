@@ -128,6 +128,9 @@ enyo.kind({
      {name: "LocationView", kind: "LocationAlertsView", lazy: true, onBack: "backHandler"}
      
     ]},
+
+	{name: "testDashboard", kind: "Dashboard", onDashboardActivated: "tdbActivated"},
+
 		{kind: enyo.ApplicationEvents, 
 			onWindowActivated: "wakeup",
 			onWindowDeactivated: "sleep",
@@ -376,7 +379,27 @@ enyo.kind({
 			this.$.NotificationSoundObject.setSrc(sound_file);
 			this.$.NotificationSoundObject.play();
 			}
+		/*
+		enyo.log("Calling addBannerMessage...");
+		enyo.windows.addBannerMessage("Weather Bulletin test", "{zonelist: zonelist}", null, null, null, null);
+		enyo.log("Completed call to addBannerMessage...");
+		this.$.testDashboard.push({icon:"../images/sample-icon.png", title: "Test", text: "test"});
+		enyo.log("Completed call to dashboard.push...");
+		*/
 	},
+
+   tdbActivated: function(dash) {
+		var l;
+		enyo.log("tdbActivated: entered...");
+        for(l in dash)
+        {
+            var c = dash[l].dashboardContent;
+            if(c)
+            {
+                c.$.topSwipeable.applyStyle("background-color", "black");
+            }
+        }
+    },
 
 	SoundChange: function(inSender, inState) {
 		var sound_file;

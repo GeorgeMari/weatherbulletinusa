@@ -7,7 +7,7 @@ enyo.kind({
 	kind: "Component",
 	components: [
       {name: "wbDashboard", kind:"Dashboard", onMessageTap: "wbMessageTap", onIconTap: "wbIconTap", 
-				onUserClose: "wbDashboardClose", onLayerSwipe: "wbLayerSwiped"},
+				onUserClose: "wbDashboardClose", onLayerSwipe: "wbLayerSwiped", onDashboardActivated: "wbdbActivated"},
 
 		{name: "downLoadNWSAlerts", 
 			kind: "WebService",
@@ -24,6 +24,7 @@ enyo.kind({
 		this.uniqueStatesCachedLength = 0;
 		this.alerts = [];
 		this.alertLocations = [];
+		this.alertsCounter = -1;
 		this.soundFile = "";
    },
 
@@ -77,7 +78,6 @@ enyo.kind({
 			this.stateCounter = -1;
 			// Check to see if we have any new alerts that we need to show a notification for...
 			this.notifyAndMark();
-			// this.downloadCurrentConditions();
 			}
 	},
 
@@ -231,22 +231,38 @@ enyo.kind({
 	},
 
 	storeAlerts: function() {
-		enyo.log("storing alerts in database...");
-
 		// Cache the length of our alerts array.
-		this.alertsCachedLength = this.alerts.length;
+		// this.alertsCachedLength = this.alerts.length;
 		// enyo.log("alerts array cached length: " + this.alertsCachedLength);
 
-		this.CAPArrayIndex = 0;
+		// this.CAPArrayIndex = 0;
 
 		this.wbDB = openDatabase("ext:WeatherBulletinUSADB", "1", "", "25000000");
 		// enyo.log("wbDB: " + enyo.json.stringify(this.wbDB));
 
+		this.alertsCounter = this.alertsCounter + 1;
+		if (this.alertsCounter + 1 <= this.alerts.length) {
+			this.CAPAlertInsert(this.alertsCounter);
+			}
+		else {
+			this.alertsCounter = -1;
+			this.downLoadAlerts();
+			}
+		/*
 		for(c=0; c < this.alertsCachedLength; c = c + 1) {
 			// enyo.log("Processing cached alerts " + (c+1) + " of " + this.alertsCachedLength);
 			this.CAPAlertInsert(c);
-		}
-		this.downLoadAlerts();
+			}
+		*/
+		// This call to downLoadAlerts is probably causing a bug.
+		// It needs to be called in the call-back for the Sql calls
+		// in CAPAlertInsert.
+		// Without this, we are reading from the database in notifyAndMark
+		// before the data inserts happening in CAPAlertInsert are completed.
+		// This causes alerts that need to displayed in the dashboard to 
+		// not be displayed until the next time the alarm goes off, 
+		// which could be many minutes later.
+		// this.downLoadAlerts();
 
 	},
 
@@ -312,7 +328,7 @@ enyo.kind({
 							that.alerts[i].zones[z]	// UGC (zone)
 							]);
 						}
-					} 
+					}, that.handleSqlError, that.storeAlerts.bind(that)
 				);
 		},
 
@@ -363,15 +379,6 @@ enyo.kind({
 					[],
 					that.nMDataHandler.bind(that), that.handleSqlError
 				);
-				// Notifications are handled in the callback of the previous statement.
-				// So here, we will just update those same records with a notification_tstamp/
-				var nTime = new Date();
-				var n_timestamp = nTime.getTime();
-				transaction.executeSql('UPDATE CAPAlert ' +
-												'  SET notification_tstamp = ? ' +
-												'WHERE notification_tstamp IS NULL;',
-					[n_timestamp]
-				);
 			}
 		);
 	},
@@ -415,6 +422,32 @@ enyo.kind({
 			current_severity = row.severity;
 			current_certainty = row.certainty;
 		}
+		// Now that all alerts have been pushed to the dashboard,
+		// mark them in the database as having been notified.
+		this.alertMark();
+
+	},
+
+	alertMark: function() {
+		// Wait to mark our records as notified until 
+		// after we perform the push to dashboard
+		// for all alerts and states.
+		enyo.log("entered alertMark...");
+		this.wbDB = openDatabase("ext:WeatherBulletinUSADB", "1", "", "25000000");
+
+		var that = this;
+		// Query the database for any weather alerts we have not notified the user about.
+		this.wbDB.transaction(
+			function(transaction) {
+				var nTime = new Date();
+				var n_timestamp = nTime.getTime();
+				transaction.executeSql('UPDATE CAPAlert ' +
+												'  SET notification_tstamp = ? ' +
+												'WHERE notification_tstamp IS NULL;',
+					[n_timestamp]
+				);
+			}
+		);
 	},
 
 	handleSqlError: function(transaction, error) {
@@ -514,6 +547,17 @@ enyo.kind({
 					this.$.wbDashboard.push({icon:"images/sample-icon.png", title:dash_title, text:inText});
 					}
 				}
+			}
+	},
+
+   wbdbActivated: function(dash) { 
+		var l; 
+		enyo.log("wbdbActivated: entered..."); 
+		for(l in dash) { 
+			var c = dash[l].dashboardContent; 
+			if(c) { 
+				c.$.topSwipeable.applyStyle("background-color", "black"); 
+				} 
 			}
 	},
 
