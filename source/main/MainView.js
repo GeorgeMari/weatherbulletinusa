@@ -41,8 +41,8 @@ enyo.kind({
 							{name: "ccf", flex: 1, content: "Current Conditions & Forecast"}
 							// {kind: "wbScroller", name: "ccf_scroller", flex: 1, height: "70px"} 
 						]},
-						{kind: "DividerDrawer", caption: "RADAR", components: [
-							{name: "Radar", flex: 1, content: "Radar"}
+						{kind: "DividerDrawer", caption: "MAPS", components: [
+							{name: "Maps", flex: 1, content: "Maps"}
 						]},
 						// History drawer will allow the user to scroll back and forth
 						// in a timeline, displaying past observations by the day, and/or hour.
@@ -193,7 +193,7 @@ enyo.kind({
 												  'AND CAPAlert.expiration_tstamp >= ? ' + 
 											'ORDER BY CAPAlert.published_tstamp ASC;',
 				[that.UgcZone, that.UgcCounty, inTstamp, inTstamp],
-				that.mVDataHandler.bind(that), that.handleSqlError);
+				that.mVDataHandler.bind(that), that.handleSqlError.bind(that));
 			}
 		);
 
@@ -260,8 +260,14 @@ enyo.kind({
 		}   
 		this.$.alertsVR.render();
 	},
+
 	handleSqlError: function(transaction, error) {
-		enyo.log("MainView - SQL statement error: [" + error.code + "]" + error.message);
+		enyo.log("MainView - SQL statement error: [" + error.code + "] " + error.message);
+		/*
+		if (error.message.indexOf("no such table") !== -1) {
+			this.ShowInitView();
+			}
+		*/
 	},
 
 	scrollerClick: function(inSender, inEvent) {

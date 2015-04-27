@@ -328,7 +328,7 @@ enyo.kind({
 							that.alerts[i].zones[z]	// UGC (zone)
 							]);
 						}
-					}, that.handleSqlError, that.storeAlerts.bind(that)
+					}, that.handleTransactionError, that.storeAlerts.bind(that)
 				);
 		},
 
@@ -454,6 +454,10 @@ enyo.kind({
 		enyo.log("SQL statement error: [" + error.code + "]" + error.message);
 	},
 
+	handleTransactionError: function(error) {
+		enyo.log("SQL transaction error: [" + error.code + "]" + error.message);
+	},
+
 	NWSFailure: function(inSender, inResponse) {
 		enyo.log("Failed to download NWS alert file.");
 	},
@@ -462,11 +466,6 @@ enyo.kind({
 		enyo.log("storeAlerts transaction complete.  Calling downloadAlerts...");
 		// Call downLoadAlerts to get the XML file for the next state, if any.
 		this.downLoadAlerts();
-	},
-
-	handleTransactionError: function(error) {
-      enyo.log("SQL transaction error: [" + error.code + "]" + error.message);
-		// enyo.log("SQL transaction error.");
 	},
 
 	wbPushDashboard: function(inText, zoneList) {
@@ -544,7 +543,7 @@ enyo.kind({
 					enyo.log("wpPushDashboard - calling addBannerMessage...");
 					enyo.windows.addBannerMessage(dash_title + " - Weather Bulletin", "{zonelist: " + zoneList + "}", null, null, this.soundFile, null);
 					enyo.log("wpPushDashboard - calling Dashboard.push...");
-					this.$.wbDashboard.push({icon:"images/sample-icon.png", title:dash_title, text:inText});
+					this.$.wbDashboard.push({icon:"icon.png", title:dash_title, text:inText});
 					}
 				}
 			}

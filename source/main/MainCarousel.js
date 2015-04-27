@@ -42,10 +42,12 @@ enyo.kind({
 		enyo.log("MainCarouselView: retrieving preferences...");
 		this.$.getPreferencesCall.call({"keys": ["InitDone", "Locations"]});
 	},
+
 	resizeHandler: function(inSender, e) {
 		this.inherited(arguments);
 		this.$.MainCarousel.resize();
 	},
+
 	getViewInfo: function(inIndex) {
 		return {kind: "MainView", 
 					headerContent: this.alertLocations[inIndex].city_name + ", " + this.alertLocations[inIndex].state,
@@ -77,6 +79,7 @@ enyo.kind({
 			return null;
 			}
 	},
+
 	getRight: function(inSender, inSnap) {
 		if (inSnap)
 			{
@@ -148,6 +151,7 @@ enyo.kind({
 			this.alertLocations = []; 
 			enyo.log("MainCarouselView error 3: preference locations were empty. Switching to prefs view.");
 			this.ShowPrefsView();
+			this.checkIfDBExists();
 			}
 		else
 			{
@@ -156,9 +160,35 @@ enyo.kind({
 			this.alertLocations = locationsFromPrefs;
 			enyo.log("MainCarouselView alertLocations: " + enyo.json.stringify(this.alertLocations));
 			this.$.MainCarousel.setCenterView(this.getViewInfo(this.cityIndex));
+			this.checkIfDBExists();
 			}
 	},
 	getPrefsFailure: function(inSender, inResponse) {
 		enyo.log("MainCarouselView: preference get failure.  Results = " + enyo.json.stringify(inResponse));
+	},
+
+	checkIfDBExists: function() {
+		// open application database to see if our tables are there.  If not, we need to re-initialize.
+		this.wbDB = openDatabase("ext:WeatherBulletinUSADB", "1", "", "25000000");
+		var that = this;
+		enyo.log('checkIfDBExists - entered...');
+		this.wbDB.transaction(
+			function(transaction) {
+				transaction.executeSql('SELECT COUNT(*) AS caCount FROM CAPAlert;', 
+					[], that.dbCheckSuccess, that.dbCheckFailure.bind(that));
+			}
+		);
+		enyo.log("checkIfDBExists - exiting...");
+	},
+
+	dbCheckSuccess: function(transaction, results) {
+		enyo.log("MainCarouselView - dbCheck was successful.");
+	},
+
+	dbCheckFailure: function(transaction, error) {
+		enyo.log("MainCarouselView - SQL statement error: [" + error.code + "] " + error.message);
+		enyo.log("MainCarouselView - dbCheck failed.  Switching to init view...");
+		this.ShowInitView();
 	}
+
 });
