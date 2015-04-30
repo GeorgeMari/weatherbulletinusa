@@ -104,7 +104,19 @@ enyo.kind({
 										'heatindex_f NUMERIC, heatindex_c NUMERIC, ' +
 										'windchill_f NUMERIC, windchill_c NUMERIC, ' +
 										'visibility_miles NUMERIC);', 
-			'CREATE UNIQUE INDEX ca_id ON CAPAlert(alertId);',
+			'CREATE VIEW alert_not_notified AS ' +
+					'SELECT CAPAlert.alertId ' +
+          		  'FROM CAPAlert ' +
+         		 'WHERE CAPAlert.notification_tstamp IS NULL ' +
+        			'EXCEPT ' +
+        			'SELECT CAPAlert.alertId ' +
+          		  'FROM CAPAlert ' +
+         		 'WHERE CAPAlert.notification_tstamp IS NOT NULL;',
+			'CREATE VIEW latestCAPAlert AS ' +
+					'SELECT alertId, MAX(download_tstamp) AS latest_dl_tstamp ' +
+					  'FROM CAPAlert ' + 
+					' GROUP BY alertId;',
+			'CREATE UNIQUE INDEX ca_pk ON CAPAlert(alertId, download_tstamp);',
 			'CREATE INDEX ca_dlt ON CAPAlert(download_tstamp);',
 			'CREATE INDEX af_id ON alertFIPS(alertId);',
 			'CREATE INDEX af_dlt ON alertFIPS(download_tstamp);',
@@ -371,6 +383,8 @@ enyo.kind({
 		// Drop in reverse order of creation / loading.
 		this.wbDB.transaction(
 			function(transaction) {
+				transaction.executeSql('DROP VIEW IF EXISTS alert_not_notified;');
+				transaction.executeSql('DROP VIEW IF EXISTS latestCAPAlert;');
 				transaction.executeSql('DROP TABLE IF EXISTS observation;');
 				transaction.executeSql('DROP TABLE IF EXISTS downloadAttempt;');
 				transaction.executeSql('DROP TABLE IF EXISTS alertUGC;');

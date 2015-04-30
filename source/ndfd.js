@@ -70,10 +70,10 @@ enyo.kind({
             {name: "NotificationToggleButton", kind: "ToggleButton", state: true, onChange: "NotificationToggle"}
          ]},
          {align: "center", layoutKind: "HFlexLayout", components: [
-				{content: "Download data every", className: "enyo-label"},
+				{content: "Download every", className: "enyo-label"},
             {name: "NotificationMinutes", kind: "ListSelector", flex: 1, contentPack: "end", onChange: "NotificationToggle",
 					items: [
-						{caption: "2 minutes", value: "02"},
+						// {caption: "2 minutes", value: "02"},
 						{caption: "15 minutes", value: 15},
 						{caption: "20 minutes", value: 20},
 						{caption: "30 minutes", value: 30},
@@ -82,7 +82,7 @@ enyo.kind({
 					]}
          ]},
 			{align: "center", layoutKind: "HFlexLayout", components: [
-				{flex: 1, content: "Audio Alert"},
+				{flex: 1, content: "Severe Alerts"},
 				{name: "NotificationSoundObject", kind: "Sound", src: ""},
 				{name: "AudioPlayButton", kind: "Button", caption: "Play", onclick: "apbClick"},
             {name: "NotificationSoundList", kind: "ListSelector", flex: 1, contentPack: "end", onChange: "SoundChange",

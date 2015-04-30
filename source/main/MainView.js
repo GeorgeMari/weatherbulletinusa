@@ -186,8 +186,11 @@ enyo.kind({
 														'CAPAlert.category, CAPAlert.urgency, CAPAlert.severity, ' +
 														'CAPAlert.certainty, CAPAlert.areaDesc, ' +
 														'alertUGC.ugc ' +
-												 'FROM CAPAlert, alertUGC ' +
+												 'FROM CAPAlert, alertUGC, latestCAPAlert ' +
 				                        'WHERE CAPAlert.alertId = alertUGC.alertId ' +
+												  'AND CAPAlert.alertId = latestCAPAlert.alertId ' +
+												  'AND CAPAlert.download_tstamp = latestCAPAlert.latest_dl_tstamp ' +
+												  'AND CAPAlert.download_tstamp = alertUGC.download_tstamp ' +
 												  'AND (alertUGC.ugc = ? OR alertUGC.ugc = ?) ' +
 												  'AND CAPAlert.effective_tstamp <= ? ' +
 												  'AND CAPAlert.expiration_tstamp >= ? ' + 

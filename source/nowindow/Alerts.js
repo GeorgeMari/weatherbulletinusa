@@ -37,17 +37,17 @@ enyo.kind({
 		// (WiFi vs. cellular)
 
 		if (p_soundfile !== undefined) {
-			// enyo.log("downloadAlerts - p_soundfile is: " + p_soundfile);
+			enyo.log("downloadAlerts - p_soundfile is: " + p_soundfile);
 			this.soundFile = p_soundfile;
 			}
 		// Download the alerts data for the state we are working on, indicated by
 		// this.stateCounter, indexing the this.uniqueStates array.
 		if(p_alertLocations !== undefined) {
-			// enyo.log("downLoadAlerts - assigning alertLocations...");
+			enyo.log("downLoadAlerts - assigning alertLocations...");
 			this.alertLocations = p_alertLocations;
 			}
 		else {
-			// enyo.log("downLoadAlerts - p_alertLocations parameter was not set...");
+			enyo.log("downLoadAlerts - p_alertLocations parameter was not set...");
 			}
 
 		if(p_stateList !== undefined) {
@@ -57,15 +57,15 @@ enyo.kind({
 			this.uniqueStates = p_stateList;
 			}
 		else {
-			// enyo.log("downLoadAlerts - p_stateList parameter was not set...");
+			enyo.log("downLoadAlerts - p_stateList parameter was not set...");
 			}
 		this.stateCounter = this.stateCounter + 1;
-		// enyo.log("counter: " + this.stateCounter + " length: " + this.uniqueStates.length);
+		enyo.log("counter: " + this.stateCounter + " length: " + this.uniqueStates.length);
 		if(this.stateCounter + 1 <= this.uniqueStates.length) {
 			var NWSUrlPart1 = "http://alerts.weather.gov/cap/";
 			var NWSUrlPart2 = ".php?x=0";
 			var NWSUrl = NWSUrlPart1 + this.uniqueStates[this.stateCounter] + NWSUrlPart2;
-			// enyo.log("NWSUrl is " + NWSUrl);
+			enyo.log("NWSUrl is " + NWSUrl);
 			this.$.downLoadNWSAlerts.setUrl(NWSUrl);
 			this.$.downLoadNWSAlerts.call();
 			// Parse the XML do XPath queries to extract relevant data.
@@ -96,7 +96,7 @@ enyo.kind({
 		var dlTime = new Date();
 		var dl_timestamp = dlTime.getTime();
 		enyo.log("NWS alert file downloaded successfully.");
-		// enyo.log(enyo.json.stringify(inResponse));
+		enyo.log(enyo.json.stringify(inResponse));
 
       // Hack apart the returned string in Javascript, since I 
 		// couldn't figure out how to use xpath on webOS. 
@@ -218,6 +218,7 @@ enyo.kind({
 				}
 			}
 		// Call storeAlerts to get data for this state into the database.
+		// enyo.log("alerts array: " + enyo.json.stringify(this.alerts));
 		if (this.alerts.length > 0)
 			{
 			this.storeAlerts();
@@ -368,13 +369,13 @@ enyo.kind({
 		// Query the database for any weather alerts we have not notified the user about.
 		this.wbDB.transaction(
 			function(transaction) {
-				// Only notify the user for alerts with a severity of 'Severe' or 'Extreme'.
-				// Other alerts will appear in the UI when the user opens the app.
+				// Only notify the user for alerts that the user has not been notified of previously.
 				transaction.executeSql('SELECT CAPAlert.*, alertUGC.ugc ' +
-												' FROM CAPAlert, alertUGC ' +
+												' FROM CAPAlert, alertUGC, alert_not_notified ' +
 												'WHERE notification_tstamp IS NULL ' +
 												'  AND CAPAlert.alertId = alertUGC.alertId ' +
-												'  AND CAPAlert.severity IN (\'Severe\', \'Extreme\') ' +
+												'  AND CAPAlert.alertId = alert_not_notified.alertId ' +
+												'  AND CAPAlert.download_tstamp = alertUGC.download_tstamp ' +
 												'ORDER BY CAPAlert.alertId ASC, alertUGC.ugc ASC;',
 					[],
 					that.nMDataHandler.bind(that), that.handleSqlError
@@ -391,37 +392,51 @@ enyo.kind({
 		// call to wbPushDashboard so that the banner message has the corresponding
 		// zone data.  This will be used to sync up to the correct item in the carousel
 		// of the MainView when the user taps on the banner message.
-		var current_zone_list = '';
-		var current_alertId = '';
-		var current_alertTitle = '';
-		var current_urgency = '';
-		var current_severity = '';
-		var current_certainty = '';
+		//
+		// 27-APR-2015 - Fix a bug where not all rows from the database results
+		// were being processed and accounted for.
+		var previous_zone_list = '';
+		var previous_alertId = '';
+		var previous_alertTitle = '';
+		var previous_urgency = '';
+		var previous_severity = '';
+		var previous_certainty = '';
 
 		// enyo.log("nMDataHandler - entering...");
 		for (i=0; i<results.rows.length; i=i+1) {
 			// enyo.log("nMDataHandler - results loop i=" + i);
 			var row = results.rows.item(i);
-			// enyo.log("nMDataHandler - current_alertId: " + current_alertId + " row.alertId: " + row.alertId);
-			if (current_alertId !== row.alertId) {
-				enyo.log("nMDataHandler - alert USC: " + current_urgency + "/" + current_severity + "/" + current_certainty);
-				this.wbPushDashboard(current_alertTitle, current_zone_list);
-				current_zone_list = row.ugc;
+			enyo.log("nMDataHandler - previous_alertId: " + previous_alertId + " row.alertId: " + row.alertId);
+			if (previous_alertId !== row.alertId && previous_alertId !== '') {
+				enyo.log("nMDataHandler - alert USC: " + previous_urgency + "/" + previous_severity + "/" + previous_certainty);
+				this.wbPushDashboard(previous_alertTitle, previous_zone_list, previous_severity);
+				previous_zone_list = row.ugc;
 				}
 			else {
-				if (current_zone_list === '') {
-					current_zone_list = row.ugc;
+				if (previous_zone_list === '') {
+					previous_zone_list = row.ugc;
 					}
 				else {
-					current_zone_list = current_zone_list + ', ' + row.ugc;
+					previous_zone_list = previous_zone_list + ', ' + row.ugc;
 					}
 				}
-			current_alertId = row.alertId;
-			current_alertTitle = row.title;
-			current_urgency = row.urgency;
-			current_severity = row.severity;
-			current_certainty = row.certainty;
-		}
+			previous_alertId = row.alertId;
+			previous_alertTitle = row.title;
+			previous_urgency = row.urgency;
+			previous_severity = row.severity;
+			previous_certainty = row.certainty;
+			}
+
+		if (results.rows.length >= 1) {
+			// After we've looped through all of the database rows,
+			// we need to take care of the last row.
+			// Whether it was the same or different to the next-to-last row,
+			// We still need to push the info to the dashboard.
+			// If there was only 1 database row in the results,
+			// we need to push that 1 row, as well - same situation.
+			enyo.log("nMDataHandler - last alert USC: " + previous_urgency + "/" + previous_severity + "/" + previous_certainty);
+			this.wbPushDashboard(previous_alertTitle, previous_zone_list, previous_severity);
+			}
 		// Now that all alerts have been pushed to the dashboard,
 		// mark them in the database as having been notified.
 		this.alertMark();
@@ -436,7 +451,7 @@ enyo.kind({
 		this.wbDB = openDatabase("ext:WeatherBulletinUSADB", "1", "", "25000000");
 
 		var that = this;
-		// Query the database for any weather alerts we have not notified the user about.
+		// Query the database for any weather alerts we must have just notified the user about.
 		this.wbDB.transaction(
 			function(transaction) {
 				var nTime = new Date();
@@ -455,7 +470,22 @@ enyo.kind({
 	},
 
 	handleTransactionError: function(error) {
-		enyo.log("SQL transaction error: [" + error.code + "]" + error.message);
+		enyo.log("SQL transaction error: [" + error.code + "] " + error.message);
+		// One of the reasons we end up here is if we try to insert an alertId
+		// that already exists in the database.  (Unique index error)
+		// When this happens, we should UPDATE the existing record, with the new
+		// information we just downloaded.
+		//
+		// The SQLite INSERT OR REPLACE statement would be great to use, 
+		// but isn't an option because it would try to DELETE the row in
+		// CAPAlert before inserting, and that won't work because of the child
+		// table alertUGC.  It looks like if a DELETE trigger is defined
+		// this may work - will investigate.
+		//
+		// One option is to an UPDATE of CAPAlert here, but we do we have all 
+		// the data we need?
+		//
+		// We could also do a SELECT for the alertId before we attempt the INSERT
 	},
 
 	NWSFailure: function(inSender, inResponse) {
@@ -468,7 +498,7 @@ enyo.kind({
 		this.downLoadAlerts();
 	},
 
-	wbPushDashboard: function(inText, zoneList) {
+	wbPushDashboard: function(inText, zoneList, inSeverity) {
 		// There are 3 important attributes to each alert that determine
 		// the amount of attention the corresponding dashboard alert should generate:
 		// urgency, severity and certainty.
@@ -521,10 +551,12 @@ enyo.kind({
 		var cachedPrefsLength = this.alertLocations.length;
 		var p;
 		var dash_title;
+		var audio_alert = null;
 
 		enyo.log("wbPushDashboard - zonelist: " + zoneList);
 		enyo.log("wbPushDashboard - this.alertLocations: " + enyo.json.stringify(this.alertLocations));
 		enyo.log("wbPushDashboard - this.soundFile: " + this.soundFile);
+		enyo.log("wbPushDashboard - inSeverity: " + inSeverity);
 
 		// Loop through the passed-in zoneList.
 		zoneArray = zoneList.split(',');
@@ -538,10 +570,22 @@ enyo.kind({
 					var prefCntyString = this.alertLocations[p].UgcCounty;
 				if (zoneArray[i] == this.alertLocations[p].UgcZone ||
 					 zoneArray[i] == this.alertLocations[p].UgcCounty) {
+
 					// For each city that matches, display a banner message and push a message to the dashboard.
 					dash_title = this.alertLocations[p].city_name + ", " + this.alertLocations[p].state;
+
+					// For alerts that are Severe or Extreme, play the user-defined audio alert file
+					// when displaying the banner message, to get the user's attention.
+					// For other, less severe alerts, notifications are silent.
+					if (inSeverity == "Severe" || inSeverity == "Extreme") {
+						audio_alert = this.soundFile;
+						}
+					else {
+						audio_alert = null;
+						}
+
 					enyo.log("wpPushDashboard - calling addBannerMessage...");
-					enyo.windows.addBannerMessage(dash_title + " - Weather Bulletin", "{zonelist: " + zoneList + "}", null, null, this.soundFile, null);
+					enyo.windows.addBannerMessage(dash_title + " - Weather Bulletin", "{zonelist: " + zoneList + "}", null, null, audio_alert, null);
 					enyo.log("wpPushDashboard - calling Dashboard.push...");
 					this.$.wbDashboard.push({icon:"icon.png", title:dash_title, text:inText});
 					}
