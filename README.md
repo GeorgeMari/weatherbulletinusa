@@ -1,6 +1,9 @@
 # weatherbulletinusa
 A (soon-to-be) comprehensive weather app for webOS, written in Enyo 1.
 
+Currently in alpha-test phase.
+Preware feed for alpha is: http://www.georgemari.com/preware_alpha
+
 Goals
 -----
 1. Provide weather data from open, non-propietary sources.
