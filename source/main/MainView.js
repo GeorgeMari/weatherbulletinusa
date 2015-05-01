@@ -197,7 +197,7 @@ enyo.kind({
 											'ORDER BY CAPAlert.published_tstamp ASC;',
 				[that.UgcZone, that.UgcCounty, inTstamp, inTstamp],
 				that.mVDataHandler.bind(that), that.handleSqlError.bind(that));
-			
+			}	
 		);
 
 	},
