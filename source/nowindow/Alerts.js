@@ -417,7 +417,7 @@ enyo.kind({
 					previous_zone_list = row.ugc;
 					}
 				else {
-					previous_zone_list = previous_zone_list + ', ' + row.ugc;
+					previous_zone_list = previous_zone_list + ',' + row.ugc;
 					}
 				}
 			previous_alertId = row.alertId;
@@ -563,11 +563,12 @@ enyo.kind({
 		enyo.log("wbPushDashboard - zoneArray: " + zoneArray);
 		for (i=0; i < zoneArray.length; i=i+1) {
 			// For each zone, check this.alertLocations to see which city from preferences matches.
-			enyo.log("wpPushDashboard - i = " + i);
+			// enyo.log("wpPushDashboard - i = " + i);
 			for (p=0; p < cachedPrefsLength; p=p+1) {
-					enyo.log("wpPushDashboard - p = " + p);
+					// enyo.log("wpPushDashboard - p = " + p);
 					var prefZoneString = this.alertLocations[p].UgcZone;
 					var prefCntyString = this.alertLocations[p].UgcCounty;
+					// enyo.log("wpPushDashboard zone compare:" + zoneArray[i] + "/" + this.alertLocations[p].UgcZone);
 				if (zoneArray[i] == this.alertLocations[p].UgcZone ||
 					 zoneArray[i] == this.alertLocations[p].UgcCounty) {
 
