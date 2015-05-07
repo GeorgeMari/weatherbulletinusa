@@ -2,11 +2,13 @@
 	"id": "com.georgemari.weatherbulletinusa",
 	"version": "0.2.0",
 	"vendor": "George Mari",
+  	"vendorurl": "https://github.com/GeorgeMari/weatherbulletinusa",
 	"type": "web",
 	"main": "index.html",
 	"title": "Weather Bulletin USA",
 	"icon": "icon.png",
 	"splashicon": "icon_256.png",
+  	"keywords": ["alert"],
 	"uiRevision": 2,
 	"noWindow": true
 }
