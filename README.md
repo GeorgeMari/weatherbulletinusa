@@ -46,3 +46,12 @@ Other notes
 -----------
 1. Weather data only available for locations in the U.S.A.
 
+Road map
+--------
+The following future releases and features are planned:
+
+1. 0.2.1 - Follow-up to 0.2.0 initial alpha release, to include minor fixes and enhancements related to alerts.
+2. 0.4.0 - Display information for current weather conditions.
+3. 0.6.0 - Display forecast information.
+4. 0.8.0 - Display weather maps, including radar.
+5. 1.0.0 - Display weather history data for a configurable number of days.
