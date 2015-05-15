@@ -16,7 +16,7 @@ enyo.kind({
 			      ]}
 				]},
 				{kind: "VFlexBox", flex: 1, pack: "center", align: "center", components: [
-					{name: "AboutVersion", kind: "Control", flex: 1, className: "enyo-item-primary", content: "Version: 0.2.0 alpha"},
+					{name: "AboutVersion", kind: "Control", flex: 1, className: "enyo-item-primary", content: "Version: 0.2.1 alpha"},
 					{name: "AboutTwitter", kind: "Control", flex: 1, className: "enyo-item-secondary", content: "Twitter: @wbuapp"},
 					{name: "AboutEmail", kind: "Control", flex: 1, className: "enyo-item-secondary", content: "E-mail: wbuapp@georgemari.com"},
 					{name: "AboutWebSite", kind: "Control", flex: 1, className: "enyo-item-secondary", allowHtml: true, content: "Web: <a href=\"https://github.com/GeorgeMari/weatherbulletinusa\">github.com</a>"},
