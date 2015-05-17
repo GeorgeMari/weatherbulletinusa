@@ -113,9 +113,10 @@ enyo.kind({
           		  'FROM CAPAlert ' +
          		 'WHERE CAPAlert.notification_tstamp IS NOT NULL;',
 			'CREATE VIEW latestCAPAlert AS ' +
-					'SELECT alertId, MAX(download_tstamp) AS latest_dl_tstamp ' +
-					  'FROM CAPAlert ' + 
-					' GROUP BY alertId;',
+					'SELECT alertUGC.ugc, CAPAlert.event, MAX(CAPAlert.download_tstamp) AS latest_dl_tstamp ' +
+					  'FROM CAPAlert, alertUGC ' + 
+					 'WHERE CAPAlert.alertId = alertUGC.alertId ' +
+					 'GROUP BY alertUGC.ugc, CAPAlert.event;',
 			'CREATE UNIQUE INDEX ca_pk ON CAPAlert(alertId, download_tstamp);',
 			'CREATE INDEX ca_dlt ON CAPAlert(download_tstamp);',
 			'CREATE INDEX af_id ON alertFIPS(alertId);',
